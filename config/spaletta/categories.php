@@ -1,0 +1,112 @@
+<?php
+
+return [
+    [
+        'type_id' => 1,
+        'name' => 'Előételek'
+    ],
+    [
+        'type_id' => 1,
+        'name' => 'Bistro ételek'
+    ],
+    [
+        'type_id' => 1,
+        'name' => 'Levesek'
+    ],
+    [
+        'type_id' => 1,
+        'name' => 'Friss tészták'
+    ],
+    [
+        'type_id' => 1,
+        'name' => 'Pizza'
+    ],
+    [
+        'type_id' => 1,
+        'name' => 'Főételek'
+    ],
+    [
+        'type_id' => 1,
+        'name' => 'Desszertek'
+    ],
+    [
+        'type_id' => 1,
+        'name' => 'Gyerekmenü'
+    ],
+    [
+        'type_id' => 2,
+        'name' => 'Ásványvíz'
+    ],
+    [
+        'type_id' => 2,
+        'name' => 'Üdítők'
+    ],
+    [
+        'type_id' => 2,
+        'name' => 'Szénsavas üdítők'
+    ],
+    [
+        'type_id' => 2,
+        'name' => 'Ice tea'
+    ],
+    [
+        'type_id' => 2,
+        'name' => 'Energiaital'
+    ],
+    [
+        'type_id' => 2,
+        'name' => 'Rostos italok'
+    ],
+    [
+        'type_id' => 2,
+        'name' => 'Alkoloholos Limonádék'
+    ],
+    [
+        'type_id' => 2,
+        'name' => 'Limonádék'
+    ],
+    [
+        'type_id' => 2,
+        'name' => 'Koktélok'
+    ],
+    [
+        'type_id' => 2,
+        'name' => 'Kávé'
+    ],
+    [
+        'type_id' => 2,
+        'name' => 'Csapolt sörök'
+    ],
+    [
+        'type_id' => 2,
+        'name' => 'Palackozott, alkoholmentes sörök'
+    ],
+    [
+        'type_id' => 2,
+        'name' => 'Pálinkák'
+    ],
+    [
+        'type_id' => 2,
+        'name' => 'Whisky'
+    ],
+    [
+        'type_id' => 2,
+        'name' => 'Brandy, cognac'
+    ],
+    [
+        'type_id' => 2,
+        'name' => 'Vodka'
+    ],
+    [
+        'type_id' => 2,
+        'name' => 'Tequila'
+    ],
+    [
+        'type_id' => 2,
+        'name' => 'Keserűk, likőrök'
+    ],
+    [
+        'type_id' => 2,
+        'name' => 'Rum'
+    ]
+];

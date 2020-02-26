@@ -1,0 +1,49 @@
+.home-services {
+  background: url(/images/service-wp.jpg?d4d1bc25ab39ad5c46e790d8a0abfe0e);
+  background-size: cover;
+}
+
+.home-services .container .row .col-md-3 .img-box {
+  border: 1px solid #ffb606;
+}
+
+.home-about {
+  background: url(/images/home-about.jpg?461008ba9e0516e40467971fd04beb05);
+  background-size: cover;
+  background-position: bottom;
+  color: #fff;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.text-xl {
+  font-size: 80px;
+}
+
+.about-card-bg {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding-top: 20px;
+  padding-bottom: 21px;
+}
+
+.text-gold {
+  color: #ffb606;
+}
+
+.d-flex {
+  display: -webkit-box;
+  display: flex;
+}
+
+.align-items-center {
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+.c-video {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+

@@ -1,0 +1,46 @@
+.home-services {
+    background: url(../images/pages/service-wp.jpg);
+    background-size: cover;
+
+    .container .row .col-md-3 .img-box {
+        border: 1px solid #ffb606;
+    }
+}
+
+.home-about {
+    background: url(../images/pages/home-about.jpg);
+    background-size: cover;
+    background-position: bottom;
+    color: #fff;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.text-xl {
+    font-size: 80px;
+}
+
+.about-card-bg {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding-top: 20px;
+    padding-bottom: 21px;
+}
+
+.text-gold {
+    color: #ffb606;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.c-video {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}

@@ -27,7 +27,6 @@
                         <p>Most ezeket a pillanatokat éljük és őszintén mondom élvezzük.
                         Kérdezték, milyen éttermet szeretnénk. Én azt mondtam és gondoltam, elsősorban olyat, ahova büszkén teszem be a lábam. Ahol a vendégeken kívül a dolgozók is mosolyognak. Ahol jól érezzük magunkat és hétről-hétre ismerős, visszatérő arcokkal, családokkal találkozunk. Ahol mindenki megtalálja a kedvére valót, akár szomjas, akár éhes. <br> Mert apánk is hitte…</p>
                         <hr class="space s" />
-                        <p><strong>dr. Csőszi Tibor</strong></p>
                         {{--<img src="../images/sign-2.png" alt="" />--}}
                     </div>
                     <div class="col-md-4">

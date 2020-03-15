@@ -131,9 +131,8 @@
                                 <div class="advs-box-content">
                                     <h3><a href="{{ route('events.show', $event->slug) }}">{{ $event->title }}</a></h3>
                                     <span class="extra-content" style="background: #ffb606;">{{ $event->started_at }}</span>
-                                    <p>
-                                    Interdum iusto pulvinar consequuntur augue optio repellat fugaurus expedita fusce temporibus malesio.
-                                    </p>
+                                    <a href="{{ route('events.show', $event->slug) }}" class="btn btn-border btn-sm anima anima-fade-bottom" style="margin-top: 10px;">Részletek</a>
+
                                 </div>
                             </div>
                         </div>

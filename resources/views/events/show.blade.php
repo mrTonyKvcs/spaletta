@@ -24,22 +24,12 @@
                     <hr class="space s" />
                     <div class="tag-row">
                         <span><i class="fa fa-calendar" style="font-size: 16px;"></i> <a href="#" style="font-size: 16px;">{{ $event->started_at }}</a></span>
+                        @if ($event->finished_at != null)
+                            <span><i class="fa fa-calendar" style="font-size: 16px;"></i> <a href="#" style="font-size: 16px;">{{ $event->finished_at }}</a></span>
+                        @endif
                     </div>
                     <hr class="space m" />
-                    <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea coSed ut perspiciatis unde omnis iste
-                    natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et
-                    quasi architecto beatae vitae dicta sunt explicabo.
-                    </p>
-                    <p class="block-quote quote-1">
-                    It is better to lead from behind and to put others in front,
-                    especially when you celebrate victory when nice things occur.
-                    You take the front line when there is danger. Then people will appreciate your leadership.
-                    <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud exercitation.
-                    </p>
+                    <p>{!! $event->content !!}</p>
                     <hr class="space s" />
                     <div class="btn-group social-group">
                         <a target="_blank" href="https://www.facebook.com/spalettaetterem/" data-social="share-facebook" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook text-s circle"></i></a>
@@ -49,38 +39,38 @@
             </div>
         </div>
     </div>
-    <div class="section-bg-color">
-            <div class="container content">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="form-box">
-                            <h4 class="text-m">Leave a comment</h4>
-                            <hr class="space m" />
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <p>Name</p>
-                                    <input type="text" class="form-control" placeholder="">
-                                </div>
-                                <div class="col-md-6">
-                                    <p>Email</p>
-                                    <input type="text" class="form-control" placeholder="">
-                                </div>
-                            </div>
-                            <hr class="space xs" />
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <p>Website</p>
-                                    <input type="text" class="form-control" placeholder="">
-                                    <hr class="space xs" />
-                                    <p>Messagge</p>
-                                    <textarea name="messagge" class="form-control"></textarea>
-                                    <hr class="space s" />
-                                    <button class="btn btn-xs" type="button">Send comment</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    {{--<div class="section-bg-color">--}}
+            {{--<div class="container content">--}}
+                {{--<div class="row">--}}
+                    {{--<div class="col-md-12">--}}
+                        {{--<div class="form-box">--}}
+                            {{--<h4 class="text-m">Leave a comment</h4>--}}
+                            {{--<hr class="space m" />--}}
+                            {{--<div class="row">--}}
+                                {{--<div class="col-md-6">--}}
+                                    {{--<p>Name</p>--}}
+                                    {{--<input type="text" class="form-control" placeholder="">--}}
+                                {{--</div>--}}
+                                {{--<div class="col-md-6">--}}
+                                    {{--<p>Email</p>--}}
+                                    {{--<input type="text" class="form-control" placeholder="">--}}
+                                {{--</div>--}}
+                            {{--</div>--}}
+                            {{--<hr class="space xs" />--}}
+                            {{--<div class="row">--}}
+                                {{--<div class="col-md-12">--}}
+                                    {{--<p>Website</p>--}}
+                                    {{--<input type="text" class="form-control" placeholder="">--}}
+                                    {{--<hr class="space xs" />--}}
+                                    {{--<p>Messagge</p>--}}
+                                    {{--<textarea name="messagge" class="form-control"></textarea>--}}
+                                    {{--<hr class="space s" />--}}
+                                    {{--<button class="btn btn-xs" type="button">Send comment</button>--}}
+                                {{--</div>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+            {{--</div>--}}
+        {{--</div>--}}
 @endsection

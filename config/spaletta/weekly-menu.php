@@ -7,27 +7,27 @@ return [
         'soups' => [
             'name'  => 'Levesek',
             'items' => [
-                'Csülkös bableves (L)',
-                'Erőleves Fridattó',
-                'Zellerkrémleves (G)'
+                'Magyaros burgonyaleves',
+                'Brokkoli-krémleves (L)',
+                'Tárkonyos sertésraguleves (G,L)',
             ]
         ],
         'main-course' => [
             'name'  => 'Főételek',
             'items' => [
-                'Sertéspörkölt, tarhonya, savanyúság (L)',
-                'Carbonara spagetti',
-                'Citrusos harcsa, párolt zöldségek (G, L)',
-                'Sült tarja, steak burgonya (G, L)'
+                'Milánói sertésborda (L)',
+                'Roston harcsa, csicseriborsós zöldsaláta (G,L)',
+                'Mákos vagy sajtos-tejfölös nudli',
+                'Csirkepaprikás, galuska, házi savanyúság (L)',
             ]
         ],
     ],
     'saturday-menu' => [
         'name'  => 'Szombati menü',
         'items' => [
-            'Gyümölcsleves (G)',
-            'Rántott szelet, rizi-bizi (L)',
-            'Máglyarakás'
+            'Újházi-tyúkhúsleves (L)',
+            'Marhapörkölt, tarhonya, csemege uborka (L)',
+            'Tejes pite, lekvár'
         ]
     ]
 ];

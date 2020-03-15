@@ -111,36 +111,112 @@
         </div>
     </div>
 
-    <div class="section-empty">
-        <div class="container content">
-            <div class="title-base">
-                <hr />
-                <h2>Rendezvények</h2>
-                <p style="color: #ffb606;">Spaletta</p>
+    @if ($events->isNotEmpty())
+        <div class="section-empty">
+            <div class="container content">
+                <div class="title-base">
+                    <hr />
+                    <h2>Rendezvények</h2>
+                    <p style="color: #ffb606;">Spaletta</p>
+                </div>
+                <hr class="space m" />
+
+                <div class="row" data-anima="fade-bottom" data-timeline="asc" data-timeline-time="200" data-ti>
+                    @foreach($events as $event)
+                        <a class="" href="{{ route('events.show', $event->slug) }}">
+                            <div class="col-md-4 anima">
+                                <div class="advs-box advs-box-top-icon-img">
+                                    <a class="img-box" href="{{ route('events.show', $event->slug) }}">
+                                        <span><img src="{{ $event->image_path }}" alt=""></span>
+                                    </a>
+                                    <div class="advs-box-content">
+                                        <h3><a href="{{ route('events.show', $event->slug) }}">{{ $event->title }}</a></h3>
+                                        <span class="extra-content" style="background: #ffb606;">{{ $event->started_at }}</span>
+                                        <a href="{{ route('events.show', $event->slug) }}" class="btn btn-border btn-sm anima anima-fade-bottom" style="margin-top: 10px;">Részletek</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    @endforeach
+                </div>
             </div>
-            <hr class="space m" />
+        </div>
+    @else
 
-            <div class="row" data-anima="fade-bottom" data-timeline="asc" data-timeline-time="200" data-ti>
-                @foreach($events as $event)
-                    <a class="" href="{{ route('events.show', $event->slug) }}">
-                        <div class="col-md-4 anima">
-                            <div class="advs-box advs-box-top-icon-img">
-                                <a class="img-box" href="{{ route('events.show', $event->slug) }}">
-                                    <span><img src="{{ $event->image_path }}" alt=""></span>
-                                </a>
-                                <div class="advs-box-content">
-                                    <h3><a href="{{ route('events.show', $event->slug) }}">{{ $event->title }}</a></h3>
-                                    <span class="extra-content" style="background: #ffb606;">{{ $event->started_at }}</span>
-                                    <a href="{{ route('events.show', $event->slug) }}" class="btn btn-border btn-sm anima anima-fade-bottom" style="margin-top: 10px;">Részletek</a>
+        <div class="section-empty">
+            <div class="container content">
+                <div class="title-base">
+                    <hr />
+                    <h2>ASZTALFOGLALÁS</h2>
+                    <p style="color: #ffb606;">Spaletta</p>
+                </div>
+                <hr class="space m" />
 
+                <div class="row">
+                <div class="col-md-8 col-center">
+                    @if (session('status'))
+                        <div class="alert alert-success">
+                            {{ session('status') }}
+                        </div>
+                    @endif
+                    <form action="{{ route('mail.store', 'Asztalfoglalás')}}" class="text-center form-box form-ajax" method="post">
+                        @csrf
+                        <div class="col-md-6">
+                            <p>Dátum</p>
+                            <input name="checkin" id="checkin" type="text" data-toggle="datepicker" class="form-control form-value" placeholder="" required>
+                        </div>
+                        <div class="col-md-6">
+                            <p>Időpont</p>
+                            <input id="time" name="time" placeholder="" type="time" class="form-control form-value" required>
+                        </div>
+                        <hr class="space s" />
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p>Teljes név</p>
+                                <input id="name" name="name" placeholder="" type="text" class="form-control form-value" required>
+                            </div>
+                            <div class="col-md-6">
+                                <p>Email</p>
+                                <input id="email" name="email" placeholder="" type="email" class="form-control form-value" required>
+                            </div>
+                        </div>
+                        <hr class="space xs" />
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p>Telefonszám</p>
+                                <input id="phone" name="phone" placeholder="" type="text" class="form-control form-value">
+                            </div>
+                            <div class="col-md-6">
+                                <p>Vendégek</p>
+                                <div class="form-group">
+                                    <select name="persons" class="form-control" id="exampleFormControlSelect1" style="font-size: 16px;">
+                                        @for($i=0; $i < 20; $i++)
+                                            <option>{{ $i + 1 }} Vendég</option>
+                                        @endfor
+                                    </select>
                                 </div>
                             </div>
                         </div>
-                    </a>
-                @endforeach
+                        <hr class="space xs" />
+                        <div class="row">
+                            <div class="col-md-12">
+                                <hr class="space s" />
+                                <button class="anima-button circle-button btn-sm btn" type="submit"><i class="im-envelope"></i>Asztalfoglalás</button>
+                            </div>
+                        </div>
+                        <div class="success-box">
+                            <div class="alert alert-success">Congratulations. Your message has been sent successfully</div>
+                        </div>
+                        <div class="error-box">
+                            <div class="alert alert-warning">Error, please retry. Your message has not been sent</div>
+                        </div>
+                    </form>
+                </div>
+            </div>
             </div>
         </div>
-    </div>
+    @endif
 
     <div class="home-about">
         <div class="container content">

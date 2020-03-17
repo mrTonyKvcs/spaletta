@@ -16,10 +16,10 @@ class SendMailsController extends Controller
         $request['subject'] = $request->subject;
 
         if ($request->subject == 'Asztalfoglalás') {
-            \Mail::to('info@gmail.com', 'Spaletta Kecskemét')
+            \Mail::to(env('MAIL_TO_ADDRESS'), 'Spaletta Kecskemét')
                 ->send(new SendMails($request->all()));
         } elseif ($request->subject == 'Kapcsolat') {
-            \Mail::to('info@gmail.com', 'Spaletta Kecskemét')
+            \Mail::to(env('MAIL_TO_ADDRESS'), 'Spaletta Kecskemét')
                 ->send(new SendContactMails($request->all()));
         }
 

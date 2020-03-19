@@ -2,7 +2,7 @@
 
 return [
     'title'     => 'heti menü',
-    'sub_title' => '2020.február 25. - 29.',
+    'sub_title' => '2020. március 17. - 21.',
     'menu' => [
         'soups' => [
             'name'  => 'Levesek',

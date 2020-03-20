@@ -20,7 +20,10 @@
                     <div class="collapse navbar-collapse">
                         <ul class="nav navbar-nav over ms-minimal inner maso-filters nav-center">
                             <li class="current-active active"><a data-filter="maso-item">All</a></li>
-                            <li><a data-filter="foods">Ételek</a></li>
+                            <li><a data-filter="spaletta">A Spaletta</a></li>
+                            <li><a data-filter="restaurent">Étterem</a></li>
+                            <li><a data-filter="beer">Sörház</a></li>
+                            <li><a data-filter="team">Csapatunk</a></li>
                             <li><a data-filter="events">Rendezvények</a></li>
                             <li><a data-filter="cat3">Location</a></li>
                             <li><a class="maso-order" data-sort="asc"><i class="fa fa-arrow-down"></i></a></li>

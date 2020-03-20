@@ -26,7 +26,28 @@
         </div>
     </div>
 
-    @include('partials.sections._weekly-menu')
+    {{--@include('partials.sections._weekly-menu')--}}
+    <div class="section-empty">
+            <div class="container content">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12 text-center-sm">
+                        <div class="text-left title-base text-center-sm">
+                            <hr />
+                            <h1>Kedves Vendégeink!</h1>
+                        </div>
+                        <p style="font-size: 22px; font-family: 'Montserrat', sans-serif; font-weight: 500;">Tekintettel a rendkívüli egészségügyi helyzetre, a dolgozóink és a vendégek biztonsága érdekében éttermünk a holnapi naptól (2020.03.21) határozatlan ideig zárva tart.
+Kitartunk és összetartunk ❗️🏠</p>
+                        <p style="font-size: 22px; font-family: 'Montserrat', sans-serif; color: rgb(255, 182, 6); font-weight: 500;">#maradjotthon #spalettaetterem</p>
+                    </div>
+                    <div class="col-md-6 col-sm-12 text-center-sm" data-anima="fade-right">
+                        <hr class="space m visible-sm" />
+                        <a style="width: 100%" class="img-box lightbox shadow-1" href="../images/pages/about-image.jpg" data-lightbox-anima="show-scale">
+                            <img src="../images/pages/about-image.jpg" style="width: 100%" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     {{--<div class="overflow-visible section-bg-color">--}}
         {{--<div class="container content">--}}

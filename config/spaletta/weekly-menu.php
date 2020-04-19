@@ -2,23 +2,23 @@
 
 return [
     'title'     => 'heti menü',
-    'sub_title' => '2020. március 17. - 21.',
+    'sub_title' => '2020. április 21. - 25.',
     'menu' => [
         'soups' => [
             'name'  => 'Levesek',
             'items' => [
-                'Magyaros burgonyaleves',
-                'Brokkoli-krémleves (L)',
-                'Tárkonyos sertésraguleves (G,L)',
+                'Palócleves',
+                'Tavaszi zöldségleves (G;L)',
+                'Őszibarack krémleves (Panna cotta) (G)',
             ]
         ],
         'main-course' => [
             'name'  => 'Főételek',
             'items' => [
-                'Milánói sertésborda (L)',
-                'Roston harcsa, csicseriborsós zöldsaláta (G,L)',
-                'Mákos vagy sajtos-tejfölös nudli',
-                'Csirkepaprikás, galuska, házi savanyúság (L)',
+                'Brassói aprópecsenye (házi vegyes vágott) (G;L)',
+                'Sült csirkecomb, burgonyapüré (friss saláta) (G)',
+                'Rántott sajt, rizs (tartár)',
+                'Mákosguba, vaníliasodó',
             ]
         ],
     ],

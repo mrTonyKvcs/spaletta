@@ -5,8 +5,8 @@
         <div class="container">
             <div class="title-base">
                 <hr class="anima" />
-                <h1>Étlap</h1>
-                <a href="{{ route('reservations.index') }}" class="btn btn-border btn-sm anima anima-fade-bottom fade-bottom" style="position: relative; animation-duration: 1000ms; transition-timing-function: ease; transition-delay: 0ms;" aid="0.6040015320453584">Asztalfoglalás</a>
+                <h1>{{ $title }}</h1>
+                {{--<a href="{{ route('reservations.index') }}" class="btn btn-border btn-sm anima anima-fade-bottom fade-bottom" style="position: relative; animation-duration: 1000ms; transition-timing-function: ease; transition-delay: 0ms;" aid="0.6040015320453584">Asztalfoglalás</a>--}}
             </div>
         </div>
     </div>

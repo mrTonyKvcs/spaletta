@@ -108,5 +108,37 @@ return [
     [
         'type_id' => 2,
         'name' => 'Rum'
-    ]
+    ],
+    [
+        'type_id' => 4,
+        'name' => 'Levesek'
+    ],
+    [
+        'type_id' => 4,
+        'name' => 'Főételek'
+    ],
+    [
+        'type_id' => 4,
+        'name' => 'Pizzák'
+    ],
+    [
+        'type_id' => 4,
+        'name' => 'Saláták'
+    ],
+    [
+        'type_id' => 4,
+        'name' => 'Plusz Köretek'
+    ],
+    [
+        'type_id' => 4,
+        'name' => 'Savanyúság'
+    ],
+    [
+        'type_id' => 4,
+        'name' => 'Desszert'
+    ],
+    [
+        'type_id' => 4,
+        'name' => 'Extrák'
+    ],
 ];

@@ -14,6 +14,9 @@ class CategoryTypesTableSeeder extends Seeder
         ],
         [
             'name' => 'Rendezvények'
+        ],
+        [
+            'name' => 'Kiszállításos Étlap'
         ]
     ];
 

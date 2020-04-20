@@ -6,6 +6,10 @@ return [
         'link' => '',
         'dropdown' => [
             [
+                'name' => 'Kiszállításos Étlap',
+                'link' => 'pages.delivery-menu'
+            ],
+            [
                 'name' => 'Étlap',
                 'link' => 'pages.menu'
             ],

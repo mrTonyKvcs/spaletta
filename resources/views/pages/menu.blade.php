@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="header-title ken-burn white" data-parallax="scroll" data-bleed="0" data-position="top" data-natural-height="850" data-natural-width="1920" data-image-src="/images/pages/menus.jpg">
+    <div class="header-title ken-burn white" data-parallax="scroll" data-bleed="0" data-position="top" data-natural-height="850" data-natural-width="1920" data-image-src="/images/pages/{{ \Str::slug($title) }}.jpg">
         <div class="container">
             <div class="title-base">
                 <hr class="anima" />

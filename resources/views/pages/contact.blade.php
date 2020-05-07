@@ -51,7 +51,7 @@
                                 <p>Üzenet</p>
                                 <textarea id="message" name="message" placeholder="" class="form-control form-value" required></textarea>
                                 <hr class="space s" />
-                                <button class="btn-xs btn" type="submit"><i class="im-mail-send"></i>Küldés</button>
+                                <button class="btn-xs btn" type="submit" disabled><i class="im-mail-send"></i>Küldés</button>
                             </div>
                         </div>
                         <div class="success-box">

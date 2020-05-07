@@ -224,7 +224,7 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <hr class="space s" />
-                                <button class="anima-button circle-button btn-sm btn" type="submit"><i class="im-envelope"></i>Asztalfoglalás</button>
+                                <button class="anima-button circle-button btn-sm btn" type="submit" disabled><i class="im-envelope"></i>Asztalfoglalás</button>
                             </div>
                         </div>
                         <div class="success-box">

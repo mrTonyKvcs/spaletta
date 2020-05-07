@@ -13,12 +13,10 @@
     <div class="section-empty">
         <div class="container content">
             <div class="row">
+                @include('flash-message')
+            </div>
+            <div class="row">
                 <div class="col-md-8 col-center">
-                    @if (session('status'))
-                        <div class="alert alert-success">
-                            {{ session('status') }}
-                        </div>
-                    @endif
                     <form action="{{ route('mail.store', 'Asztalfoglalás')}}" class="text-center form-box form-ajax" method="post">
                         @csrf
                         <div class="col-md-6">
@@ -61,7 +59,7 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <hr class="space s" />
-                                <button class="anima-button circle-button btn-sm btn" type="submit" disabled><i class="im-envelope"></i>Asztalfoglalás</button>
+                                <button class="anima-button circle-button btn-sm btn" type="submit"><i class="im-envelope"></i>Asztalfoglalás</button>
                             </div>
                         </div>
                         <div class="success-box">

@@ -18,12 +18,14 @@ class SendMailsController extends Controller
         if ($request->subject == 'Asztalfoglalás') {
             \Mail::to(env('MAIL_TO_ADDRESS'), 'Spaletta Kecskemét')
                 ->send(new SendMails($request->all()));
+
+            return back()->with('success', 'Az asztalfoglalás sikeresen elküldve!');
         } elseif ($request->subject == 'Kapcsolat') {
             \Mail::to(env('MAIL_TO_ADDRESS'), 'Spaletta Kecskemét')
                 ->send(new SendContactMails($request->all()));
-        }
 
-        return back()->with('success', 'Lev√©l sikeresen elk√ºldve!');
+            return back()->with('success', 'A levél sikeresen elküldve!');
+        }
     }
 
     public function validations(Request $request)

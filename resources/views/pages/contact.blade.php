@@ -19,13 +19,16 @@
     </div>
     <div class="section-empty section-item">
         <div class="container content">
-
+            
+            <div class="row">
+                @include('flash-message')
+            </div>
             <div class="row">
                 <iframe class="" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2725.4844358566284!2d19.68788841560659!3d46.91285697914473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4743da1ac3b6008b%3A0x962147940a470b37!2zS2Vjc2tlbcOpdCwgSsOza2FpIHUuIDE1LCA2MDAw!5e0!3m2!1sen!2shu!4v1579996015891!5m2!1sen!2shu" width="100%" height="450" frameborder="0" style="border:0; margin-bottom: 50px;" allowfullscreen=""></iframe>
 
             </div>
             <div class="row">
-                <div class="text-left col-md-8">
+                <div class="teravelxt-left col-md-8">
                     <div class="text-left title-base text-left-sm">
                         <hr />
                         <h2>Üzenetet</h2>
@@ -51,7 +54,7 @@
                                 <p>Üzenet</p>
                                 <textarea id="message" name="message" placeholder="" class="form-control form-value" required></textarea>
                                 <hr class="space s" />
-                                <button class="btn-xs btn" type="submit" disabled><i class="im-mail-send"></i>Küldés</button>
+                                <button class="btn-xs btn" type="submit"><i class="im-mail-send"></i>Küldés</button>
                             </div>
                         </div>
                         <div class="success-box">

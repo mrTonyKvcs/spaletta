@@ -45,7 +45,6 @@
         <div class="footer-parallax-container">
 
             @include('partials._header')
-
             @yield('content')
 
         </div>

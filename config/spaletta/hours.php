@@ -9,39 +9,42 @@ return [
         'name' => 'Kedd',
         'hours' => [
             'open' => '11:30',
-            'close' => '23:00'
+            'close' => '21:00'
         ],
     ],
     [
         'name' => 'Szerda',
         'hours' => [
             'open' => '11:30',
-            'close' => '23:00'
+            'close' => '21:00'
         ]
     ],
     [
         'name' => 'Csütörtök',
         'hours' => [
             'open' => '11:30',
-            'close' => '23:00'
+            'close' => '21:00'
         ]
     ],
     [
         'name' => 'Péntek',
         'hours' => [
             'open' => '11:30',
-            'close' => '23:00'
+            'close' => '21:00'
         ]
     ],
     [
         'name' => 'Szombat',
         'hours' => [
             'open' => '11:30',
-            'close' => '23:00'
+            'close' => '21:00'
         ]
     ],
     [
         'name' => 'Vasárnap',
-        'hours' => null
+        'hours' => [
+            'open' => '11:30',
+            'close' => '16:00'
+        ]
     ]
 ];

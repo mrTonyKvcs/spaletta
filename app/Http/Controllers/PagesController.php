@@ -28,19 +28,19 @@ class PagesController extends Controller
     {
         $title = 'Étlap';
 
-        $menus = \App\Category::where('type_id', 1)->with('items')->get();
-
-        return view('pages.menu', compact('menus', 'title'));
-    }
-
-    public function deliveryMenu()
-    {
-        $title = 'Kiszállításos Étlap';
-
         $menus = \App\Category::where('type_id', 4)->with('items')->get();
 
         return view('pages.menu', compact('menus', 'title'));
     }
+
+    //public function deliveryMenu()
+    //{
+        //$title = 'Kiszállításos Étlap';
+
+        //$menus = \App\Category::where('type_id', 4)->with('items')->get();
+
+        //return view('pages.menu', compact('menus', 'title'));
+    //}
 
     public function drinks()
     {

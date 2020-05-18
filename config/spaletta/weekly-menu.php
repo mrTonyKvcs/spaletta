@@ -2,32 +2,32 @@
 
 return [
     'title'     => 'heti menü',
-    'sub_title' => '2020. május 12. - 16.',
+    'sub_title' => '2020. május 19. - 23.',
     'menu' => [
         'soups' => [
             'name'  => 'Levesek',
             'items' => [
-                'Tárkonyos sertésragu leves (G)',
-                'Vegyes gyümölcsleves (L;G)',
-                'Csirkehúsleves (L) (tészta nélkül gluténmentes)'
+                'Babgulyás (L)',
+                'Savanyú tojásleves',
+                'Hideg meggyleves (G;L)'
             ]
         ],
         'main-course' => [
             'name'  => 'Főételek',
             'items' => [
-                'Svéd húsgolyó – burgonyapürével áfonya mártással (L)',
-                'Aranygaluska vaníliasodó',
-                'Székelykáposzta (G ; L)',
-                'Pulykás zöldséges  sült tészta (L)',
+                'Pankó morzsás sertés csíkok- tavaszi zöldbabfőzelék',
+                'Harcsapaprikás – túrós csusza',
+                'Mini Margherita pizza (20cm)',
+                'Baconbe tekert sertés szűz – burgonya gratin (G)',
             ]
         ],
     ],
     'saturday-menu' => [
         'name'  => 'Szombati menü',
         'items' => [
-            'Egres krémleves fahéjas habgaluska',
-            'Borjúpaprikás tojásos nokedli - fejes saláta',
-            'Gundel palacsinta'
+            'Mentás zöldborsó krémleves (G;L)',
+            'Csirkecomb vadasan – knédli',
+            'Rizsfelfújt erdei gyümölcsragu'
         ]
     ]
 ];

@@ -45,7 +45,7 @@
             </div>
         </div>
         <div class="text-center">
-            <a href="{{ route('pages.delivery-menu') }}" class="btn btn-sm">Kiszállításos Étlap</a>
+            <a href="{{ route('pages.menu') }}" class="btn btn-sm">Étlap</a>
             {{--<a href="{{ route('pages.menu') }}" class="btn btn-sm">Étlap</a>--}}
         </div>
     </div>

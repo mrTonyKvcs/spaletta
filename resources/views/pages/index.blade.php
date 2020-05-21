@@ -18,7 +18,7 @@
                 Kecskemét, Jókai u. 15, 6000
             </p>
             <hr class="space s" />
-            <a href="{{ route('pages.delivery-menu') }}" class="btn btn-border btn-sm anima anima-fade-bottom" style="margin-top: 10px;">Kiszállításos Étlap</a>
+            <a href="{{ route('pages.menu') }}" class="btn btn-border btn-sm anima anima-fade-bottom" style="margin-top: 10px;">Étlap</a>
             {{--<a href="{{ route('pages.menu') }}" class="btn btn-border btn-sm anima anima-fade-bottom" style="margin-top: 10px;">Étlap</a>--}}
             {{--<a href="{{ route('reservations.index') }}" class="btn btn-border btn-sm anima anima-fade-bottom" style="margin-top: 10px;">Asztalfoglalás</a>--}}
             {{--<a href="{{ route('events.index') }}" class="btn btn-border btn-sm anima anima-fade-bottom" style="margin-top: 10px;">Rendezvények</a>--}}

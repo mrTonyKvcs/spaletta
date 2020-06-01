@@ -2,32 +2,32 @@
 
 return [
     'title'     => 'heti menü',
-    'sub_title' => '2020. május 26. - 30.',
+    'sub_title' => '2020. június 02. - 06.',
     'menu' => [
         'soups' => [
             'name'  => 'Levesek',
             'items' => [
-                'Csorba leves (G;L)',
-                'Görög gyümölcsleves (G;L)',
-                'Csontleves csigatésztával (L)'
+                'Eper krémleves rebarbarával (G;L)',
+                'Zöldborsó leves csibehússal (L)',
+                'Korhelyleves csülökkel (G;L)'
             ]
         ],
         'main-course' => [
             'name'  => 'Főételek',
             'items' => [
-                'Tejszínes gombás csirkemell - rizs (G;L)',
-                'Zöldséggel töltött rántott palacsinta kapros joghurtos öntet saláta',
-                'Máglyarakás',
-                'Vörösboros marha pörkölt – galuska Uborka saláta (L)',
+                'Bologai tészta',
+                'Pulled pork szendvics – hasáb burgonya',
+                'Rántott camembert – burgonyapüré - áfonyalekvár',
+                'Paradicsomos mozzarellás csirkemell – rukkolás salátával',
             ]
         ],
     ],
     'saturday-menu' => [
         'name'  => 'Szombati menü',
         'items' => [
-            'Spárga krémleves bacon chips (G;L)',
-            'Rántott harcsa pagodakarfiol püré zöldborsós bulgur',
-            'Gyümölcsös pavlova (G;L)'
+            'Zöldségleves reszelt tésztával (L) (tészta nélkül G mentes)',
+            'Vasalt csirkecomb filé – jázmin rizs majonézes kukoricasaláta (G)',
+            'Tiramisu'
         ]
     ]
 ];

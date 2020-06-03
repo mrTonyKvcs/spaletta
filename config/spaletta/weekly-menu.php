@@ -15,7 +15,7 @@ return [
         'main-course' => [
             'name'  => 'Főételek',
             'items' => [
-                'Bologai tészta',
+                'Bolognai tészta',
                 'Pulled pork szendvics – hasáb burgonya',
                 'Rántott camembert – burgonyapüré - áfonyalekvár',
                 'Paradicsomos mozzarellás csirkemell – rukkolás salátával',

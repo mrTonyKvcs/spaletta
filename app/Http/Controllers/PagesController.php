@@ -28,7 +28,7 @@ class PagesController extends Controller
     {
         $title = 'Étlap';
 
-        $menus = \App\Category::where('type_id', 4)->with('items')->get();
+        $menus = \App\Category::where('type_id', 1)->with('items')->get();
 
         return view('pages.menu', compact('menus', 'title'));
     }

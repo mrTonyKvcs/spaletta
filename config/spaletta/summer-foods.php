@@ -189,7 +189,7 @@ return [
         'wine' => 'I Magredi Cabernet Franc (Olaszország)'
     ],
     [
-        'category_id' => 8,
+        'category_id' => 7,
         'name' => [
             'hu' => 'Pavlova idény gyümölcsökkel (G,L)',
             'en' => 'Pavlova with seasonal fruits (G,L)',
@@ -200,7 +200,7 @@ return [
         'wine' => 'Figula Rosé Cuvée(Balatonboglár-Csopak)'
     ],
     [
-        'category_id' => 8,
+        'category_id' => 7,
         'name' => [
             'hu' => 'Mákos grízpuding',
             'en' => 'Poppy seed semolina pudding',
@@ -211,7 +211,7 @@ return [
         'wine' => 'Göncöl Sárgamuskotály(Tokaj)'
     ],
     [
-        'category_id' => 8,
+        'category_id' => 7,
         'name' => [
             'hu' => 'Epres mille-feuille - túró fagylalt',
             'en' => 'Strawberry mille-feuille - curd cheese ice cream',
@@ -222,7 +222,7 @@ return [
         'wine' => 'Tenute Setten Prosecco (Olaszország)'
     ],
     [
-        'category_id' => 9,
+        'category_id' => 8,
         'name' => [
             'hu' => 'Húsleves cérnametélttel',
             'en' => 'Bouillon with vermicelli',
@@ -233,7 +233,7 @@ return [
         'wine' => ''
     ],
     [
-        'category_id' => 9,
+        'category_id' => 8,
         'name' => [
             'hu' => 'Rántott sajt /csirkemell-sült burgonya',
             'en' => 'Breaded cheese / chicken breast-fried potatoes',
@@ -244,7 +244,7 @@ return [
         'wine' => ''
     ],
     [
-        'category_id' => 9,
+        'category_id' => 8,
         'name' => [
             'hu' => 'Bolognai spaghetti',
             'en' => 'Spaghetti Bolognese',
@@ -255,7 +255,7 @@ return [
         'wine' => ''
     ],
     [
-        'category_id' => 9,
+        'category_id' => 8,
         'name' => [
             'hu' => 'Palacsinta (2 db)',
             'en' => 'Crêpes (2 pcs)',
@@ -266,7 +266,7 @@ return [
         'wine' => ''
     ],
     [
-        'category_id' => 9,
+        'category_id' => 8,
         'name' => [
             'hu' => 'Sonkás gyerekpizza',
             'en' => 'Childrens pizza with ham',
@@ -365,7 +365,7 @@ return [
         'wine' => 'Etyeki Kúria Chardonnay(Etyek)'
     ],
     [
-        'category_id' => 7,
+        'category_id' => 36,
         'name' => [
             'hu' => 'Jázmin rizs',
             'en' => 'Jasmine rice',
@@ -376,7 +376,7 @@ return [
         'wine' => ''
     ],
     [
-        'category_id' => 7,
+        'category_id' => 36,
         'name' => [
             'hu' => 'Házi hasábburgonya',
             'en' => 'Homemade french fries',
@@ -387,7 +387,7 @@ return [
         'wine' => ''
     ],
     [
-        'category_id' => 7,
+        'category_id' => 36,
         'name' => [
             'hu' => 'Házi steakburgonya',
             'en' => 'Homemade steak potatoes',
@@ -398,7 +398,7 @@ return [
         'wine' => ''
     ],
     [
-        'category_id' => 7,
+        'category_id' => 36,
         'name' => [
             'hu' => 'Kevert zöldsaláta',
             'en' => 'Mixed green salad',
@@ -442,7 +442,7 @@ return [
         'wine' => 'St. Andrea Pinot Noir(Eger), Sauska Rose (Villány)'
     ],
     [
-        'category_id' => 4,
+        'category_id' => 5,
         'name' => [
             'hu' => 'Pizza Margherita – paradicsom alap,mozzarella sajt, bazsalikom',
             'en' => 'Pizza Margherita – tomato sauce,mozzarella, basil',
@@ -453,7 +453,7 @@ return [
         'wine' => 'Palkonyai Portugieser(Palkonya)'
     ],
     [
-        'category_id' => 4,
+        'category_id' => 5,
         'name' => [
             'hu' => 'Pizza Spaletta – mozzarella, mortadella,paradicsomok, pisztácia, menta',
             'en' => 'Pizza Spaletta – mozzarella, mortadella,tomatoes, pistachio, mint',
@@ -464,7 +464,7 @@ return [
         'wine' => 'Konyári Fecske(Balatonlelle)'
     ],
     [
-        'category_id' => 4,
+        'category_id' => 5,
         'name' => [
             'hu' => 'Pizza Primavera – paradicsom alap, mozzarella, pármai sonka,rukkola, parmezán sajt',
             'en' => 'Pizza Primavera – tomato sauce, mozzarella, parma ham,rocket, parmesan',
@@ -475,7 +475,7 @@ return [
         'wine' => 'Figula Rosé Cuvée(Balatonboglár-Csopak)'
     ],
     [
-        'category_id' => 4,
+        'category_id' => 5,
         'name' => [
             'hu' => 'Pizza Diavola – csípős – paradicsom alap,mozzarella, pikáns szalámi, chili',
             'en' => 'Pizza Diavola – hot – tomato sauce,mozzarella, spicy salami, chili',

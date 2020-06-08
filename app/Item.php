@@ -10,7 +10,7 @@ class Item extends Model
 {
     use SoftDeletes;
 
-    protected $fillable = [ 'category_id', 'slug', 'name', 'comment','price', 'less_price'];
+    protected $fillable = [ 'category_id', 'slug', 'name', 'comment','price', 'less_price', 'wine'];
 
     /**
      * The attributes that should be mutated to dates.

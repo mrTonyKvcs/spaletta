@@ -27,6 +27,10 @@ return [
     ],
     [
         'type_id' => 1,
+        'name' => 'Választható köretek'
+    ],
+    [
+        'type_id' => 1,
         'name' => 'Desszertek'
     ],
     [

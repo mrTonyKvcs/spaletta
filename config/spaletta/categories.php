@@ -145,4 +145,49 @@ return [
         'type_id' => 1,
         'name' => 'Választható köretek'
     ],
+    [
+        'type_id' => 2,
+        'name' => 'Borok'
+    ],
+    [
+        'type_id' => 2,
+        'name' => 'Alkoholmentes Koktélok'
+    ],
+    [
+        'type_id' => 2,
+        'name' => 'Palackozott sörök'
+    ],
+    [
+        'type_id' => 2,
+        'name' => 'Aperitif'
+    ],
+    [
+        'type_id' => 2,
+        'name' => 'Long drink'
+    ],
+    [
+        'type_id' => 2,
+        'name' => 'Ház borai'
+    ],
+    [
+        'type_id' => 2,
+        'name' => 'Fehéborok'
+    ],
+    [
+        'type_id' => 2,
+        'name' => 'Rozék'
+    ],
+    [
+        'type_id' => 2,
+        'name' => 'Vörösborok'
+    ],
+    [
+        'type_id' => 2,
+        'name' => 'Olasz bor'
+    ],
+    [
+        'type_id' => 2,
+        'name' => 'Pezsgõk'
+    ],
+
 ];

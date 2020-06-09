@@ -3,387 +3,338 @@
 return [
     [
         'category_id' => 9,
-        'name' => 'SAN BENEDETTO 0.25 l',
+        'name' => 'San Benedetto 0.25 l',
         'comment' => 'mentes, savas',
-        'price' => 330
+        'price' => 400
     ],
     [
         'category_id' => 9,
-        'name' => 'SAN BENEDETTO 0.75 l',
+        'name' => 'San Benedetto 0.75 l',
         'comment' => 'mentes, savas',
-        'price' => 750
+        'price' => 900
+    ],
+    [
+        'category_id' => 9,
+        'name' => 'Szódavíz 0.1 l',
+        'comment' => '',
+        'price' => 50
+    ],
+    [
+        'category_id' => 9,
+        'name' => 'Vitamin víz 0.5 l',
+        'comment' => 'uborka, citrom, lime, gyömbér',
+        'price' => 650
     ],
     [
         'category_id' => 10,
-        'name' => 'HÁZI SZÖRPÖK 0.3l',
-        'comment' => 'bodza, levendula, menta, málna, muskotályos szőlő',
-        'price' => 400
+        'name' => 'Házi szörpök 0.3l',
+        'comment' => 'bodza, levendula, menta, málna, cukormentes citromfū',
+        'price' => 500
     ],
     [
-        'category_id' => 11,
-        'name' => 'COCA COLA, ZERO COLA, ZERO SPRITE 0.25l',
+        'category_id' => 16,
+        'name' => 'Házi limonádé, friss gyümölcsökkel 0.5l',
         'comment' => '',
-        'price' => 400
+        'price' => 850
     ],
     [
-        'category_id' => 11,
-        'name' => 'SAN PELLEGRINO ARANCIATA ROSSA 0.2l',
-        'comment' => '',
-        'price' => 600
+        'category_id' => 16,
+        'name' => 'Levendulás házi limonádé: 0.5l',
+        'comment' => 'házi levendula szörp, gyümölcsök, szárított levendula',
+        'price' => 1050
     ],
     [
-        'category_id' => 11,
-        'name' => 'ROYAL BLISS TONIK, ZERO TONIK, GYÖMBÉR, GYÖMBÉRSÖR 0.2l',
-        'comment' => '',
-        'price' => 750
+        'category_id' => 16,
+        'name' => 'Bodzás házi limonádé 0.5l',
+        'comment' => 'házi bodza szörp, uborka, citrom,lime,narancs',
+        'price' => 1050
     ],
     [
-        'category_id' => 12,
-        'name' => 'FUZETEA 0.25l',
-        'comment' => 'citromos, barackos',
-        'price' => 400
+        'category_id' => 16,
+        'name' => 'Málnás házi limonádé 0.5l',
+        'comment' => 'házi málna szörp, málna,citrom,lime,narancs',
+        'price' => 1050
     ],
     [
-        'category_id' => 13,
-        'name' => 'RED BULL 0.25l',
-        'comment' => '',
-        'price' => 790
+        'category_id' => 16,
+        'name' => 'Mentás házi limonádé 0.5l',
+        'comment' => 'házi menta szörp, friss menta, citrom, lime, narancs',
+        'price' => 1050
+    ],
+    [
+        'category_id' => 16,
+        'name' => 'Mangós házi limonádé 0.5l',
+        'comment' => 'mangó szirup, mangó, citrom,lime,narancs',
+        'price' => 1050
+    ],
+    [
+        'category_id' => 16,
+        'name' => 'Epres házi limonádé 0.5l',
+        'comment' => 'eper szirup, piros gyümölcs,citrom, lime,narancs',
+        'price' => 1050
+    ],
+    [
+        'category_id' => 16,
+        'name' => 'Cukormentes citromfű limonádé (édesítővel) 0.5l',
+        'comment' => 'házi citromfű szörp, friss menta, citrom lime, narancs',
+        'price' => 1050
     ],
     [
         'category_id' => 14,
         'name' => 'GRANINI 0.2l',
         'comment' => 'alma 100% ,narancs 40% ,ananász 59% ,paradicsom 99%, őszibarack 50 %',
-        'price' => 400
+        'price' => 500
     ],
     [
-        'category_id' => 14,
-        'name' => 'HAPPY DAY 0.1l',
-        'comment' => 'Őszibarack  50%',
-        'price' => 200
-    ],
-    [
-        'category_id' => 14,
-        'name' => 'ALMAFRÖCCS 0.3l',
+        'category_id' => 11,
+        'name' => 'COCA COLA, ZERO COLA 0.25l',
         'comment' => '',
-        'price' => 440
+        'price' => 500
     ],
     [
-        'category_id' => 14,
-        'name' => 'ALMAFRÖCSS 0.5l',
+        'category_id' => 11,
+        'name' => 'SAN PELLEGRINO ARANCIATA ROSSA 0.2l',
         'comment' => '',
-        'price' => 520
+        'price' => 650
+    ],
+    [
+        'category_id' => 11,
+        'name' => 'ROYAL BLISS TONIK, ZERO TONIK, GYÖMBÉR, GYÖMBÉRSÖR 0.2l',
+        'comment' => '',
+        'price' => 850
+    ],
+    [
+        'category_id' => 11,
+        'name' => 'Alma fröccs 0.3l',
+        'comment' => '',
+        'price' => 550
+    ],
+    [
+        'category_id' => 11,
+        'name' => 'Alma fröccs 0.5l',
+        'comment' => '',
+        'price' => 650
+    ],
+    [
+        'category_id' => 12,
+        'name' => 'FUZETEA 0.25l',
+        'comment' => 'citromos, barackos',
+        'price' => 500
     ],
     [
         'category_id' => 15,
         'name' => 'BORIKA',
         'comment' => '',
-        'price' => 850
+        'price' => 950
     ],
     [
         'category_id' => 15,
         'name' => 'ROZIKA',
         'comment' => '',
-        'price' => 850
+        'price' => 950
     ],
     [
         'category_id' => 15,
         'name' => 'LEVIKE',
         'comment' => '',
-        'price' => 850
-    ],
-    [
-        'category_id' => 15,
-        'name' => 'KÉZMŰVES CZIDER 0.33l',
-        'comment' => 'félédes,száraz',
-        'price' => 990
-    ],
-    [
-        'category_id' => 15,
-        'name' => 'CSAPOLT FRIZZANTE 0.1l',
-        'comment' => '',
-        'price' => 300
-    ],
-    [
-        'category_id' => 16,
-        'name' => 'HÁZI LIMONÁDÉ, FRISS GYÜ,ÖLCSÖKKEL 0.5l',
-        'comment' => '',
-        'price' => 750
-    ],
-    [
-        'category_id' => 16,
-        'name' => 'MANGÓ RISE 0.5l',
-        'comment' => '',
         'price' => 950
     ],
     [
-        'category_id' => 16,
-        'name' => 'BLUE RISE 0.5l',
+        'category_id' => 13,
+        'name' => 'RED BULL 0.25l',
         'comment' => '',
-        'price' => 950
+        'price' => 890
     ],
     [
-        'category_id' => 16,
-        'name' => 'LIMONÁDÉ HÁZI SZÖRPPEL 0.5l',
-        'comment' => '',
-        'price' => 850
+        'category_id' => 38,
+        'name' => 'Calippo',
+        'comment' => 'narancslé,mangó,blue curacao',
+        'price' => 1100
     ],
     [
-        'category_id' => 16,
-        'name' => 'RED RISE 0.5l',
-        'comment' => '',
-        'price' => 950
+        'category_id' => 38,
+        'name' => 'Bahamas',
+        'comment' => 'almalé, citrom,grenadine',
+        'price' => 1100
     ],
     [
-        'category_id' => 17,
-        'name' => 'MOJITO',
-        'comment' => '',
-        'price' => 1800,
-        'cocktail_name' => 'RUM'
-    ],
-    [
-        'category_id' => 17,
-        'name' => 'MANGO TOP',
-        'comment' => '',
-        'price' => 1800,
-        'cocktail_name' => 'RUM'
-    ],
-    [
-        'category_id' => 17,
-        'name' => 'DAIQUIRI',
-        'comment' => '',
-        'price' => 1800,
-        'cocktail_name' => 'RUM'
-    ],
-    [
-        'category_id' => 17,
-        'name' => 'CUBA LIBRE',
-        'comment' => '',
-        'price' => 1800,
-        'cocktail_name' => 'RUM'
-    ],
-    [
-        'category_id' => 17,
-        'name' => 'WILD IRISH ROSE',
-        'comment' => '',
-        'price' => 1800,
-        'cocktail_name' => 'Whisky'
-    ],
-    [
-        'category_id' => 17,
-        'name' => 'SANDY COLLINS',
-        'comment' => '',
-        'price' => 1800,
-        'cocktail_name' => 'Whisky'
-    ],
-    [
-        'category_id' => 17,
-        'name' => 'GORDON’S, GORDON’S PINK',
-        'comment' => '',
-        'price' => 1800,
-        'cocktail_name' => 'Gin tonik'
-    ],
-    [
-        'category_id' => 17,
-        'name' => 'TANQUERAY LONDON GIN TONIK',
-        'comment' => '',
-        'price' => 2300,
-        'cocktail_name' => 'Gin tonik'
-    ],
-    [
-        'category_id' => 17,
-        'name' => 'BULLDOG GIN TONIK',
-        'comment' => '',
-        'price' => 2450,
-        'cocktail_name' => 'Gin tonik'
-    ],
-    [
-        'category_id' => 17,
-        'name' => 'HENDRICK’S GIN TONIK',
-        'comment' => '',
-        'price' => 2600,
-        'cocktail_name' => 'Gin tonik'
-    ],
-    [
-        'category_id' => 17,
-        'name' => 'MARTINI DRY',
-        'comment' => '',
-        'price' => 1800,
-        'cocktail_name' => 'Gin tonik'
-    ],
-    [
-        'category_id' => 17,
-        'name' => 'MARTINI SWEET',
-        'comment' => '',
-        'price' => 1800,
-        'cocktail_name' => 'Gin tonik'
-    ],
-    [
-        'category_id' => 17,
-        'name' => 'NEGRONI',
-        'comment' => '',
-        'price' => 1800,
-        'cocktail_name' => 'Gin tonik'
-    ],
-    [
-        'category_id' => 17,
-        'name' => 'GIN BODZA',
-        'comment' => '',
-        'price' => 1800,
-        'cocktail_name' => 'Gin tonik'
-    ],
-    [
-        'category_id' => 17,
-        'name' => 'VODKATINI',
-        'comment' => '',
-        'price' => 1800,
-        'cocktail_name' => 'Vodka'
-    ],
-    [
-        'category_id' => 17,
-        'name' => 'BLUE LAGOON',
-        'comment' => '',
-        'price' => 1800,
-        'cocktail_name' => 'Vodka'
-    ],
-    [
-        'category_id' => 17,
-        'name' => 'SEX ON THE BEACH',
-        'comment' => '',
-        'price' => 1800,
-        'cocktail_name' => 'Vodka'
-    ],
-    [
-        'category_id' => 17,
-        'name' => 'APEROL SPITZ',
-        'comment' => '',
-        'price' => 1800,
-        'cocktail_name' => 'Long drink'
-    ],
-    [
-        'category_id' => 17,
-        'name' => 'HUGO',
-        'comment' => '',
-        'price' => 1800,
-        'cocktail_name' => 'Long drink'
-    ],
-    [
-        'category_id' => 17,
-        'name' => 'CALIPPO',
-        'comment' => '',
-        'price' => 990,
-        'cocktail_name' => 'Alkoholmentes Koktélok'
-    ],
-    [
-        'category_id' => 17,
-        'name' => 'BAHAMAS',
-        'comment' => '',
-        'price' => 990,
-        'cocktail_name' => 'Alkoholmentes Koktélok'
-    ],
-    [
-        'category_id' => 17,
-        'name' => 'ORANGE TONIC',
-        'comment' => '',
-        'price' => 990,
-        'cocktail_name' => 'Alkoholmentes Koktélok'
+        'category_id' => 38,
+        'name' => 'Orange tonic',
+        'comment' => 'narancslé,fekete ribizlilé, grenadine,tonik',
+        'price' => 1100
     ],
     [
         'category_id' => 18,
-        'name' => 'ESPRESSO',
+        'name' => 'Espresso ,Ristretto, Americano',
         'comment' => '',
-        'price' => 400,
+        'price' => 550,
     ],
     [
         'category_id' => 18,
-        'name' => 'RISTRETTO',
+        'name' => 'Doppio',
         'comment' => '',
-        'price' => 400,
+        'price' => 850,
     ],
     [
         'category_id' => 18,
-        'name' => 'DOPPIO',
+        'name' => 'Espresso macchiato',
         'comment' => '',
-        'price' => 750,
+        'price' => 580,
     ],
     [
         'category_id' => 18,
-        'name' => 'AMERICANO',
+        'name' => 'Cappuccino',
         'comment' => '',
-        'price' => 400,
+        'price' => 620,
     ],
     [
         'category_id' => 18,
-        'name' => 'ESPRESSO MACCHIATO',
+        'name' => 'Latte macchiato',
         'comment' => '',
-        'price' => 430,
+        'price' => 670,
     ],
     [
         'category_id' => 18,
-        'name' => 'CAPPUCCINO',
+        'name' => 'Melange',
         'comment' => '',
-        'price' => 460,
+        'price' => 700,
     ],
     [
         'category_id' => 18,
-        'name' => 'MELANGE',
+        'name' => 'Jeges Kávé',
         'comment' => '',
-        'price' => 590,
+        'price' => 1100,
     ],
     [
         'category_id' => 18,
-        'name' => 'LATTE MACCHIATO',
+        'name' => 'Koffeinmentes kávé',
         'comment' => '',
-        'price' => 490,
+        'price' => 300,
     ],
     [
         'category_id' => 18,
-        'name' => 'JEGES KÁVÉ',
-        'comment' => '',
-        'price' => 900,
-    ],
-    [
-        'category_id' => 18,
-        'name' => 'KOFFEINMENTES KÁVÉ',
-        'comment' => '',
-        'price' => 200,
-    ],
-    [
-        'category_id' => 18,
-        'name' => 'FORRÓ CSOKI',
+        'name' => 'Forró csoki',
         'comment' => '',
         'price' => 650,
     ],
     [
         'category_id' => 18,
-        'name' => 'TEÁK-TEE',
+        'name' => 'Teák-Tee',
         'comment' => '',
         'price' => 600,
     ],
     [
         'category_id' => 18,
-        'name' => 'SZÓDA 0.1l',
+        'name' => 'Laktózmentes tej',
         'comment' => '',
-        'price' => 40,
+        'price' => 100,
+    ],
+    [
+        'category_id' => 18,
+        'name' => 'Méz',
+        'comment' => '',
+        'price' => 100,
+    ],
+    [
+        'category_id' => 18,
+        'name' => 'Tej',
+        'comment' => '',
+        'price' => 70,
+    ],
+    [
+        'category_id' => 18,
+        'name' => 'Rizstej',
+        'comment' => '',
+        'price' => 180,
+    ],
+    [
+        'category_id' => 21,
+        'name' => 'Spaletta Bátyám Őszibarack',
+        'comment' => '3CL / 5Cl',
+        'less_price' => 1150,
+        'price' => 2000,
+    ],
+    [
+        'category_id' => 21,
+        'name' => 'Spaletta Bátyám Kajszibarack',
+        'comment' => '3CL / 5Cl',
+        'less_price' => 1150,
+        'price' => 2000,
+    ],
+    [
+        'category_id' => 21,
+        'name' => 'Spaletta Bátyám Ágyas meggy',
+        'comment' => '3CL / 5Cl',
+        'less_price' => 1150,
+        'price' => 2000,
+    ],
+    [
+        'category_id' => 21,
+        'name' => 'Spaletta Bátyám Irsai szőlő',
+        'comment' => '3CL / 5Cl',
+        'less_price' => 1350,
+        'price' => 2100,
+    ],
+    [
+        'category_id' => 21,
+        'name' => 'Spaletta Bátyám Szilva',
+        'comment' => '3CL / 5Cl',
+        'less_price' => 1150,
+        'price' => 2000,
+    ],
+    [
+        'category_id' => 21,
+        'name' => 'Spaletta Bátyám Szilva Mézes -ágyas barack',
+        'comment' => '3CL / 5Cl',
+        'less_price' => 700,
+        'price' => 1200,
     ],
     [
         'category_id' => 19,
-        'name' => 'HOLBA HORSKA',
+        'name' => 'La Trappe Blond 6.5% Trappist világos ale',
+        'comment' => '2.5 dl',
+        'less_price' => 900,
+    ],
+    [
+        'category_id' => 19,
+        'name' => 'La Trappe Isid’or 7,5% félbarna',
+        'comment' => '2.5 dl',
+        'less_price' => 900,
+    ],
+    [
+        'category_id' => 19,
+        'name' => 'Paulaner premium pils 4,9%',
         'comment' => '3dl / 5dl / 1l',
-        'less_price' => 480,
-        'price' => 800,
-        'expensive_price' => 1600,
+        'less_price' => 700,
+        'price' => 1200,
+        'expensive_price' => 2200,
     ],
     [
         'category_id' => 19,
-        'name' => 'HOLBA POLOTMAVY',
+        'name' => 'Paulaner Salvator barna 7,9%',
         'comment' => '3dl / 5dl / 1l',
-        'less_price' => 540,
-        'price' => 900,
-        'expensive_price' => 1800,
+        'less_price' => 800,
+        'price' => 1300,
+        'expensive_price' => 2500,
     ],
     [
         'category_id' => 19,
-        'name' => 'PAULANER PREMIUM PILS',
+        'name' => 'Hacker-Pschorr Hefe weisse 5,5%',
+        'comment' => '3dl / 5dl / 1l',
+        'less_price' => 800,
+        'price' => 1300,
+        'expensive_price' => 2000,
+    ],
+    [
+        'category_id' => 19,
+        'name' => 'Kriekenbier Meggysör',
+        'comment' => '3dl / 5dl',
+        'less_price' => 1100,
+        'price' => 1850,
+    ],
+    [
+        'category_id' => 19,
+        'name' => 'Paulaner Oktoberfest 6%',
         'comment' => '3dl / 5dl / 1l',
         'less_price' => 600,
         'price' => 1000,
@@ -391,323 +342,683 @@ return [
     ],
     [
         'category_id' => 19,
-        'name' => 'PAULANER SALVATOR BARNA 7,9%',
-        'comment' => '3dl / 5dl / 1l',
+        'name' => 'Gallica Ipa Belga 6%',
+        'comment' => '0,25l / 0,4l',
+        'less_price' => 850,
+        'price' => 1450,
+    ],
+    [
+        'category_id' => 19,
+        'name' => 'Delirium Tremens 8,5% Belga Ale',
+        'comment' => '0,33L',
+        'price' => 1100,
+    ],
+    [
+        'category_id' => 20,
+        'name' => 'Paulaner hefe- weissebier 0.5l',
+        'comment' => '',
+        'price' => 950,
+    ],
+    [
+        'category_id' => 20,
+        'name' => 'Paulaner original münchener 0.33l',
+        'comment' => '',
+        'price' => 780,
+    ],
+    [
+        'category_id' => 20,
+        'name' => 'Paulaner hefe weissebier-zitronen 0.33l',
+        'comment' => '',
+        'price' => 850,
+    ],
+    [
+        'category_id' => 39,
+        'name' => 'LA TRAPPE WITTE 5,5% Trappista búzasör 0.33l',
+        'comment' => '',
+        'price' => 1100,
+    ],
+    [
+        'category_id' => 39,
+        'name' => 'LA TRAPPE DUBBEL 7% Trappista dubbel 0.33l',
+        'comment' => '',
+        'price' => 1250,
+    ],
+    [
+        'category_id' => 39,
+        'name' => 'LA TRAPPE BOCKBIER 7% Trappista bak ale 0.33l',
+        'comment' => '',
+        'price' => 1300,
+    ],
+    [
+        'category_id' => 39,
+        'name' => 'LA TRAPPE QUADRUPEL 10% Trappista quadrupel 0.33l',
+        'comment' => '',
+        'price' => 1500,
+    ],
+    [
+        'category_id' => 39,
+        'name' => 'LA TRAPPE ISIDOR 7,5% Trappista félbarna ale 0.33l',
+        'comment' => '',
+        'price' => 1300,
+    ],
+    [
+        'category_id' => 39,
+        'name' => 'LA TRAPPE QUADRUPEL 10% Trappista quadrupel 0.75l',
+        'comment' => '',
+        'price' => 4000,
+    ],
+    [
+        'category_id' => 40,
+        'name' => 'Martini bianco, extra dry, rosso 0.1l',
+        'comment' => '',
+        'price' => 1000
+    ],
+    [
+        'category_id' => 40,
+        'name' => 'Campari 0.1dl',
+        'comment' => '',
+        'price' => 1500
+    ],
+    [
+        'category_id' => 22,
+        'name' => 'Johnnie Walker Red Label',
+        'comment' => '3CL / 5Cl',
         'less_price' => 700,
-        'price' => 1150,
-        'expensive_price' => 2200,
-    ],
-    [
-        'category_id' => 19,
-        'name' => 'HACKER-PSCHORR HEFE WEISSE',
-        'comment' => '3dl / 5dl / 1l',
-        'less_price' => 600,
-        'price' => 1100,
-        'expensive_price' => 2000,
-    ],
-    [
-        'category_id' => 19,
-        'name' => 'KREIKENBIER MEGGYSÖR',
-        'comment' => '3dl / 5dl / 1l',
-        'less_price' => 1000,
-        'price' => 1500,
-        'expensive_price' => 3000,
-    ],
-    [
-        'category_id' => 19,
-        'name' => 'PAULANER OKTOBERFEST',
-        'comment' => '5dl / 1l',
-        'less_price' => 1000,
-        'price' => 1900,
-    ],
-    [
-        'category_id' => 19,
-        'name' => 'GALLICA IPA BELGA',
-        'comment' => '0,25L / 0,4L / 1L',
-        'less_price' => 650,
-        'price' => 1000,
-        'expensive_price' => 2200,
-    ],
-    [
-        'category_id' => 19,
-        'name' => 'DELIRIUM TREMENS 8,5%!',
-        'comment' => 'Belga Ale 0,33L',
-        'price' => 900,
-    ],
-    [
-        'category_id' => 20,
-        'name' => 'PAULANER HEFE- WEISSEBIER 0.5l',
-        'comment' => '',
-        'price' => 800,
-    ],
-    [
-        'category_id' => 20,
-        'name' => 'PAULANER ORIGINAL MÜNCHENER 0.33l',
-        'comment' => '',
-        'price' => 690,
-    ],
-    [
-        'category_id' => 20,
-        'name' => 'PAULANER HEFE WEISSEBIER-ZITRONEN 0.33l',
-        'comment' => '',
-        'price' => 750,
-    ],
-    [
-        'category_id' => 20,
-        'name' => 'LITOVEL POMELO 0.5l',
-        'comment' => '',
-        'price' => 800,
-    ],
-    [
-        'category_id' => 21,
-        'name' => 'Spaletta Bátyám ŐSZIBARACK',
-        'comment' => '3CL / 5Cl',
-        'less_price' => 900,
-        'price' => 1500,
-    ],
-    [
-        'category_id' => 21,
-        'name' => 'Spaletta Bátyám KAJSZIBARACK',
-        'comment' => '3CL / 5Cl',
-        'less_price' => 1050,
-        'price' => 1750,
-    ],
-    [
-        'category_id' => 21,
-        'name' => 'Spaletta Bátyám ÁGYAS MEGGY',
-        'comment' => '3CL / 5Cl',
-        'less_price' => 1050,
-        'price' => 1750,
-    ],
-    [
-        'category_id' => 21,
-        'name' => 'Spaletta Bátyám IRSAI SZŐLŐ',
-        'comment' => '3CL / 5Cl',
-        'less_price' => 1200,
-        'price' => 2000,
-    ],
-    [
-        'category_id' => 21,
-        'name' => 'Spaletta Bátyám SZILVA',
-        'comment' => '3CL / 5Cl',
-        'less_price' => 900,
-        'price' => 1500,
-    ],
-    [
-        'category_id' => 21,
-        'name' => 'MÉZES, ÁGYAS BARACK',
-        'comment' => '3CL / 5Cl',
-        'less_price' => 660,
-        'price' => 1100,
+        'price' => 1200,
     ],
     [
         'category_id' => 22,
-        'name' => 'JOHNNIE WALKER RED LABEL',
-        'comment' => '3CL / 5Cl',
-        'less_price' => 600,
-        'price' => 1100,
-    ],
-    [
-        'category_id' => 22,
-        'name' => 'JOHNNIE WALKER BLACK LABEL',
+        'name' => 'Johnnie Walker Black Label',
         'comment' => '3CL / 5Cl',
         'less_price' => 1300,
         'price' => 2100,
     ],
     [
         'category_id' => 22,
-        'name' => 'JOHNNIE WALKER GOLD RESERVER',
+        'name' => 'Johnnie Walker Gold Reserver',
         'comment' => '3CL / 5Cl',
         'less_price' => 1500,
         'price' => 2500,
     ],
     [
         'category_id' => 22,
-        'name' => 'JIM BEAM',
+        'name' => 'Jim Beam',
         'comment' => '3CL / 5Cl',
-        'less_price' => 600,
-        'price' => 1100,
-    ],
-    [
-        'category_id' => 22,
-        'name' => 'JACK DANIEL’S',
-        'comment' => '3CL / 5Cl',
-        'less_price' => 720,
+        'less_price' => 700,
         'price' => 1200,
     ],
     [
         'category_id' => 22,
-        'name' => 'JAMESON',
+        'name' => 'Jack Daniel’s',
         'comment' => '3CL / 5Cl',
-        'less_price' => 720,
-        'price' => 1200,
+        'less_price' => 850,
+        'price' => 1350,
     ],
     [
         'category_id' => 22,
-        'name' => 'BULLEIT BOURBON',
+        'name' => 'Jameson',
+        'comment' => '3CL / 5Cl',
+        'less_price' => 850,
+        'price' => 1350,
+    ],
+    [
+        'category_id' => 22,
+        'name' => 'Bulleit Bourbon',
         'comment' => '3CL / 5Cl',
         'less_price' => 1000,
         'price' => 1500,
     ],
     [
         'category_id' => 22,
-        'name' => 'SINGELTON 12 YEARS',
+        'name' => 'Singelton 12 Years',
         'comment' => '3CL / 5Cl',
         'less_price' => 1100,
         'price' => 1900,
     ],
     [
         'category_id' => 22,
-        'name' => 'LAGAVULIN 16 YEARS',
+        'name' => 'Lagavulin 16 Years',
         'comment' => '3CL / 5Cl',
         'less_price' => 2800,
         'price' => 3900,
     ],
     [
         'category_id' => 22,
-        'name' => 'GLENLIVET 18 YEARS',
+        'name' => 'Glenlivet 18 Years',
         'comment' => '3CL / 5Cl',
         'less_price' => 2100,
         'price' => 3500,
     ],
     [
         'category_id' => 23,
-        'name' => 'METAXA 5*',
+        'name' => 'Metaxa 5*',
         'comment' => '3CL / 5Cl',
-        'less_price' => 660,
-        'price' => 1100,
+        'less_price' => 700,
+        'price' => 1200,
     ],
     [
         'category_id' => 23,
-        'name' => 'HENESSY VS',
+        'name' => 'Henessy VS',
         'comment' => '3CL / 5Cl',
-        'less_price' => 1200,
-        'price' => 2000,
+        'less_price' => 1350,
+        'price' => 2200,
     ],
     [
         'category_id' => 23,
-        'name' => 'COURVOISIER 40 %V.S.O.P',
+        'name' => 'Courvoisier 40 %V.S.O.P',
         'comment' => '3CL / 5Cl',
-        'less_price' => 2400,
-        'price' => 3000,
+        'less_price' => 2550,
+        'price' => 3200,
+    ],
+    [
+        'category_id' => 23,
+        'name' => 'Remy Martin XO',
+        'comment' => '3CL / 5Cl',
+        'less_price' => 4100,
+        'price' => 6800,
     ],
     [
         'category_id' => 24,
-        'name' => 'FINLANDIA 40%',
+        'name' => 'Finlandia 40%',
         'comment' => '3CL / 5Cl',
-        'less_price' => 600,
-        'price' => 1000,
+        'less_price' => 750,
+        'price' => 1150,
     ],
     [
         'category_id' => 24,
-        'name' => 'ABSOLUT 40%',
+        'name' => 'Absolut 40%',
         'comment' => '3CL / 5Cl',
-        'less_price' => 1000,
-        'price' => 1500,
+        'less_price' => 1100,
+        'price' => 1600,
     ],
     [
         'category_id' => 24,
-        'name' => 'CIROC 40%',
+        'name' => 'Ciroc 40%',
         'comment' => '3CL / 5Cl',
         'less_price' => 1800,
         'price' => 2900,
     ],
     [
         'category_id' => 25,
-        'name' => 'JOSE CUERVO ESCPECIAL SILVER',
+        'name' => 'Jose Cuervo Especial Silver',
         'comment' => '3CL / 5Cl',
-        'less_price' => 660,
-        'price' => 1100,
-    ],
-    [
-        'category_id' => 25,
-        'name' => 'JOSE CUERVO ESPECIAL GOLD',
-        'comment' => '3CL / 5Cl',
-        'less_price' => 720,
+        'less_price' => 750,
         'price' => 1200,
     ],
     [
-        'category_id' => 26,
-        'name' => 'UNICUM',
-        'comment' => '3CL / 5Cl',
-        'less_price' => 640,
-        'price' => 1100,
-    ],
-    [
-        'category_id' => 26,
-        'name' => 'UNICUM SZILVA',
-        'comment' => '3CL / 5Cl',
-        'less_price' => 640,
-        'price' => 1100,
-    ],
-    [
-        'category_id' => 26,
-        'name' => 'JÄGERMEISTER',
-        'comment' => '3CL / 5Cl',
-        'less_price' => 640,
-        'price' => 1100,
-    ],
-    [
-        'category_id' => 26,
-        'name' => 'GRAND MARNIER',
-        'comment' => '3CL / 5Cl',
-        'less_price' => 1500,
-        'price' => 2100,
-    ],
-    [
-        'category_id' => 26,
-        'name' => 'COINTREAU',
-        'comment' => '3CL / 5Cl',
-        'less_price' => 1200,
-        'price' => 1800,
-    ],
-    [
-        'category_id' => 26,
-        'name' => 'BAILEY’S',
-        'comment' => '3CL / 5Cl',
-        'less_price' => 600,
-        'price' => 1000,
-    ],
-    [
-        'category_id' => 26,
-        'name' => 'MOLINARI LIMONCELLO',
-        'comment' => '3CL / 5Cl',
-        'less_price' => 420,
-        'price' => 700,
-    ],
-    [
-        'category_id' => 26,
-        'name' => 'RAMAZOTTI SAMBUCA',
+        'category_id' => 25,
+        'name' => 'Jose Cuervo Especial Gold',
         'comment' => '3CL / 5Cl',
         'less_price' => 800,
         'price' => 1300,
     ],
     [
         'category_id' => 27,
-        'name' => 'BACARDI CARTA BLANCA',
+        'name' => 'Bacardi carta blanca',
         'comment' => '3CL / 5Cl',
-        'less_price' => 600,
-        'price' => 1000,
+        'less_price' => 700,
+        'price' => 1100,
     ],
     [
         'category_id' => 27,
-        'name' => 'BACARDI CARTA NEGRA',
+        'name' => 'Bacardi carta negra',
         'comment' => '3CL / 5Cl',
-        'less_price' => 600,
-        'price' => 1000,
+        'less_price' => 700,
+        'price' => 1100,
     ],
     [
         'category_id' => 27,
-        'name' => 'CAPTAIN MORGAN SPICED GOLD RUM',
+        'name' => 'Captain Morgan spiced gold rum',
         'comment' => '3CL / 5Cl',
-        'less_price' => 750,
-        'price' => 1000,
+        'less_price' => 800,
+        'price' => 1200,
     ],
     [
         'category_id' => 27,
-        'name' => 'ZACAPA XO SOLERA GRAN',
+        'name' => 'Zacapa XO Solera Gran',
         'comment' => '3CL / 5Cl',
         'less_price' => 3000,
         'price' => 4800,
+    ],
+    [
+        'category_id' => 26,
+        'name' => 'Unicum',
+        'comment' => '3CL / 5Cl',
+        'less_price' => 750,
+        'price' => 1250,
+    ],
+    [
+        'category_id' => 26,
+        'name' => 'Unicum szilva',
+        'comment' => '3CL / 5Cl',
+        'less_price' => 750,
+        'price' => 1250,
+    ],
+    [
+        'category_id' => 26,
+        'name' => 'Jägermeister',
+        'comment' => '3CL / 5Cl',
+        'less_price' => 750,
+        'price' => 1250,
+    ],
+    [
+        'category_id' => 26,
+        'name' => 'Grand Marnier',
+        'comment' => '3CL / 5Cl',
+        'less_price' => 1650,
+        'price' => 2300,
+    ],
+    [
+        'category_id' => 26,
+        'name' => 'Cointreau',
+        'comment' => '3CL / 5Cl',
+        'less_price' => 1200,
+        'price' => 1800,
+    ],
+    [
+        'category_id' => 26,
+        'name' => 'Bailey’s',
+        'comment' => '3CL / 5Cl',
+        'less_price' => 750,
+        'price' => 1200,
+    ],
+    [
+        'category_id' => 26,
+        'name' => 'Molinari Limoncello',
+        'comment' => '3CL / 5Cl',
+        'less_price' => 500,
+        'price' => 800,
+    ],
+    [
+        'category_id' => 26,
+        'name' => 'Ramazotti Sambuca',
+        'comment' => '3CL / 5Cl',
+        'less_price' => 800,
+        'price' => 1300,
+    ],
+    [
+        'category_id' => 15,
+        'name' => 'Csapolt Frizzante 0.1l',
+        'comment' => '',
+        'price' => 380,
+    ],
+    [
+        'category_id' => 41,
+        'name' => 'Aperol spitz',
+        'comment' => '',
+        'price' => 2000,
+    ],
+    [
+        'category_id' => 41,
+        'name' => 'Hugo',
+        'comment' => '',
+        'price' => 2000,
+    ],
+    [
+        'category_id' => 17,
+        'name' => 'Mojito',
+        'comment' => '',
+        'price' => 2000,
+        'cocktail_name' => 'RUM'
+    ],
+    [
+        'category_id' => 17,
+        'name' => 'Mango top',
+        'comment' => '',
+        'price' => 2000,
+        'cocktail_name' => 'RUM'
+    ],
+    [
+        'category_id' => 17,
+        'name' => 'Daiquiri',
+        'comment' => '',
+        'price' => 2000,
+        'cocktail_name' => 'RUM'
+    ],
+    [
+        'category_id' => 17,
+        'name' => 'Cuba libre',
+        'comment' => '',
+        'price' => 2000,
+        'cocktail_name' => 'RUM'
+    ],
+    [
+        'category_id' => 17,
+        'name' => 'Wild irish rose',
+        'comment' => '',
+        'price' => 2000,
+        'cocktail_name' => 'Whisky'
+    ],
+    [
+        'category_id' => 17,
+        'name' => 'Sandy Collins',
+        'comment' => '',
+        'price' => 2000,
+        'cocktail_name' => 'Whisky'
+    ],
+    [
+        'category_id' => 17,
+        'name' => 'Vodkatini',
+        'comment' => '',
+        'price' => 2000,
+        'cocktail_name' => 'Vodka'
+    ],
+    [
+        'category_id' => 17,
+        'name' => 'Blue lagoon',
+        'comment' => '',
+        'price' => 2000,
+        'cocktail_name' => 'Vodka'
+    ],
+    [
+        'category_id' => 17,
+        'name' => 'Sex on the beach',
+        'comment' => '',
+        'price' => 2000,
+        'cocktail_name' => 'Vodka'
+    ],
+    [
+        'category_id' => 17,
+        'name' => 'Gordon’s gin tonik',
+        'comment' => '',
+        'price' => 2000,
+        'cocktail_name' => 'Gin'
+    ],
+    [
+        'category_id' => 17,
+        'name' => 'Gordon’s pink gin tonik',
+        'comment' => '',
+        'price' => 2000,
+        'cocktail_name' => 'Gin'
+    ],
+    [
+        'category_id' => 17,
+        'name' => 'Tanqueray London gin tonik',
+        'comment' => '',
+        'price' => 2500,
+        'cocktail_name' => 'Gin'
+    ],
+    [
+        'category_id' => 17,
+        'name' => 'Bulldog gin tonik',
+        'comment' => '',
+        'price' => 2600,
+        'cocktail_name' => 'Gin'
+    ],
+    [
+        'category_id' => 17,
+        'name' => 'Hendrick’s gin tonik',
+        'comment' => '',
+        'price' => 2800,
+        'cocktail_name' => 'Gin'
+    ],
+    [
+        'category_id' => 17,
+        'name' => 'Martini dry',
+        'comment' => '',
+        'price' => 1900,
+        'cocktail_name' => 'Gin'
+    ],
+    [
+        'category_id' => 17,
+        'name' => 'Martini sweet',
+        'comment' => '',
+        'price' => 1900,
+        'cocktail_name' => 'Gin'
+    ],
+    [
+        'category_id' => 17,
+        'name' => 'Negroni',
+        'comment' => '',
+        'price' => 1900,
+        'cocktail_name' => 'Gin'
+    ],
+    [
+        'category_id' => 17,
+        'name' => 'Gin bodza',
+        'comment' => '',
+        'price' => 1900,
+        'cocktail_name' => 'Gin'
+    ],
+    [
+        'category_id' => 17,
+        'name' => 'Tequila sunrise',
+        'comment' => '',
+        'price' => 2000,
+        'cocktail_name' => 'Tequila'
+    ],
+    [
+        'category_id' => 17,
+        'name' => 'Margarita',
+        'comment' => '',
+        'price' => 2000,
+        'cocktail_name' => 'Tequila'
+    ],
+    [
+        'category_id' => 17,
+        'name' => 'Pink margarita',
+        'comment' => '',
+        'price' => 2000,
+        'cocktail_name' => 'Tequila'
+    ],
+    [
+        'category_id' => 49,
+        'name' => 'Szentpéteri Irsai Olivér 2019: (Kiskőrös)',
+        'comment' => '0,15l / 0,75l',
+        'less_price' => 690,
+        'price' => 2200,
+    ],
+    [
+        'category_id' => 49,
+        'name' => 'Szentpéteri Néró Rosé 2019: (Kiskőrös)',
+        'comment' => '0,15l / 0,75l',
+        'less_price' => 690,
+        'price' => 2200,
+    ],
+    [
+        'category_id' => 49,
+        'name' => 'Palkonyai Portugieser: (Villány)',
+        'comment' => '0,15l / 0,75l',
+        'less_price' => 1200,
+        'price' => 4800,
+    ],
+    [
+        'category_id' => 49,
+        'name' => 'A ház pezsgője : Barátom pincészet Barcelona FC : (Kiskőrös)',
+        'comment' => '0,75l',
+        'price' => 2500,
+    ],
+    [
+        'category_id' => 50,
+        'name' => 'Konyári Fecske Fehér 2018/2019 (Balatonlelle)',
+        'comment' => '0,15l / 0,75l',
+        'less_price' => 800,
+        'price' => 2500,
+    ],
+    [
+        'category_id' => 50,
+        'name' => 'Bolyki Királyleányka 2019 (Eger)',
+        'comment' => '0,75l',
+        'price' => 2600,
+    ],
+    [
+        'category_id' => 50,
+        'name' => 'Günzer Lezser Fehér Cuvée 2019 (Villány)',
+        'comment' => '0,15l / 0,75l',
+        'less_price' => 950,
+        'price' => 2900,
+    ],
+    [
+        'category_id' => 50,
+        'name' => 'Martinus Olaszrizling 2018/2019 (Balatonfüred-Csopak)',
+        'comment' => '0,15l / 0,75l',
+        'less_price' => 900,
+        'price' => 2650,
+    ],
+    [
+        'category_id' => 50,
+        'name' => 'Göncöl Sárgamuskotály (félédes) 2018 (Tokaj)',
+        'comment' => '0,75l',
+        'price' => 3000,
+    ],
+    [
+        'category_id' => 50,
+        'name' => 'Etyeki Kúria Chardonnay 2018 (Etyek)',
+        'comment' => '0,15l / 0,75l',
+        'less_price' => 1300,
+        'price' => 4100,
+    ],
+    [
+        'category_id' => 50,
+        'name' => 'Légli Sauvignon Blanc 2018/2019(Balatonboglár)',
+        'comment' => '0,75l',
+        'price' => 4500,
+    ],
+    [
+        'category_id' => 50,
+        'name' => 'Bott Frigyes Rajnai Rizling 2018/2019 (Muzsla)',
+        'comment' => '0,75l',
+        'price' => 6500,
+    ],
+    [
+        'category_id' => 51,
+        'name' => 'Dúzsi Rosé 2019 (Szekszárd)',
+        'comment' => '0,75l',
+        'price' => 2800,
+    ],
+    [
+        'category_id' => 51,
+        'name' => 'Sauska Rosé 2019 (Villány)',
+        'comment' => '0,15l / 0,75l',
+        'less_price' => 950,
+        'price' => 3100,
+    ],
+    [
+        'category_id' => 51,
+        'name' => 'Vylyan Kékfrankos Rosé Cuvée (Villány)',
+        'comment' => '0,15l / 0,75l',
+        'less_price' => 850,
+        'price' => 3000,
+    ],
+    [
+        'category_id' => 51,
+        'name' => 'Figula Rosé 2019 (Balatonfüred)',
+        'comment' => '0,15l / 0,75l',
+        'less_price' => 950,
+        'price' => 3100,
+    ],
+    [
+        'category_id' => 52,
+        'name' => 'Ruppert Kandur 2017/2018 (Villány)',
+        'comment' => '0,15l / 0,75l',
+        'less_price' => 900,
+        'price' => 3000,
+    ],
+    [
+        'category_id' => 52,
+        'name' => 'Sebestyén Bikavér 2015/2016 (Szekszárd)',
+        'comment' => '0,75l',
+        'price' => 3500,
+    ],
+    [
+        'category_id' => 52,
+        'name' => 'Heimann Merlot 2017/2018 (Szekszárd)',
+        'comment' => '0,15l / 0,75l',
+        'less_price' => 1200,
+        'price' => 3800,
+    ],
+    [
+        'category_id' => 52,
+        'name' => 'Günzer Cabernet Sauvignon 2017 (Villány)',
+        'comment' => '0,75l',
+        'price' => 4200,
+    ],
+    [
+        'category_id' => 52,
+        'name' => 'St. Andrea Pinot Noir 2018/2019 (Eger)',
+        'comment' => '0,15l / 0,75l',
+        'less_price' => 1500,
+        'price' => 4500,
+    ],
+    [
+        'category_id' => 52,
+        'name' => 'Balla Géza Kadarka 2017/2018 (Erdély)',
+        'comment' => '0,75l',
+        'price' => 4800,
+    ],
+    [
+        'category_id' => 52,
+        'name' => 'Gere Kopar 2016 (Villány)',
+        'comment' => '0,75l',
+        'price' => 14000,
+    ],
+    [
+        'category_id' => 52,
+        'name' => 'Kaiken Ultra Malbec 2016/2017 (Mendoza)',
+        'comment' => '0,75l',
+        'price' => 7500,
+    ],
+    [
+        'category_id' => 52,
+        'name' => 'Graham’s The Tawny Port',
+        'comment' => '0,05l',
+        'price' => 800,
+    ],
+    [
+        'category_id' => 53,
+        'name' => 'I Magredi Traminer (DOC Friuli)',
+        'comment' => '0,15l / 0,75l',
+        'less_price' => 1200,
+        'price' => 3800,
+    ],
+    [
+        'category_id' => 53,
+        'name' => 'I Magredi Sauvignon Blanc (DOC Friuli)',
+        'comment' => '0,15l / 0,75l',
+        'less_price' => 1400,
+        'price' => 4200,
+    ],
+    [
+        'category_id' => 53,
+        'name' => 'I Magredi Cabernet Franc (DOC Friuli)',
+        'comment' => '0,15l / 0,75l',
+        'less_price' => 1400,
+        'price' => 4200,
+    ],
+    [
+        'category_id' => 54,
+        'name' => 'Törley Tokaji Édes',
+        'comment' => '0,75l',
+        'price' => 3300,
+    ],
+    [
+        'category_id' => 54,
+        'name' => 'Prosecco Tenute Setten',
+        'comment' => '0,75l',
+        'price' => 4000,
+    ],
+    [
+        'category_id' => 54,
+        'name' => 'Zardetto Prosecco Porta Monticano Extra Dry- DOC',
+        'comment' => '0,75l',
+        'price' => 4900,
+    ],
+    [
+        'category_id' => 54,
+        'name' => 'Kreinbacher Extra Dry',
+        'comment' => '0,75l',
+        'price' => 6500,
+    ],
+    [
+        'category_id' => 54,
+        'name' => 'Veuve Clicquot Brut',
+        'comment' => '0,75l',
+        'price' => 16000,
+    ],
+    [
+        'category_id' => 54,
+        'name' => 'Moet &amp; Chandon Brut Impérial',
+        'comment' => '0,75l',
+        'price' => 16000,
     ],
 ];

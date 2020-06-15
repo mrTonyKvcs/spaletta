@@ -2,32 +2,32 @@
 
 return [
     'title'     => 'heti menü',
-    'sub_title' => '2020. június 09. - 13.',
+    'sub_title' => '2020. június 16. - 20.',
     'menu' => [
         'soups' => [
             'name'  => 'Levesek',
             'items' => [
-                'Burgonyakrémleves kolbászmorzsa köménymagos tejfölhabbal (G)',
-                'Becsinált leves (L)',
-                'Hideg almaleves (G L)'
+                'Zöldségleves húsgolyóval (L)',
+                'Hideg meggyleves csoki habbal (G)',
+                'Tarhonyaleves borjúhússal (L)'
             ]
         ],
         'main-course' => [
             'name'  => 'Főételek',
             'items' => [
-                'Sous vide-olt tarja steak - brokkolis fóliás burgonya füstölt sajt (G)',
-                'Hideg salátafőzelék – Buggyantott tojás (G L)',
-                'Vargabéles rétes vanília öntet tejszínhabbal',
-                'Hortobágyi palacsinta',
+                'Citrusos fűszeres csirketokány – tészta (L)',
+                'BBQ oldalas Steak burgonya coleslaw saláta (G)',
+                'Parmezános pulykamedalion rántva – rizibizi',
+                'Oliva olajos saláta rántott mozzarella',
             ]
         ],
     ],
     'saturday-menu' => [
         'name'  => 'Szombati menü',
         'items' => [
-            'Nyírségi gombócleves (L)',
-            'Snidlinges túrós sertéskaraj pecsenyelével – petrezselymes burgonya (G)',
-            'Profiterol csokiöntet'
+            'Gazpacho (L)',
+            'Halnyárs – csónakburgonya tzatziki (G)',
+            'Málnás kosár túrófagyi'
         ]
     ]
 ];

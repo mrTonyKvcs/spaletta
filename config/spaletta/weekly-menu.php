@@ -2,32 +2,32 @@
 
 return [
     'title'     => 'heti menü',
-    'sub_title' => '2020. június 23. - 27.',
+    'sub_title' => '2020. június 30. - július 04.',
     'menu' => [
         'soups' => [
             'name'  => 'Levesek',
             'items' => [
-                'Brokkolis karfiolkrém- levesgyöngy (L)',
-                'Palócleves (L)',
-                'Csontleves- zöldségek, csigatészta (L,G)'
+                'Gulyásleves (L)',
+                'Hideg citromleves (G;L)',
+                'Karfiol leves'
             ]
         ],
         'main-course' => [
             'name'  => 'Főételek',
             'items' => [
-                'Cézár saláta – csirkemell (G)',
-                'Zöldséges udon tészta (L)',
-                'Rizsfelfújt erdei gyümölcsragúval',
-                'Magyaros töltött borda – hagymás burgonya, kovászos uborka (G)',
+                'Rántott csirkecomb meggymártás (L)',
+                'Pestos mozzarellás tészta mandulával',
+                'Magyaros sertésborda pirított polentával (G;L)',
+                'Mákos guba vaníliaöntet',
             ]
         ],
     ],
     'saturday-menu' => [
         'name'  => 'Szombati menü',
         'items' => [
-            'Vegyes gyümölcsleves (G,L)',
-            'Gyros tál- hasábburgonya, saláta (G,L)',
-            'Csokoládé mousse (G,L)'
+            'Kis húsos fazék (L)',
+            'Harcsa steak paprikás mártással - pirított kenyér puding(L)',
+            'Vanília fagyi tökmaggal tökmagolajjal (G)'
         ]
     ]
 ];

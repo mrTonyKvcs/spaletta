@@ -2,32 +2,32 @@
 
 return [
     'title'     => 'heti menü',
-    'sub_title' => '2020. július 07. - 11.',
+    'sub_title' => '2020. július 14. - 18.',
     'menu' => [
         'soups' => [
             'name'  => 'Levesek',
             'items' => [
-                'Frankfurti leves (G;L)',
-                'Paradicsomleves (L)',
-                'Sárgadinnye krémleves (G)'
+                'Fahéjas almaleves (G,L)',
+                'Citromos csirkeragu leves (G,L)',
+                'Minestrone (L)'
             ]
         ],
         'main-course' => [
             'name'  => 'Főételek',
             'items' => [
-                'Tarhonyás hús csemege uborka (L)',
-                'Meggyes vaníliás palacsinta',
-                'Toledói csirke ragu hasáb (G)',
-                'Padlizsán torony kuszkusz',
+                'Tarja gombaraguval – rizzsel (G,L)',
+                'Kijevi csirke – Kevert saláta',
+                'Mákos vagy tejfölös nudli',
+                'Lasagne',
             ]
         ],
     ],
     'saturday-menu' => [
         'name'  => 'Szombati menü',
         'items' => [
-            'Savanyú tojásleves buggyantott fürjtojással (L)',
-            'Rántott szelet petrezselymes burgonya almakompót (L)',
-            'Madártej (G)'
+            'Csülkös zöldbableves (G,L)',
+            'Vasalt csirke comb – kukorica saláta csónakburgonya (G)',
+            'Tejes pite baracklekvár'
         ]
     ]
 ];

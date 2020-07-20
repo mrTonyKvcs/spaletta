@@ -22,6 +22,38 @@ return [
         'name' => 54,
     ],
     [
+        'category' => 'spaletta',
+        'name' => 58,
+    ],
+    [
+        'category' => 'spaletta',
+        'name' => 59,
+    ],
+    [
+        'category' => 'spaletta',
+        'name' => 60,
+    ],
+    [
+        'category' => 'spaletta',
+        'name' => 61,
+    ],
+    [
+        'category' => 'beer',
+        'name' => 19,
+    ],
+    [
+        'category' => 'beer',
+        'name' => 20,
+    ],
+    [
+        'category' => 'beer',
+        'name' => 21,
+    ],
+    [
+        'category' => 'beer',
+        'name' => 22,
+    ],
+    [
         'category' => 'beer',
         'name' => 13,
     ],
@@ -47,19 +79,19 @@ return [
     ],
     [
         'category' => 'beer',
-        'name' => 19,
+        'name' => 70,
     ],
     [
         'category' => 'beer',
-        'name' => 20,
+        'name' => 71,
     ],
     [
         'category' => 'beer',
-        'name' => 21,
+        'name' => 72,
     ],
     [
         'category' => 'beer',
-        'name' => 22,
+        'name' => 73,
     ],
     [
         'category' => 'restaurent',
@@ -83,51 +115,39 @@ return [
     ],
     [
         'category' => 'restaurent',
-        'name' => 28,
+        'name' => 62,
     ],
     [
         'category' => 'restaurent',
-        'name' => 29,
+        'name' => 63,
     ],
     [
         'category' => 'restaurent',
-        'name' => 31,
+        'name' => 64,
     ],
     [
         'category' => 'restaurent',
-        'name' => 32,
+        'name' => 65,
     ],
     [
         'category' => 'restaurent',
-        'name' => 33,
+        'name' => 66,
     ],
     [
         'category' => 'restaurent',
-        'name' => 34,
+        'name' => 67,
     ],
     [
         'category' => 'restaurent',
-        'name' => 36,
+        'name' => 68,
     ],
     [
         'category' => 'restaurent',
-        'name' => 37,
-    ],
-    [
-        'category' => 'restaurent',
-        'name' => 38,
+        'name' => 69,
     ],
     [
         'category' => 'restaurent',
         'name' => 39,
-    ],
-    [
-        'category' => 'restaurent',
-        'name' => 40,
-    ],
-    [
-        'category' => 'restaurent',
-        'name' => 41,
     ],
     [
         'category' => 'restaurent',
@@ -160,6 +180,18 @@ return [
     [
         'category' => 'restaurent',
         'name' => 49,
+    ],
+    [
+        'category' => 'events',
+        'name' => 76,
+    ],
+    [
+        'category' => 'events',
+        'name' => 74,
+    ],
+    [
+        'category' => 'events',
+        'name' => 75,
     ],
     [
         'category' => 'events',

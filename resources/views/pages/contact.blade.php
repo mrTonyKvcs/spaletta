@@ -4,7 +4,7 @@
         {{--<div class="google-map" data-coords="40.741895,-73.989308" data-skin="gray" data-zoom="12" data-marker-pos-top="30" data-marker-pos="col-md-6-right" data-marker="http://templates.framework-y.com/gourmet/images/marker-map.png"></div>--}}
 
         <div class="overlaybox overlaybox-side">
-            <div class="header-title ken-burn white" data-parallax="scroll" data-position="top" data-natural-height="850" data-natural-width="1920" data-image-src="../images/pages/contact.jpg">
+            <div class="header-title ken-burn white" data-parallax="scroll" data-position="top" data-natural-height="850" data-natural-width="1920" data-image-src="../images/pages/contact-new.jpg">
                 <div class="container">
                     <div class="title-base">
                         <hr class="anima" />

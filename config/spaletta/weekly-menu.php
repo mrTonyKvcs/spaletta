@@ -2,32 +2,32 @@
 
 return [
     'title'     => 'heti menü',
-    'sub_title' => '2020. július 21. - 25.',
+    'sub_title' => '2020. július 28. - 2020. augusztus 1.',
     'menu' => [
         'soups' => [
             'name'  => 'Levesek',
             'items' => [
-                'Tyúkhúsleves csigatésztával (L)',
-                'Kukorica krémleves gyömbéres garnélával (G, L)',
-                'Görög gyümölcsleves (G, L)'
+                'Jókai bableves (L)',
+                'Mentás görögdinnyeleves (G, L)',
+                'Tarhonyaleves (L)'
             ]
         ],
         'main-course' => [
             'name'  => 'Főételek',
             'items' => [
-                'Sertéspörkölt – galuskával, csemegeuborkával (L)',
-                'Rakott kelkáposzta (G)',
-                'Rántott camembert – rizzsel, áfonyalekvárral',
-                'Csípős csirke szárny – Steak burgonyával, salátával (G, L)',
+                'Borsos tokány-pulykából, orsótészta (L)',
+                'Sültoldalas – hagymástört burgonya, meggykompót (G, L)',
+                'Kuszkusszal-ricottával töltött cukkini',
+                'Roston harcsa görögsaláta (G)',
             ]
         ],
     ],
     'saturday-menu' => [
         'name'  => 'Szombati menü',
         'items' => [
-            'Kovászos uborka leves',
-            'Töltött sertésborda – burgonyapürével',
-            'Somlói galuska'
+            'Csontleves, cérnametélt (L)',
+            'Csülök Pékné módra (G, L)',
+            'Almás pite'
         ]
     ]
 ];

@@ -54,7 +54,7 @@
                     <div class="col-md-4 anima">
                         <div class="advs-box advs-box-top-icon-img">
                             <a class="img-box" href="#">
-                                <span><img src="{{ $event->image_path }}" alt="{{ $event->title }}"></span>
+                                <span><img height="202" src="{{ $event->image_path }}" alt="{{ $event->title }}"></span>
                             </a>
                             <div class="advs-box-content">
                                 <h3><a href="{{ route('events.show', $event->slug) }}">{{ $event->title }}</a></h3>

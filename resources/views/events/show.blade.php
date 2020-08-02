@@ -16,7 +16,7 @@
         <div class="row">
             <div class="col-md-6 section-bg" style="display: flex; align-items: center; justify-content: center;">
                 <div class="content">
-                    <img class="img-fluid" src="{{ $event->image_path }}" alt="{{ $event->title }}"/>
+                    <img class="img-fluid" style="padding-top: 390px;" src="{{ $event->image_path }}" alt="{{ $event->title }}"/>
                 </div>
             </div>
             <div class="col-md-6 section-bg">

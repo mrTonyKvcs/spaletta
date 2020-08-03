@@ -2,32 +2,32 @@
 
 return [
     'title'     => 'heti menü',
-    'sub_title' => '2020. július 28. - 2020. augusztus 1.',
+    'sub_title' => '2020. augusztus 4. - 2020. augusztus 8.',
     'menu' => [
         'soups' => [
             'name'  => 'Levesek',
             'items' => [
-                'Jókai bableves (L)',
-                'Mentás görögdinnyeleves (G, L)',
-                'Tarhonyaleves (L)'
+                'Fácánleves (L)',
+                'Brokkoli krémleves (sajtchips-el) (G)',
+                'Magyaros gombaleves fürjtojással'
             ]
         ],
         'main-course' => [
             'name'  => 'Főételek',
             'items' => [
-                'Borsos tokány-pulykából, orsótészta (L)',
-                'Sültoldalas – hagymástört burgonya, meggykompót (G, L)',
-                'Kuszkusszal-ricottával töltött cukkini',
-                'Roston harcsa görögsaláta (G)',
+                'Rántott csirkecomb – petrezselymes bulgur (L)',
+                'Borjúpaprikás – galuska -uborkasaláta',
+                'Sült kacsacomb – hagymás rösti, szilvaragu (L)',
+                'Császármorzsa -baracklekvár',
             ]
         ],
     ],
     'saturday-menu' => [
         'name'  => 'Szombati menü',
         'items' => [
-            'Csontleves, cérnametélt (L)',
-            'Csülök Pékné módra (G, L)',
-            'Almás pite'
+            'Nyírségi gombócleves (L)',
+            'Óvári töltött borda – rizibizi, csemegeuborka (G)',
+            'Gyümölcsrizs (G)'
         ]
     ]
 ];

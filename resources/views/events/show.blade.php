@@ -30,6 +30,11 @@
                     </div>
                     <hr class="space m" />
                     <p>{!! $event->content !!}</p>
+                    @if($event->slug == 'ettermek-ejszakaja')
+                        <div class="alert alert-warning" role="alert" style="padding: 10px;">
+                            <strong>Az éttermek éjszakája menü (2020.08.13-16) foglalásához alábbi linken jelentkezzenek be: <a href="https://ettermekejszakaja.hu/
+                            " target="_blank"> Klikeljen ide!</a></strong></div>
+                    @endif
                     <hr class="space s" />
                     <div class="btn-group social-group">
                         <a target="_blank" href="https://www.facebook.com/spalettaetterem/" data-social="share-facebook" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook text-s circle"></i></a>

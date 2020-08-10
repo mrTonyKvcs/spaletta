@@ -7,27 +7,27 @@ return [
         'soups' => [
             'name'  => 'Levesek',
             'items' => [
-                'Fácánleves (L)',
-                'Brokkoli krémleves (sajtchips-el) (G)',
-                'Magyaros gombaleves fürjtojással'
+                'Grízgaluskaleves (L)',
+                'Korhelyleves házi sonkával (L)',
+                'Kecskeméti barackleves (G, L)'
             ]
         ],
         'main-course' => [
             'name'  => 'Főételek',
             'items' => [
-                'Rántott csirkecomb – petrezselymes bulgur (L)',
-                'Borjúpaprikás – galuska -uborkasaláta',
-                'Sült kacsacomb – hagymás rösti, szilvaragu (L)',
-                'Császármorzsa -baracklekvár',
+                'Lecsós sertéstarja – pirított burgonya (G, L)',
+                'Almáspalacsinta - vaníliapuding',
+                'Rántott sajt – jázmin rizs, tartármártás',
+                'Stroganoff vaddisznócomb – kenyérpuding',
             ]
         ],
     ],
     'saturday-menu' => [
         'name'  => 'Szombati menü',
         'items' => [
-            'Nyírségi gombócleves (L)',
-            'Óvári töltött borda – rizibizi, csemegeuborka (G)',
-            'Gyümölcsrizs (G)'
+            'Harcsa halászlé (G, L)',
+            'Sült túrós csusza - pirított szalonna kocka',
+            'Kókuszkocka'
         ]
     ]
 ];

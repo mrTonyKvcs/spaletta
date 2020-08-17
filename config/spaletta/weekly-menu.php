@@ -2,32 +2,28 @@
 
 return [
     'title'     => 'heti menü',
-    'sub_title' => '2020. augusztus 4. - 2020. augusztus 8.',
+    'sub_title' => '2020. augusztus 18. - 2020. augusztus 19.',
     'menu' => [
         'soups' => [
             'name'  => 'Levesek',
             'items' => [
-                'Grízgaluskaleves (L)',
-                'Korhelyleves házi sonkával (L)',
-                'Kecskeméti barackleves (G, L)'
+                'Erdei gyümölcskrém leves pannacotta (G)',
             ]
         ],
         'main-course' => [
             'name'  => 'Főételek',
             'items' => [
-                'Lecsós sertéstarja – pirított burgonya (G, L)',
-                'Almáspalacsinta - vaníliapuding',
-                'Rántott sajt – jázmin rizs, tartármártás',
-                'Stroganoff vaddisznócomb – kenyérpuding',
+                'Supreme csirke – répapüré édesköményes diós almás saláta (G)',
+                'Rakott burgonya (G, L)',
             ]
         ],
     ],
     'saturday-menu' => [
         'name'  => 'Szombati menü',
         'items' => [
-            'Harcsa halászlé (G, L)',
-            'Sült túrós csusza - pirított szalonna kocka',
-            'Kókuszkocka'
+            '',
+            '',
+            ''
         ]
     ]
 ];

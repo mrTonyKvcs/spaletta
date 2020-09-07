@@ -2,32 +2,32 @@
 
 return [
     'title'     => 'heti menü',
-    'sub_title' => '2020. szeptember 1. - 2020. szeptember 5.',
+    'sub_title' => '2020. szeptember 8. - 2020. szeptember 12.',
     'menu' => [
         'soups' => [
             'name'  => 'Levesek',
             'items' => [
-                'Ázsiai zöldségleves (L, G)',
-                'Palócleves (L)',
-                'Szőlőleves (G, L)',
+                'Zöldborsóleves (G,L)',
+                'Májgombócleves (L)',
+                'Vörösboros-szilvaleves (G,L)',
             ]
         ],
         'main-course' => [
             'name'  => 'Főételek',
             'items' => [
-                'Bácskai rizses hús – csemegeuborka (G, L)',
-                'Spaletta csirkesaláta (L)',
-                'Máglyarakás',
-                'Orly pulykamell csíkok – burgonyapüré (paradicsomsaláta)',
+                'Rántott csirkemell,francia saláta',
+                'Bakonyi borda, galuska (L)',
+                'Túrógombóc, fahéjas tejföl',
+                'Csőben sült zöldségek, sajtmártás (G)',
             ]
         ],
     ],
     'saturday-menu' => [
         'name'  => 'Szombati menü',
         'items' => [
-            'Alföldi gulyásleves (L)',
-            'Roston harcsa – zöldborsós hajdina (majonéz) (G)',
-            'Barackos piskóta'
+            'Lebbencsleves (L)',
+            'Mustáros sertés flekken, steakburgonya (L)',
+            'Chia puding'
         ]
     ]
 ];

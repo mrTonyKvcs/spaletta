@@ -258,8 +258,8 @@ return [
         'category_id' => 21,
         'name' => 'Spaletta Bátyám Kajszibarack',
         'comment' => '3CL / 5Cl',
-        'less_price' => 1150,
-        'price' => 2000,
+        'less_price' => 1400,
+        'price' => 2300,
     ],
     [
         'category_id' => 21,
@@ -288,6 +288,27 @@ return [
         'comment' => '3CL / 5Cl',
         'less_price' => 700,
         'price' => 1200,
+    ],
+    [
+        'category_id' => 21,
+        'name' => 'Spaletta Bátyám Alma',
+        'comment' => '3CL / 5Cl',
+        'less_price' => 1150,
+        'price' => 2000,
+    ],
+    [
+        'category_id' => 21,
+        'name' => 'Spaletta Bátyám Törköly',
+        'comment' => '3CL / 5Cl',
+        'less_price' => 1350,
+        'price' => 2100,
+    ],
+    [
+        'category_id' => 21,
+        'name' => 'Spaletta Bátyám Birs',
+        'comment' => '3CL / 5Cl',
+        'less_price' => 1400,
+        'price' => 2300,
     ],
     [
         'category_id' => 19,

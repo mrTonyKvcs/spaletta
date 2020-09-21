@@ -7,27 +7,27 @@ return [
         'soups' => [
             'name'  => 'Levesek',
             'items' => [
-                'Tárkonyos pulyka raguleves (G,L)',
-                'Almaleves (G,L)',
-                'Francia zöldségkrémleves, kruton (L)',
+                'Magyaros gulyásleves (L)',
+                'Csontleves csigatésztával (L)',
+                'Pikáns vöröslencse krémleves (G, L)',
             ]
         ],
         'main-course' => [
             'name'  => 'Főételek',
             'items' => [
-                'Paradicsomos-mozzarellás csirke, rizs',
-                'Zöldségestócsni, saláta (L)',
-                'Sertés aprópecsenye, jóasszony módra, pirított burgonya (L)',
-                'Bolognai penne (G)',
+                'Bicskás pecsenye – hasábburgonya (G, L)',
+                'Rozmaringos mustáros csirkecomb – tepsis zöldségek (G, L)',
+                'Ázsiai zöldséges udon tészta (L)',
+                'Mákos guba- vanília sodó',
             ]
         ],
     ],
     'saturday-menu' => [
         'name'  => 'Szombati menü',
         'items' => [
-            'Jókai bableves',
-            'Juhtúrós sztrapacska',
-            'Csokoládépuding'
+            'Kukorica krémleves (G, L)',
+            'Sertés cordon bleu– rizibizi',
+            'Gundel palacsinta'
         ]
     ]
 ];

@@ -2,32 +2,32 @@
 
 return [
     'title'     => 'heti menü',
-    'sub_title' => '2020. október 06. - 2020. október 10.',
+    'sub_title' => '2020. október 13. - 2020. október 17.',
     'menu' => [
         'soups' => [
             'name'  => 'Levesek',
             'items' => [
-                'Legényfogó leves (G, L)',
-                'Erőleves palacsintával (L)',
-                'Körtés zeller krémleves (L)',
+                'Palócleves (L)',
+                'Szőlőleves (G, L)',
+                'Karfiol leves (G, L)',
             ]
         ],
         'main-course' => [
             'name'  => 'Főételek',
             'items' => [
-                'Kijevi jércemell – Rizi-bizi',
-                'Rakott karfiol (G, L)',
-                'Cukkinis pesztós tészta',
-                'Korzikai apró pecsenye (G, L)',
+                'Stíriai metélt',
+                'Székelykáposzta (G, L)',
+                'Burgonyafőzelék - kolbász',
+                'Tejszínes gombás csirkemell – parmezános tarhonya',
             ]
         ],
     ],
     'saturday-menu' => [
         'name'  => 'Szombati menü',
         'items' => [
-            'Bojtár leves (L)',
-            'Töltött csirke comb – tört burgonya (L)',
-            'Madártej (G)'
+            'Póréhagymás burgonya krémleves (L)',
+            'Lecsós tarja steak – rizs (G, L)',
+            'Kókuszkocka'
         ]
     ]
 ];

@@ -92,7 +92,7 @@
                             <ul class="list-texts list-texts-justified">
                                 <li><b>Hétfő:</b>  <span> Zárva</span></li>
                                 <li><b>Kedd - Csütörtök:</b> <span>11:30 - 23:00</span></li>
-                                <li><b>Péntek - Szombat:</b> <span>11:30 - 24:00</span></li>
+                                <li><b>Péntek - Szombat:</b> <span>11:30 - 23:00</span></li>
                                 <li><b>Vasárnap:</b> <span>11:30 - 16:00</span></li>
                             </ul>
                         </div>

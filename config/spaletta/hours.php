@@ -30,14 +30,14 @@ return [
         'name' => 'Péntek',
         'hours' => [
             'open' => '11:30',
-            'close' => '24:00'
+            'close' => '23:00'
         ]
     ],
     [
         'name' => 'Szombat',
         'hours' => [
             'open' => '11:30',
-            'close' => '24:00'
+            'close' => '23:00'
         ]
     ],
     [

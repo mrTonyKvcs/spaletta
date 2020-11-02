@@ -28,6 +28,15 @@
         </div>
     </div>
 
+    <div class="alert alert-warning alert-block" style="padding: 30px 15px;">
+        <div class="container">
+            <h4 class="text-center">Kedves vendégeink!</h4>
+            <p class="text-center" style="font-size: 16px;">Nov. 2-tól hétfőtől a vendégeink részére is kötelező lesz a maszk viselése éttermünk területén, kivétel ez alól az ételek és italok elfogyasztása közbeni idő az asztalnál. Bejáratnál kérjük használják  a kihelyezett fertőtlenítőt, illetve ha nem hoztak magukkal maszkot a bejáratnál kérjék azt kollegáinktòl.Megértésüket köszönjük.</p>
+
+            <p class="text-center" style="font-size: 16px;"><strong>Továbbra is várjuk kedves vendégeinket a megszokott nyitvatartással és ajánlatokkal.</strong></p>
+        </div>
+    </div>
+
     @include('partials.sections._weekly-menu')
     {{--<div class="section-empty">--}}
             {{--<div class="container content">--}}

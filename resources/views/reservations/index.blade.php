@@ -70,7 +70,10 @@
                         </div>
                         <hr class="space xs" />
                         <div class="row">
-                            <div class="col-md-12">
+                            <div class="text-center col-md-12">
+                                <div style="display: flex; justify-content: center;">
+                                    {!! NoCaptcha::display() !!}
+                                </div>
                                 <hr class="space s" />
                                 <button class="anima-button circle-button btn-sm btn" type="submit"><i class="im-envelope"></i>Asztalfoglalás</button>
                             </div>

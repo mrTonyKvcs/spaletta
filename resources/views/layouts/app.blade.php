@@ -52,5 +52,7 @@
         <i class="scroll-top scroll-top-mobile show fa fa-sort-asc"></i>
 
         @include('partials._footer')
+
+        {!! NoCaptcha::renderJs() !!}
     </body>
 </html>

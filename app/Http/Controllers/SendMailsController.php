@@ -6,14 +6,21 @@ use Carbon\Carbon;
 use App\Mail\SendMails;
 use App\Mail\SendContactMails;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Input;
 
 class SendMailsController extends Controller
 {
     public function store(Request $request)
     {
-        $validate = \Validator::make(\Input::all(), [
+        $messages = [
+            'g-recaptcha-response.required' => 'You must check the reCAPTCHA.',
+            'g-recaptcha-response.captcha' => 'Captcha error! try again later or contact site admin.',
+        ];
+ 
+        $validator = \Validator::make($request->all(), [
             'g-recaptcha-response' => 'required|captcha'
-        ]);
+        ], $messages);
+
         $this->validations($request);
 
         $request['subject'] = $request->subject;

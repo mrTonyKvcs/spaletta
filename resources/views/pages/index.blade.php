@@ -194,6 +194,11 @@
                             {{ session('status') }}
                         </div>
                     @endif
+                    @if ($errors->has('g-recaptcha-response'))
+                        <span class="help-block">
+                            <strong>{{ $errors->first('g-recaptcha-response') }}</strong>
+                        </span>
+                    @endif
                     <form action="{{ route('mail.store', 'Asztalfoglalás')}}" class="text-center form-box form-ajax" method="post">
                         @csrf
                         <div class="col-md-6">

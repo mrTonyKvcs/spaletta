@@ -36,6 +36,11 @@
                     </div>
                     <p>Az alábbi ürlap kitöltésevel közvetlen üzenetet tud küldeni.</p>
                     <hr class="space s" />
+                    @if ($errors->has('g-recaptcha-response'))
+                        <span class="help-block">
+                            <strong>{{ $errors->first('g-recaptcha-response') }}</strong>
+                        </span>
+                    @endif
                     <form action="{{ route('mail.store', 'Kapcsolat')}}" class="text-center form-box form-ajax" method="post">
                         @csrf
                         <div class="row">

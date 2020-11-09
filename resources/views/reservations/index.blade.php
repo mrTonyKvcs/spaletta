@@ -29,6 +29,11 @@
                     {{--     <strong>Az éttermek éjszakája menü (2020.08.13-16) foglalásához alábbi linken jelentkezzenek be: <a href="https://ettermekejszakaja.hu/ --}}
                     {{--     " target="_blank"> Klikeljen ide!</a></strong></div> --}}
                 {{-- </div> --}}
+            @if ($errors->has('g-recaptcha-response'))
+                <span class="help-block">
+                    <strong>{{ $errors->first('g-recaptcha-response') }}</strong>
+                </span>
+            @endif
                 <div class="col-md-8 col-center">
                     <form action="{{ route('mail.store', 'Asztalfoglalás')}}" class="text-center form-box form-ajax" method="post">
                         @csrf

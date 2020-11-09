@@ -11,6 +11,9 @@ class SendMailsController extends Controller
 {
     public function store(Request $request)
     {
+        $validate = \Validator::make(\Input::all(), [
+            'g-recaptcha-response' => 'required|captcha'
+        ]);
         $this->validations($request);
 
         $request['subject'] = $request->subject;

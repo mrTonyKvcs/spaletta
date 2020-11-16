@@ -26,6 +26,7 @@ class PagesController extends Controller
 
     public function menu()
     {
+        return redirect()->route('pages.delivery-menu');
         $title = 'Étlap';
 
         $menus = \App\Category::where('type_id', 1)->with('items')->get();
@@ -35,15 +36,18 @@ class PagesController extends Controller
 
     public function deliveryMenu()
     {
-        $title = 'Kiszállításos Étlap';
+        $title = 'Kiszállításos Étlap & Itallap';
 
-        $menus = \App\Category::where('type_id', 4)->with('items')->get();
+        $menus = \App\Category::where('type_id', 4)
+            ->orWhere('type_id', 5)
+            ->with('items')->get();
 
         return view('pages.menu', compact('menus', 'title'));
     }
 
     public function drinks()
     {
+        return redirect()->route('pages.delivery-menu');
         $drinks = \App\Category::where('type_id', 2)->with('items')->get();
 
         return view('pages.drinks', compact('drinks'));

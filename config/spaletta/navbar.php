@@ -6,17 +6,17 @@ return [
         'link' => '',
         'dropdown' => [
             [
-                'name' => 'Kiszállításos Étlap',
+                'name' => 'Kiszállításos Étlap & Itallap',
                 'link' => 'pages.delivery-menu'
             ],
-            [
-                'name' => 'Étlap',
-                'link' => 'pages.menu'
-            ],
-            [
-                'name' => 'Itallap',
-                'link' => 'pages.drinks'
-            ]
+            // [
+            //     'name' => 'Étlap',
+            //     'link' => 'pages.menu'
+            // ],
+            // [
+            //     'name' => 'Itallap',
+            //     'link' => 'pages.drinks'
+            // ]
         ]
     ],
     [

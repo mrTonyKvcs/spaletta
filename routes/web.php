@@ -26,7 +26,7 @@ Route::get('etlap', [
     'uses'  => 'PagesController@menu' 
 ]);
 
-Route::get('kiszallitasos-etlap', [
+Route::get('kiszallitasos-etlap-itallap', [
     'as'    => 'pages.delivery-menu',
     'uses'  => 'PagesController@deliveryMenu' 
 ]);

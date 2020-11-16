@@ -2,32 +2,32 @@
 
 return [
     'title'     => 'heti menü',
-    'sub_title' => '2020. november 10. - 2020. november 14.',
+    'sub_title' => '2020. november 17. - 2020. november 22.',
     'menu' => [
         'soups' => [
             'name'  => 'Levesek',
             'items' => [
-                'Francia hagymaleves (sajtos kruton)',
-                'Gulyásleves (G, L)',
-                'Zöldbableves (G, L)',
+                'Erőleves májgombóccal (L)',
+                'Sajt-krémleves, leves gyöngy',
+                'Lencseleves, kolbásszal (G,L)',
             ]
         ],
         'main-course' => [
             'name'  => 'Főételek',
             'items' => [
-                'Fekete szezámos harcsa – petrezselymes burgonya, majonéz',
-                'Lencsés céklasaláta zöldséggel töltött palacsinta',
-                'Tarja steak pirított gomba – rizs (G, L)',
-                'Paprikás csirke – tészta (L)',
+                'Milánói sertés borda (L)',
+                'Burgonyafőzelék, vagdalt steak',
+                'Rántott gomba juhtúróval töltve, zöldséges bulgur',
+                'Baconbe tekert csirkemell, rizi-bizi (L,G)',
             ]
         ],
     ],
     'saturday-menu' => [
         'name'  => 'Szombati menü',
         'items' => [
-            'Halászlé (gyufatészta) (L)',
-            'Sült túrós csusza',
-            'Tökös mákos rétes'
+            'Zöldségleves (L,G)',
+            'Marhalábszár pörkölt, tarhonya, kovászos uborka (L)',
+            'Méteres kalács'
         ]
     ]
 ];

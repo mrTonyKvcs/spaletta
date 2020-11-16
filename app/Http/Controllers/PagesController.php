@@ -33,14 +33,14 @@ class PagesController extends Controller
         return view('pages.menu', compact('menus', 'title'));
     }
 
-    //public function deliveryMenu()
-    //{
-        //$title = 'Kiszállításos Étlap';
+    public function deliveryMenu()
+    {
+        $title = 'Kiszállításos Étlap';
 
-        //$menus = \App\Category::where('type_id', 4)->with('items')->get();
+        $menus = \App\Category::where('type_id', 4)->with('items')->get();
 
-        //return view('pages.menu', compact('menus', 'title'));
-    //}
+        return view('pages.menu', compact('menus', 'title'));
+    }
 
     public function drinks()
     {

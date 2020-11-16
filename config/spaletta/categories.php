@@ -189,5 +189,17 @@ return [
         'type_id' => 2,
         'name' => 'Pezsgõk'
     ],
+    [
+        'type_id' => 5,
+        'name' => 'Rostos italok'
+    ],
+    [
+        'type_id' => 5,
+        'name' => 'Szénsavas üdítők'
+    ],
+    [
+        'type_id' => 5,
+        'name' => 'Palackozott belga sörök'
+    ],
 
 ];

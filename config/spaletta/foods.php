@@ -21,31 +21,31 @@ return [
     ],
     [
         'category_id' => 28,
-        'name' => 'Erdei gyümölcskrémleves',
-        'comment' => 'Panna cotta',
-        'price' => 1500
+        'name' => 'Sütőtők- krémleves',
+        'comment' => '',
+        'price' => 1390
     ],
     [
         'category_id' => 29,
-        'name' => 'Supreme csirkemell',
-        'comment' => ' glasszírozott zöldség',
+        'name' => 'Sous vide csirkemell',
+        'comment' => 'bacon, ceruzabab, burgonyapüré',
         'price' => 2800
     ],
     [
         'category_id' => 29,
-        'name' => 'Sertéstarja steak (160g)',
+        'name' => 'Mézes chilis oldalas',
         'comment' => 'steakburgonya',
         'price' => 2600
     ],
     [
         'category_id' => 29,
-        'name' => 'Fogasfilé roston',
-        'comment' => 'salátával',
+        'name' => 'Fogas chips',
+        'comment' => 'édesburgonya püré',
         'price' => 2800
     ],
     [
         'category_id' => 29,
-        'name' => 'Feketeszezámos bundába sült harcsafilé',
+        'name' => 'Sütőtökös morzsában sült harcsafilé',
         'comment' => 'jázmin rizs',
         'price' => 2800
     ],
@@ -63,14 +63,14 @@ return [
     ],
     [
         'category_id' => 29,
-        'name' => 'Sültcsülök káposztásnudli (160g csont nélkül)',
-        'comment' => '',
+        'name' => 'Sült csülök szelet',
+        'comment' => 'káposztás nudli',
         'price' => 2900
     ],
     [
         'category_id' => 29,
         'name' => 'Roston csirkemell (140g)',
-        'comment' => 'burgonyapüré',
+        'comment' => 'vajon párolt zöldség',
         'price' => 2400
     ],
     [
@@ -88,18 +88,18 @@ return [
     [
         'category_id' => 29,
         'name' => 'Spaletta kosár',
-        'comment' => 'csirkeszárnyak, csirkemell, sertéskaraj',
+        'comment' => '(bbq csirkeszárnyak, rántott süllőpofa, rántott sertéskaraj',
         'price' => 2900
     ],
     [
         'category_id' => 29,
-        'name' => 'Csülkös melegszendvics ',
-        'comment' => '',
-        'price' => 2000
+        'name' => 'Sült kacsacomb,',
+        'comment' => 'párolt káposzta, törtburgonya',
+        'price' => 2690
     ],
     [
         'category_id' => 29,
-        'name' => 'Kacsamell vargánya házitészta',
+        'name' => 'Kacsamell vargánya házi tészta',
         'comment' => '',
         'price' => 3300
     ],
@@ -114,6 +114,18 @@ return [
         'name' => 'Paradicsomos csirkés tészta',
         'comment' => '',
         'price' => 3200
+    ],
+    [
+        'category_id' => 30,
+        'name' => 'Magyaros lepény',
+        'comment' => 'Csülök, tejföl, lilahagyma',
+        'price' => 1690
+    ],
+    [
+        'category_id' => 30,
+        'name' => 'Kéksajtos, magvas lepény',
+        'comment' => 'kéksajt, tökmag,rukkola',
+        'price' => 1690
     ],
     [
         'category_id' => 30,
@@ -155,31 +167,19 @@ return [
         'category_id' => 31,
         'name' => 'Spaletta saláta',
         'comment' => '',
-        'price' => 1100
-    ],
-    [
-        'category_id' => 31,
-        'name' => 'Narancsos kacsamell saláta',
-        'comment' => '',
-        'price' => 2200
+        'price' => 1600
     ],
     [
         'category_id' => 32,
-        'name' => 'Julien hasábburgonya',
+        'name' => 'Házi hasábburgonya',
         'comment' => '',
-        'price' => 600
+        'price' => 750
     ],
     [
         'category_id' => 32,
-        'name' => 'Csónakburgonya',
+        'name' => 'Házi steakburgonya',
         'comment' => '',
-        'price' => 700
-    ],
-    [
-        'category_id' => 32,
-        'name' => 'Házi Steakburgonya',
-        'comment' => '',
-        'price' => 700
+        'price' => 750
     ],
     [
         'category_id' => 32,
@@ -189,21 +189,21 @@ return [
     ],
     [
         'category_id' => 32,
-        'name' => 'Glasszírozott zöldség',
-        'comment' => 'vajon párolt',
+        'name' => 'Vajon párolt zöldség',
+        'comment' => '',
         'price' => 1000
     ],
     [
         'category_id' => 32,
-        'name' => 'Burgonyapüré',
+        'name' => 'Édesburgonyapüré',
         'comment' => '',
-        'price' => 600
+        'price' => 750
     ],
     [
         'category_id' => 32,
         'name' => 'Zöldfűszeres burgonyapüré',
         'comment' => '',
-        'price' => 650
+        'price' => 750
     ],
     [
         'category_id' => 33,
@@ -236,10 +236,9 @@ return [
         'price' => 1700
     ],
     [
-        'category_id' => 35,
-        'name' => 'Kechup, majonéz, mustár, lilahagymás majonéz,
- BBQ, Jalapeno paprika, gyöngyhagyma, csípősszós',
-        'comment' => '1 adag',
-        'price' => 250
+        'category_id' => 34,
+        'name' => 'Házi somlói galuska',
+        'comment' => '',
+        'price' => 1700
     ],
 ];

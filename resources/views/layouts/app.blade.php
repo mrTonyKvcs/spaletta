@@ -5,11 +5,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
-        <title>Spaletta Kecskemét – Étterem és Sörház</title>
+        
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="og:title" content="Spaletta Kecskemét – Étterem és Sörház"> 
+        <meta name="og:description" content="A kecskeméti Spaletta Étterem & Sörház kiváló alapanyagokból készült ételekkel, házi készítésű tésztákkal és prémium minőségű sörök széles választékával várja vendégeit.">
+        <meta name="og:type" content="website">
+        <meta name="og:url" content="https://spalettaetterem.com/"> 
+        <meta name="robots" content="index, follow">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Multipurpose HTML template.">
+
         <script src="../scripts/jquery.min.js"></script>
         <link rel="stylesheet" href="../scripts/bootstrap/css/bootstrap.css">
         <script src="../scripts/script.js"></script>

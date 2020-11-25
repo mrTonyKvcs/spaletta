@@ -65,10 +65,10 @@ return [
         'category' => 'beer',
         'name' => 15,
     ],
-    [
-        'category' => 'beer',
-        'name' => 16,
-    ],
+    //[
+        //'category' => 'beer',
+        //'name' => 16,
+    //],
     [
         'category' => 'beer',
         'name' => 17,
@@ -169,10 +169,10 @@ return [
         'category' => 'restaurent',
         'name' => 46,
     ],
-    [
-        'category' => 'restaurent',
-        'name' => 47,
-    ],
+    //[
+        //'category' => 'restaurent',
+        //'name' => 47,
+    //],
     [
         'category' => 'restaurent',
         'name' => 48,

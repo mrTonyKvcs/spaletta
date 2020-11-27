@@ -29,5 +29,13 @@ return [
             'Sertésborda vadasan – kenyérpuding',
             'Almás pite'
         ]
+    ],
+    'sunday-menu' => [
+        'name'  => 'Vasárnapi menü',
+        'items' => [
+            'Gulyásleves (G, L)',
+            'Párizsi csirkemell – Hasábburgonya, ketchup',
+            'Túrógombóc - gyümölcs ragu (ahogy mi készítjük)'
+        ]
     ]
 ];

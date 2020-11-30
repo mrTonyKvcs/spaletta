@@ -1,5 +1,12 @@
 @extends('layouts.app')
 
+@section('title') Rendezvények @endsection
+
+@section('meta_data')
+    <meta property="og:description" content="Változatos eseményekkel,színház- és vacsoraestekkel illetve élőzenés programokkal várja vendégeit a Spaletta Étterem.">
+    <meta property="og:url" content="https://spalettaetterem.com/rendezvenyek"> 
+@endsection
+
 @section('content')
     <div class="section-bg-image parallax-window box-middle-container full-screen-size white ken-burn-center" data-natural-height="1080" data-natural-width="1920" data-parallax="scroll" data-image-src="../images/pages/events-bg.jpg">
         <div class="container content box-middle">

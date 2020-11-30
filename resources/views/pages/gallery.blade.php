@@ -1,5 +1,12 @@
 @extends('layouts.app')
 
+@section('title') Galéria @endsection
+
+@section('meta_data')
+    <meta property="og:description" content="A galéria betekintés nyújt a Spaletta Étterem világába. A étterem mellett ételekről,italakról,eseményekről,hangulatos teraszunkról és a sörházról is talál képeket.">
+    <meta property="og:url" content="https://spalettaetterem.com/galeria"> 
+@endsection
+
 @section('content')
     <div class="header-title ken-burn white" data-parallax="scroll" data-position="top" data-natural-height="850" data-natural-width="1920" data-image-src="/images/pages/gallery.jpg">
         <div class="container">

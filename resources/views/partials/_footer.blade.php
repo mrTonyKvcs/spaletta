@@ -5,7 +5,7 @@
                 <div class="col-md-3"></div>
                 <div class="col-md-6 footer-center">
                     <hr class="space s" />
-                    <img width="100" src="../images/logo/logo.png" alt="" />
+                    <img width="100" src="../images/logo/logo.png" alt="logo" title="logo" />
                     <hr class="space m" />
                     <hr class="space s" />
                     <div class="btn-group social-group btn-group-icons">

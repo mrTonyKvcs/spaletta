@@ -2,7 +2,7 @@
     <div class="container content">
         <div class="title-base">
             <hr />
-            <h2>{{ $weeklyMenu['title'] }} <br><small>1800 Ft</small></h2>
+            <h1>{{ $weeklyMenu['title'] }} <br><small>1800 Ft</small></h1>
             <p style="color: #ffb606;">{{ $weeklyMenu['sub_title'] }}</p>
         </div>
         <hr class="space s" />

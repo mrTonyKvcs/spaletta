@@ -1,5 +1,12 @@
 @extends('layouts.app')
 
+@section('title') Asztalfoglalás @endsection
+
+@section('meta_data')
+    <meta property="og:description" content="Foglaljon asztalt online vagy telefonon a kecskeméti Spaletta Étterembe, várunk mindenkit sok szeretettel.">
+    <meta property="og:url" content="https://spalettaetterem.com/asztalfoglalas"> 
+@endsection
+
 @section('content')
     <div class="header-title ken-burn-center white" data-parallax="scroll" data-position="top" data-natural-height="850" data-natural-width="1920" data-image-src="../images/pages/reservations.jpg">
         <div class="container">

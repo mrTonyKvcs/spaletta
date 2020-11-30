@@ -7,9 +7,9 @@
                         <i class="fa fa-bars"></i>
                     </button>
                     <a class="navbar-brand" href="{{ route('pages.index') }}">
-                        <img class="logo-default scroll-hide" src="../images//logo/logo.png" alt="logo" />
-                        <img class="logo-default scroll-show" src="../images/logo/logo.png" alt="logo" />
-                        <img class="logo-retina" src="../images/logo/logo.png" alt="logo" />
+                        <img class="logo-default scroll-hide" src="../images//logo/logo.png" alt="logo" title="logo" />
+                        <img class="logo-default scroll-show" src="../images/logo/logo.png" alt="logo" title="logo"/>
+                        <img class="logo-retina" src="../images/logo/logo.png" alt="logo" title="logo"/>
                     </a>
                 </div>
                 <div class="collapse navbar-collapse">

@@ -3,8 +3,8 @@
 @section('title') Kapcsolat @endsection
 
 @section('meta_data')
-    <meta property="og:description" content="Kapcsolat leiras">
-    <meta name="og:url" content="teszt"> 
+    <meta property="og:description" content="A Spaletta Étterem Kecskeméten a Jókai utca 15. szám alatt található, további kérdéseiket várjuk üzenetben.">
+    <meta property="og:url" content="https://spalettaetterem.com/kapcsolat"> 
 @endsection
 
 @section('content')

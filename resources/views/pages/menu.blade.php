@@ -1,5 +1,12 @@
 @extends('layouts.app')
 
+@section('title') Étlap @endsection
+
+@section('meta_data')
+    <meta property="og:description" content="A Spaletta Étterem a kialakult helyzet miatt kiszállításos étlappal, és itallappal jelentkezik. Várjuk megrendelésüket, házhoz visszük a Spaletta ízeket!">
+    <meta property="og:url" content="https://spalettaetterem.com/kiszallitasos-etlap-itallap"> 
+@endsection
+
 @section('content')
     <div class="header-title ken-burn white" data-parallax="scroll" data-bleed="0" data-position="top" data-natural-height="850" data-natural-width="1920" data-image-src="/images/pages/{{ \Str::slug($title) }}.jpg">
         <div class="container">

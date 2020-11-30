@@ -1,5 +1,12 @@
 @extends('layouts.app')
 
+@section('title') Rólunk @endsection
+
+@section('meta_data')
+    <meta property="og:description" content="Fura hullámokat vet az élet. Soha nem gondoltam volna, hogy éttermet fogunk vezetni. Eddig az élet teljesen más területén dolgoztunk, dolgozunk és bár gyermekkorom nyarait régi vendéglátós család szülöttjeként hol fagylaltosfiúként, hol pultosként töltöttem-közben leendő feleségem palacsintát sütött...">
+    <meta property="og:url" content="https://spalettaetterem.com/rolunk"> 
+@endsection
+
 @section('content')
     <div class="header-title ken-burn white" data-parallax="scroll" data-position="top" data-natural-height="850" data-natural-width="1920" data-image-src="../images/pages/about-new.jpg">
         <div class="container">
@@ -30,8 +37,8 @@
                         {{--<img src="../images/sign-2.png" alt="" />--}}
                     </div>
                     <div class="col-md-4">
-                        <img src="../images/pages/about-image.jpg" style="border: 1px solid #ffb606;" alt="" />
-                        <img src="../images/pages/about-image2.png" style="border: 1px solid #ffb606; margin-top: 20px;" alt="" />
+                        <img src="../images/pages/about-image.jpg" style="border: 1px solid #ffb606;" alt="spaletta-tabla" title="etterem" />
+                        <img src="../images/pages/about-image2.png" style="border: 1px solid #ffb606; margin-top: 20px;" alt="etterem" title="etterem" />
                     </div>
                 </div>
             </div>

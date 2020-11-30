@@ -1,5 +1,12 @@
 @extends('layouts.app')
 
+@section('title') Kezdőlap @endsection
+
+@section('meta_data')
+    <meta property="og:description" content="A Spaletta Étterem hetente frissülő menü ajánlattal, online asztalfoglalási lehetőséggel várja vendégeit keddtől vasárnapig.">
+    <meta property="og:url" content="https://spalettaetterem.com/"> 
+@endsection
+
 @section('content')
     <div class="section-bg-video grunge-border">
         <div class="bg-overlay transparent-dark"></div>
@@ -82,7 +89,7 @@
                 <div class="col-md-3">
                     <div class="img-box adv-img adv-img-full-content">
                         <div class="img-box">
-                            <img src="../images/pages/home-menu.jpg" alt="" />
+                            <img src="../images/pages/home-menu.jpg" alt="etlap" title="etlap" />
                         </div>
                         <a href="{{ route('pages.menu') }}" class="caption-bg img-box">
                             <div class="caption">
@@ -97,7 +104,7 @@
                 <div class="col-md-3">
                     <div class="img-box adv-img adv-img-full-content">
                         <div class="img-box">
-                            <img src="../images/pages/drinks2.png" alt="" />
+                            <img src="../images/pages/drinks2.png" alt="itallap" title="itllap" />
                         </div>
                         <a href="{{ route('pages.drinks') }}" class="caption-bg img-box">
                             <div class="caption">
@@ -112,7 +119,7 @@
                 <div class="col-md-3">
                     <div class="img-box adv-img adv-img-full-content">
                         <div class="img-box">
-                            <img src="../images/pages/home-reservations.jpg" alt="" />
+                            <img src="../images/pages/home-reservations.jpg" alt="asztalfoglalas" title="asztalfoglalas" />
                         </div>
                         <a href="{{ route('reservations.index') }}" class="caption-bg img-box">
                             <div class="caption">
@@ -127,7 +134,7 @@
                 <div class="col-md-3">
                     <div class="img-box adv-img adv-img-full-content">
                         <div class="img-box">
-                            <img src="../images/pages/events.jpg" alt="" />
+                            <img src="../images/pages/events.jpg" alt="rendezvenyek" title="rendezvenyek" />
                         </div>
                         <a href="{{ route('events.index') }}" class="caption-bg img-box">
                             <div class="caption">
@@ -264,7 +271,7 @@
         <div class="container content">
             <div class="row">
                 <div class="col-md-6">
-                    <img src="../images/pages/our-chefs.jpg" style="border: 1px solid #ffb606;" alt="" />
+                    <img src="../images/pages/our-chefs.jpg" style="border: 1px solid #ffb606;" alt="sefek" title="sefek" />
                 </div>
                 <div class="col-md-6">
                     <div class="content about-card-bg">

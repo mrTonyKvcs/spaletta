@@ -5,15 +5,19 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
-        
+        <title>@hasSection('title') @yield('title') | Spaletta Kecskemét – Étterem és Sörház @else Spaletta Kecskemét – Étterem és Sörház @endif</title>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="og:title" content="Spaletta Kecskemét – Étterem és Sörház"> 
-        <meta name="og:description" content="A kecskeméti Spaletta Étterem & Sörház kiváló alapanyagokból készült ételekkel, házi készítésű tésztákkal és prémium minőségű sörök széles választékával várja vendégeit.">
-        <meta name="og:type" content="website">
-        <meta name="og:url" content="https://spalettaetterem.com/"> 
-        <meta name="robots" content="index, follow">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta property="og:title" content="Spaletta Kecskemét – Étterem és Sörház"> 
+        @hasSection('meta_data')
+            @yield('meta_data')
+        @else
+            <meta property="og:description" content="A kecskeméti Spaletta Étterem & Sörház kiváló alapanyagokból készült ételekkel, házi készítésű tésztákkal és prémium minőségű sörök széles választékával várja vendégeit.">
+            <meta property="og:url" content="https://spalettaetterem.com/"> 
+        @endif
+        <meta property="og:type" content="website">
+        <meta property="robots" content="index, follow">
+        <meta property="viewport" content="width=device-width, initial-scale=1">
 
         <script src="../scripts/jquery.min.js"></script>
         <link rel="stylesheet" href="../scripts/bootstrap/css/bootstrap.css">

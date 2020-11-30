@@ -4,6 +4,7 @@ return [
     [
         'category' => 'spaletta',
         'name' => 50,
+        'alt' => ''
     ],
     [
         'category' => 'spaletta',

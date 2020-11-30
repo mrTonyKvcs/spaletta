@@ -35,7 +35,7 @@
                         <div data-sort="{{ $loop->index + 1 }}" class="maso-item col-md-4 {{ $item['category'] }}">
                             <a class="img-box i-bottom-right" href="/images/gallery/{{ $item['name'] }}.jpg">
                                 <i class="im-old-camera"></i>
-                                <img src="/images/gallery/{{ $item['name'] }}.jpg" alt="" />
+                                <img src="/images/gallery/{{ $item['name'] }}.jpg" @if(isset($item['alt'])) title="{{ $item['alt'] }}" alt="{{ $item['alt'] }}" @endif />
                             </a>
                         </div>
 

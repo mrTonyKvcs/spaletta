@@ -3,6 +3,7 @@
 @section('title') Kezdőlap @endsection
 
 @section('meta_data')
+    <meta name="description" content="A Spaletta Étterem hetente frissülő menü ajánlattal, online asztalfoglalási lehetőséggel várja vendégeit keddtől vasárnapig.">
     <meta property="og:description" content="A Spaletta Étterem hetente frissülő menü ajánlattal, online asztalfoglalási lehetőséggel várja vendégeit keddtől vasárnapig.">
     <meta property="og:url" content="https://spalettaetterem.com/"> 
 @endsection

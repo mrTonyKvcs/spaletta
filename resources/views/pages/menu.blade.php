@@ -3,8 +3,8 @@
 @section('title') Étlap @endsection
 
 @section('meta_data')
-    <meta property="og:description" content="A Spaletta Étterem a kialakult helyzet miatt kiszállításos étlappal, és itallappal jelentkezik. Várjuk megrendelésüket, házhoz visszük a Spaletta ízeket!">
     <meta name="description" content="A Spaletta Étterem a kialakult helyzet miatt kiszállításos étlappal, és itallappal jelentkezik. Várjuk megrendelésüket, házhoz visszük a Spaletta ízeket!">
+    <meta property="og:description" content="A Spaletta Étterem a kialakult helyzet miatt kiszállításos étlappal, és itallappal jelentkezik. Várjuk megrendelésüket, házhoz visszük a Spaletta ízeket!">
     <meta property="og:url" content="https://spalettaetterem.com/kiszallitasos-etlap-itallap"> 
 @endsection
 

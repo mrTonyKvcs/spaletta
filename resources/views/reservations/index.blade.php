@@ -3,6 +3,7 @@
 @section('title') Asztalfoglalás @endsection
 
 @section('meta_data')
+    <meta name="description" content="Foglaljon asztalt online vagy telefonon a kecskeméti Spaletta Étterembe, várunk mindenkit sok szeretettel.">
     <meta property="og:description" content="Foglaljon asztalt online vagy telefonon a kecskeméti Spaletta Étterembe, várunk mindenkit sok szeretettel.">
     <meta property="og:url" content="https://spalettaetterem.com/asztalfoglalas"> 
 @endsection

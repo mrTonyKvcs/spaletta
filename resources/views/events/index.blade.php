@@ -3,6 +3,7 @@
 @section('title') Rendezvények @endsection
 
 @section('meta_data')
+    <meta name="description" content="Változatos eseményekkel,színház- és vacsoraestekkel illetve élőzenés programokkal várja vendégeit a Spaletta Étterem.">
     <meta property="og:description" content="Változatos eseményekkel,színház- és vacsoraestekkel illetve élőzenés programokkal várja vendégeit a Spaletta Étterem.">
     <meta property="og:url" content="https://spalettaetterem.com/rendezvenyek"> 
 @endsection

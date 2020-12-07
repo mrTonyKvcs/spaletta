@@ -2,40 +2,40 @@
 
 return [
     'title'     => 'heti menü',
-    'sub_title' => '2020. december 1. - 2020. december 6.',
+    'sub_title' => '2020. december 8. - 2020. december 13.',
     'menu' => [
         'soups' => [
             'name'  => 'Levesek',
             'items' => [
-                'Kukorica krémleves (G, L)',
-                'Frankfurti leves (G, L)',
-                'Fürj tojásleves csibehússal (L)',
+                'Forralt boros meggyleves (G, L)',
+                'Jókai bableves (L)',
+                'Brokkolikrémleves sonkás tortellini (L)',
             ]
         ],
         'main-course' => [
             'name'  => 'Főételek',
             'items' => [
-                'Sajttal, sonkával töltött sertéskaraj – rizibizi, céklasaláta',
-                'Kókusztejes zöldborsófőzelék – májfelfújt (G, L)',
-                'Sült csirkecomb – törtburgonya forró meggyragu (G, L)',
-                'Mákos guba Erdei gyümölcsragu',
+                'Harcsapaprikás – Túrós csusza',
+                'Penne arrabbiata (L)',
+                'Mézes chilis oldalas – steak burgonya, saláta (G, L)',
+                'Tex-mex csirke - kukoricasaláta',
             ]
         ],
     ],
     'saturday-menu' => [
         'name'  => 'Szombati menü',
         'items' => [
-            'Újházi tyúkhúsleves (L)',
-            'Sült tarja – burgonyapüré, lyoni hagyma, birsalmakompót (G)',
-            'Gesztenyés kifli'
+            'Palóc leves (L)',
+            'Grillezett csirkecomb filé – gersli, sült zöldség (L)',
+            'Gundel palacsinta'
         ]
     ],
     'sunday-menu' => [
         'name'  => 'Vasárnapi menü',
         'items' => [
-            'Erőleves tojáskocsonyával (G, L)',
-            'Konfitált kacsacomb – Törtburgonya, párolt káposzta (G, L)',
-            'Somlói galuska'
+            'Sütőtök krémleves (G)',
+            'Sous-vide csirkemell – burgonyapüré, bacon, ceruzabab (G, L)',
+            'Sajttorta gyümölcsragu'
         ]
     ]
 ];

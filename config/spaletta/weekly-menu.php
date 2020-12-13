@@ -2,40 +2,40 @@
 
 return [
     'title'     => 'heti menü',
-    'sub_title' => '2020. december 8. - 2020. december 13.',
+    'sub_title' => '2020. december 15. - 2020. december 20.',
     'menu' => [
         'soups' => [
             'name'  => 'Levesek',
             'items' => [
-                'Forralt boros meggyleves (G, L)',
-                'Jókai bableves (L)',
-                'Brokkolikrémleves sonkás tortellini (L)',
+                'Korhely leves, kolbász morzsa (L)',
+                'Karfiol-krémleves , sajtos gnocchi',
+                'Citromos ragú leves (L, G)',
             ]
         ],
         'main-course' => [
             'name'  => 'Főételek',
             'items' => [
-                'Harcsapaprikás – Túrós csusza',
-                'Penne arrabbiata (L)',
-                'Mézes chilis oldalas – steak burgonya, saláta (G, L)',
-                'Tex-mex csirke - kukoricasaláta',
+                'Hentes tokány, jázmin rizs (G,L)',
+                'Aranygaluska, vanília sodó',
+                'Rántott camembert, hajdina, áfonyaszósz',
+                'Vasi pecsenye, kemencés burgonya (L)',
             ]
         ],
     ],
     'saturday-menu' => [
         'name'  => 'Szombati menü',
         'items' => [
-            'Palóc leves (L)',
-            'Grillezett csirkecomb filé – gersli, sült zöldség (L)',
-            'Gundel palacsinta'
+            'Orja leves (L)',
+            'Paradicsomos húsgombóc, főtt burgonya (L)',
+            'Mézes krémes'
         ]
     ],
     'sunday-menu' => [
         'name'  => 'Vasárnapi menü',
         'items' => [
-            'Sütőtök krémleves (G)',
-            'Sous-vide csirkemell – burgonyapüré, bacon, ceruzabab (G, L)',
-            'Sajttorta gyümölcsragu'
+            'Marhapofa gulyás (G,L)',
+            'Rántott szelet -franciasaláta',
+            'Túró gombóc – fahéjas tejföl'
         ]
     ]
 ];

@@ -18,7 +18,7 @@ return [
                 'Hentes tokány, jázmin rizs (G,L)',
                 'Aranygaluska, vanília sodó',
                 'Rántott camembert, hajdina, áfonyaszósz',
-                'Vasi pecsenye, kemencés burgonya (L)',
+                'Vasi pecsenye, kemencés burgonya (G)',
             ]
         ],
     ],

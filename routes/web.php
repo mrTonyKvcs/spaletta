@@ -31,6 +31,16 @@ Route::get('kiszallitasos-etlap-itallap', [
     'uses'  => 'PagesController@deliveryMenu' 
 ]);
 
+Route::get('kiszallitasos-karacsonyi-ajanlat', [
+    'as'    => 'pages.christmas',
+    'uses'  => 'PagesController@christmas' 
+]);
+
+Route::get('kiszallitasos-szilveszteri-ajanlat', [
+    'as'    => 'pages.new-year',
+    'uses'  => 'PagesController@newYear' 
+]);
+
 Route::get('itallap', [
     'as'    => 'pages.drinks',
     'uses'  => 'PagesController@drinks' 

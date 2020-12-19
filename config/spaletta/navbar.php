@@ -6,6 +6,14 @@ return [
         'link' => '',
         'dropdown' => [
             [
+                'name' => 'Kiszállításos Karácsonyi Ajánlat',
+                'link' => 'pages.christmas'
+            ],
+            // [
+            //     'name' => 'Kiszállításos Szilveszteri Ajánlat',
+            //     'link' => 'pages.new-year'
+            // ],
+            [
                 'name' => 'Kiszállításos Étlap & Itallap',
                 'link' => 'pages.delivery-menu'
             ],

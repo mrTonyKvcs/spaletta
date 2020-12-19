@@ -27,8 +27,9 @@
             </p>
             <hr class="space s" />
             <a href="{{ route('pages.delivery-menu') }}" class="btn btn-border btn-sm anima anima-fade-bottom" style="margin-top: 10px;">Kiszállításos Étlap & Itallap</a>
-            {{-- <a href="https://ettermekejszakaja.hu/" target="_blank" class="btn btn-border btn-sm anima anima-fade-bottom" style="margin-top: 10px;">Éttermek éjszakája menü (2020.08.13-16) foglalás</a> --}}
-            {{--<a href="{{ route('pages.menu') }}" class="btn btn-border btn-sm anima anima-fade-bottom" style="margin-top: 10px;">Étlap</a>--}}
+            <a href="{{ route('pages.christmas') }}" target="_blank" class="btn btn-border btn-sm anima anima-fade-bottom" style="margin-top: 10px;">Kiszállításos Karácsonyi Ajánlat</a>
+            {{-- <a href="{{ route('pages.new-year') }}" target="_blank" class="btn btn-border btn-sm anima anima-fade-bottom" style="margin-top: 10px;">Kiszállításos Szilveszteri Ajánlat</a> --}}
+            {{-- <a href="{{ route('pages.menu') }}" class="btn btn-border btn-sm anima anima-fade-bottom" style="margin-top: 10px;">Étlap</a> --}}
             {{-- <a href="{{ route('reservations.index') }}" class="btn btn-border btn-sm anima anima-fade-bottom" style="margin-top: 10px;">Asztalfoglalás</a> --}}
             {{--<a href="{{ route('events.index') }}" class="btn btn-border btn-sm anima anima-fade-bottom" style="margin-top: 10px;">Rendezvények</a>--}}
             <hr class="space" />

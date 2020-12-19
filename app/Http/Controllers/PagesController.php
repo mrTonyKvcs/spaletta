@@ -45,6 +45,24 @@ class PagesController extends Controller
         return view('pages.menu', compact('menus', 'title'));
     }
 
+    public function christmas()
+    {
+        $title = 'Kiszállításos  Karácsonyi Ajánlat';
+
+        $menus = \Str::slug($title);
+
+        return view('pages.offer', compact('menus', 'title'));
+    }
+
+    public function newYear()
+    {
+        $title = 'Kiszállításos  Szilveszteri Ajánlat';
+
+        $menus = \Str::slug($title);
+
+        return view('pages.offer', compact('menus', 'title'));
+    }
+
     public function drinks()
     {
         return redirect()->route('pages.delivery-menu');

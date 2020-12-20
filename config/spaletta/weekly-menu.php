@@ -31,11 +31,8 @@ return [
         ]
     ],
     'sunday-menu' => [
-        'name'  => 'Vasárnapi menü',
+        'name'  => '',
         'items' => [
-            'Marhapofa gulyás (G,L)',
-            'Rántott szelet -franciasaláta',
-            'Túró gombóc – fahéjas tejföl'
         ]
     ]
 ];

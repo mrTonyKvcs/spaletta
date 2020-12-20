@@ -47,7 +47,7 @@ class PagesController extends Controller
 
     public function christmas()
     {
-        $title = 'Kiszállításos  Karácsonyi Ajánlat';
+        $title = 'Elviteles  Karácsonyi Ajánlat';
 
         $menus = \Str::slug($title);
 
@@ -56,7 +56,7 @@ class PagesController extends Controller
 
     public function newYear()
     {
-        $title = 'Kiszállításos  Szilveszteri Ajánlat';
+        $title = 'Elviteles  Szilveszteri Ajánlat';
 
         $menus = \Str::slug($title);
 

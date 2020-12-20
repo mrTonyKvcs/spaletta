@@ -6,13 +6,13 @@ return [
         'link' => '',
         'dropdown' => [
             [
-                'name' => 'Kiszállításos Karácsonyi Ajánlat',
+                'name' => 'Elviteles Karácsonyi Ajánlat',
                 'link' => 'pages.christmas'
             ],
-            // [
-            //     'name' => 'Kiszállításos Szilveszteri Ajánlat',
-            //     'link' => 'pages.new-year'
-            // ],
+            [
+                'name' => 'Elviteles Szilveszteri Ajánlat',
+                'link' => 'pages.new-year'
+            ],
             [
                 'name' => 'Kiszállításos Étlap & Itallap',
                 'link' => 'pages.delivery-menu'

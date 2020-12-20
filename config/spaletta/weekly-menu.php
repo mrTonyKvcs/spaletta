@@ -2,23 +2,20 @@
 
 return [
     'title'     => 'heti menü',
-    'sub_title' => '2020. december 15. - 2020. december 20.',
+    'sub_title' => '2020. december 22. - 2020. december 24.',
     'menu' => [
         'soups' => [
             'name'  => 'Levesek',
             'items' => [
-                'Korhely leves, kolbász morzsa (L)',
-                'Karfiol-krémleves , sajtos gnocchi',
-                'Citromos ragú leves (L, G)',
+                'Libanyakleves – grízgaluska (L)',
+                'Karácsonyi borleves-mazsola (G,L)',
             ]
         ],
         'main-course' => [
             'name'  => 'Főételek',
             'items' => [
-                'Hentes tokány, jázmin rizs (G,L)',
-                'Aranygaluska, vanília sodó',
-                'Rántott camembert, hajdina, áfonyaszósz',
-                'Vasi pecsenye, kemencés burgonya (G)',
+                'Vegyes sertéspörkölt- tarhonya-házi kovászos uborka (L)',
+                'Sütőtökös, pezsgős rizottó (G,L)',
             ]
         ],
     ],

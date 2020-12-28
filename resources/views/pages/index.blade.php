@@ -46,7 +46,7 @@
         {{-- </div> --}}
     {{-- </div> --}}
 
-    {{-- @include('partials.sections._weekly-menu') --}}
+    @include('partials.sections._weekly-menu')
 
     {{--<div class="section-empty">--}}
             {{--<div class="container content">--}}

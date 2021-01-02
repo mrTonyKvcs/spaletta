@@ -5,14 +5,14 @@ return [
         'name' => 'Menük',
         'link' => '',
         'dropdown' => [
-            [
-                'name' => 'Elviteles Karácsonyi Ajánlat',
-                'link' => 'pages.christmas'
-            ],
-            [
-                'name' => 'Elviteles Szilveszteri Ajánlat',
-                'link' => 'pages.new-year'
-            ],
+            // [
+            //     'name' => 'Elviteles Karácsonyi Ajánlat',
+            //     'link' => 'pages.christmas'
+            // ],
+            // [
+            //     'name' => 'Elviteles Szilveszteri Ajánlat',
+            //     'link' => 'pages.new-year'
+            // ],
             [
                 'name' => 'Kiszállításos Étlap & Itallap',
                 'link' => 'pages.delivery-menu'

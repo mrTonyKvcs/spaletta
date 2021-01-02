@@ -34,7 +34,6 @@
                     </ul>
                     <div class="nav navbar-nav navbar-right">
                         <li>
-                            
                             <a target="_blank" href="#" data-social="share-facebook" style="font-size: 18px;"><i class="fa fa-facebook"></i></a>
                         </li>
                         <li>

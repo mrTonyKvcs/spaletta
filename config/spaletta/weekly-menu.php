@@ -2,40 +2,40 @@
 
 return [
     'title'     => 'heti menü',
-    'sub_title' => '2021.01.12 - 2021.01.17.',
+    'sub_title' => '2021.01.19 - 2021.01.24.',
     'menu' => [
         'soups' => [
             'name'  => 'Levesek',
             'items' => [
-                'Májgombóc leves (L)',
-                'Langyos őszibarackkrémleves (G, L)',
-                'Lencseleves virslivel (L)'
+                'Magyaros burgonyaleves kolbásszal (L)',
+                'Ázsiai zöldségleves (L)',
+                'Jókai bableves (L)'
             ]
         ],
         'main-course' => [
             'name'  => 'Főételek',
             'items' => [
-                'Mátrai borzas pulykamell – Aszaltszilvás rizs',
-                'Almás rétes- vaníliasodó',
-                'Bolognai spagetti',
-                'Töltött káposzta (G, L)'
+                'Szűzérmék roston – tejszínes gomba, pirított burgonya (G, L)',
+                'Cukkinis házi szélesmetélt ropogós rukolával',
+                'Tex-mex csirke szárny – rizi-bizi BBQ-majonéz',
+                'Zúzapörkölt – tarhonya, csemegeuborka (L)'
             ]
         ],
     ],
     'saturday-menu' => [
         'name'  => 'Szombati menü',
         'items' => [
-            'Palócleves (L)',
-            'Rántott csirkecomb – petrezselymes burgonya, céklasaláta (L)',
-            'Madártej'
+            'Kapros húsgombóc leves cheddar sajttal (G)',
+            'Nílusi sügér roston – Langyos málnás bulgursaláta (L)',
+            'Baklava'
         ]
     ],
     'sunday-menu' => [
         'name'  => 'Vasárnapi menü',
         'items' => [
-            'Csontleves - finommetélt (G, L)',
-            'Kucsmagombás bárányragu - barnarizs (G)',
-            'Sajttorta -csoki öntet'
+            'Sütőtök krémleves pirított tökmag (G, L)',
+            'Háromhagymás sültcsülök – törtburgonya (L)',
+            'Túrógombóc csoki öntet tejszínhab'
         ]
     ]
 ];

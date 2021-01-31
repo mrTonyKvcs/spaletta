@@ -2,40 +2,40 @@
 
 return [
     'title'     => 'heti menü',
-    'sub_title' => '2021.01.26 - 2021.01.31.',
+    'sub_title' => '2021.02.02 - 2021.02.07.',
     'menu' => [
         'soups' => [
             'name'  => 'Levesek',
             'items' => [
-                'Pontyhalászlé, ikra, haltej (G, L)',
-                'Brokkoli-krémleves, levesgyöngy (L)',
-                'Tyúkhúsleves (L)'
+                'Grízgaluskaleves (L)',
+                'Bojtárleves (L)',
+                'Körtés zellerkrémleves (G)'
             ]
         ],
         'main-course' => [
             'name'  => 'Főételek',
             'items' => [
-                'Túrósbatyu',
-                'Sült kacsacomb – pirított kenyérpuding, párolt káposzta almával',
-                'Tagliatelle boros – tejszínes marhahússal (L)',
-                'Sajttal, sonkával töltött pulykamell – burgonyapüré, gyümölcssaláta'
+                'Sült bőrös malackaraj – barnamártás, krokett (L)',
+                'Burgonyafőzelék – zöldség fasírt (G, L)',
+                'Milánói sertésborda',
+                'Farsangi fánk – baracklekvár'
             ]
         ],
     ],
     'saturday-menu' => [
         'name'  => 'Szombati menü',
         'items' => [
-            'Póréhagymás csicseriborsós csibeleves (G, L)',
-            'Csáky sertéstarja – röszti burgonya (G)',
-            'Csokoládés brownie'
+            'Ököruszály leves (L)',
+            'Brassói aprópecsenye – házi vegyes vágott (G, L)',
+            'Tiramisu'
         ]
     ],
     'sunday-menu' => [
         'name'  => 'Vasárnapi menü',
         'items' => [
-            'Gulyásleves (G, L)',
-            'Sült túrós csusza pirított bacon',
-            'Somlói galuska'
+            'Tárkonyos raguleves (G, L)',
+            'Chillis mézes oldalas – steak burgonya, saláta (G, L)',
+            'Kakaós palacsinta'
         ]
     ]
 ];

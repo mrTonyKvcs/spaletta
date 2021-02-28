@@ -2,40 +2,40 @@
 
 return [
     'title'     => 'heti menü',
-    'sub_title' => '2021.02.16 - 2021.02.21.',
+    'sub_title' => '2021.03.02 - 2021.03.07.',
     'menu' => [
         'soups' => [
             'name'  => 'Levesek',
             'items' => [
-                'Francia hagymakrémleves sajtos pirítós',
-                'Májgaluska leves (G, L)',
-                'Frankfurti leves (G, L)'
+                'Erdélyi tárkonyos húsgombóc leves (L)',
+                'Rumos-csokoládés meggyleves (G)',
+                'Tyúkhúsleves csigatészta (L)'
             ]
         ],
         'main-course' => [
             'name'  => 'Főételek',
             'items' => [
-                'Rablóhús – fóliás burgonya fokhagymás tejföl (G, L)',
-                'Csirkés ázsiai sülttészta (L)',
-                'Fahéjas szilvás gombóc',
-                'Csikóstokány – zsemlegombóc'
+                'Tarjasteak zöldbors mártás – fűszeres cikkburgonya (G, L)',
+                'Rakott burgonya kolbásszal (G, L)',
+                'Zöldséges rizses sajtgolyó – tartár',
+                'Vaníliás kókuszos kelt csiga'
             ]
         ],
     ],
     'saturday-menu' => [
         'name'  => 'Szombati menü',
         'items' => [
-            'Lencsegulyás (G, L)',
-            'Kijevi jércemell – zöldfűszeres jázmin rizs',
-            'Francia csokisfánk'
+            'Minestrone leves (G, L)',
+            'Töltött csirkecomb – petrezselymes burgonya (L)',
+            'Puncsszelet'
         ]
     ],
     'sunday-menu' => [
         'name'  => 'Vasárnapi menü',
         'items' => [
-            'Zöldségleves vajas galuskával (G)',
-            'Lecsós szelet - pirított burgonya (G, L)',
-            'Túrós kakaós boci szelet'
+            'Sütőtök krémleves bacon chips (G, L)',
+            'Sous - vide csirkemell – friss kevertsaláta (G, L)',
+            'Csokis narancsos palacsinta'
         ]
     ]
 ];

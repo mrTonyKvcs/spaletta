@@ -2,40 +2,40 @@
 
 return [
     'title'     => 'heti menü',
-    'sub_title' => '2021.03.09 - 2021.03.14.',
+    'sub_title' => '2021.03.16 - 2021.03.21.',
     'menu' => [
         'soups' => [
             'name'  => 'Levesek',
             'items' => [
-                'Jókai bableves (L)',
-                'Őszibarack krémleves (G,L)',
-                'PHO leves kacsahússal ( L)'
+                'Paradicsomleves (L)',
+                'Hentesleves (L)',
+                'Erőleves- zöldség mignon (G, L)'
             ]
         ],
         'main-course' => [
             'name'  => 'Főételek',
             'items' => [
-                'Borjúpaprikás – orsótészta, kovászos uborka (L)',
-                'Csirkés tortilla – hasábburgonya (L)',
-                'Sajtos vagy mákos nudli',
-                'Zöldborsófőzelék – fóliába sült töltött fasírttekercs'
+                'Óvári töltött borda – petrezselymes burgonyapüré',
+                'Kemencéspalacsinta dióval',
+                'Harcsapaprikás steak – túróscsusza',
+                'Sült pulykacomb filé – tepsis zöldség (G, L)'
             ]
         ],
     ],
     'saturday-menu' => [
         'name'  => 'Szombati menü',
         'items' => [
-            'Kelbimbó krémleves fásgaluska (L)',
-            'Chilis-mézes csirkeszárny, kevert saláta, jázminrizs (G, L)',
-            'Fanta szelet'
+            'Pirított tésztaleves (L)',
+            'Sertésborda vadasan – kenyérpuding (L)',
+            'Gyümölcsrizs'
         ]
     ],
     'sunday-menu' => [
         'name'  => 'Vasárnapi menü',
         'items' => [
-            'Grízgaluskaleves (L)',
-            'Házi hurka-kolbász, tepsis burgonya, párolt káposzta(G, L)',
-            'Somlói galuska'
+            'Csontleves csigatésztával (L)',
+            'Ropogós kacsacomb – pároltkáposzta, hagymástörtburgonya (G, L)',
+            'Császármorzsa- házi őszibaracklekvár'
         ]
     ]
 ];

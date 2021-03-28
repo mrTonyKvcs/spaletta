@@ -2,40 +2,40 @@
 
 return [
     'title'     => 'heti menü',
-    'sub_title' => '2021.03.23 - 2021.03.28.',
+    'sub_title' => '2021.03.30 - 2021.04.04.',
     'menu' => [
         'soups' => [
             'name'  => 'Levesek',
             'items' => [
-                'Kapros tökleves (G, L)',
-                'Marha húsleves cérnametélt (L)',
-                'Korhely halászlé (L)'
+                'Brokkoli krémleves (G, L)',
+                'Kínai csípős – savanyú leves (L, G)',
+                'Palócleves (L)'
             ]
         ],
         'main-course' => [
             'name'  => 'Főételek',
             'items' => [
-                'Tarhonyáshús házi vegyesvágott savanyúság (L)',
-                'Aszalt szilvával töltött camembert diósbundába – rizs, tartár',
-                'Szerb gyuvecs (L)',
-                'Medvehagymás csirkés tagliatelle (L)'
+                'Pacalpörkölt – sós burgonya csemege uborka (G, L)',
+                'Aranygaluska vaníliasodó',
+                'Kelkáposzta főzelék – majoránnás fasírtlabda (L)',
+                'Pirosra sült csirkecomb – görögsaláta (G)'
             ]
         ],
     ],
     'saturday-menu' => [
         'name'  => 'Szombati menü',
         'items' => [
-            'Vegyes gyümölcsleves (G, L)',
-            'Cigánypecsenye – hasáb burgonya, uborkasaláta (G, L)',
-            'Gesztenyésszelet'
+            'Tavaszi zöldségleves (L)',
+            'Csülök Pékné módra (G, L)',
+            'Tündérszelet'
         ]
     ],
     'sunday-menu' => [
         'name'  => 'Vasárnapi menü',
         'items' => [
-            'Hamisgulyás (G, L)',
-            'Bécsiszelet – franciasaláta',
-            'Tejespite'
+            'Húsvéti sonkaleves (G, L)',
+            'Habart tojással töltött sertésborda – rizibizi, gyümölcssaláta (G, L)',
+            'Tavaszi répatorta'
         ]
     ]
 ];

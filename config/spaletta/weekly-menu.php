@@ -2,40 +2,40 @@
 
 return [
     'title'     => 'heti menü',
-    'sub_title' => '2021.04.06 - 2021.04.11.',
+    'sub_title' => '2021.04.13 - 2021.04.18.',
     'menu' => [
         'soups' => [
             'name'  => 'Levesek',
             'items' => [
-                'Medvehagymás burgonyakrémleves - bacon chips (G, L)',
-                'Legényfogó leves (G, L)',
-                'Rumos szilvaleves (G, L)'
+                'Zurek (lengyel burgonyaleves) (G, L)',
+                'Fahéjas almaleves (G, L)',
+                'Húsgombócos borsóleves (L)'
             ]
         ],
         'main-course' => [
             'name'  => 'Főételek',
             'items' => [
-                'Tejszínes gombás pulykacomb – rizs (G, L)',
-                'Sertésborda Orly módra – pirított burgonya, lecsó (L)',
-                'Káposztás cvekedli (borsosan vagy cukrosan) (L)',
-                'Fogas „en papillote”- citrusos mártás (G)'
+                'Tavaszi göngyölt csirkemell Grillezett zöldség BBQ-majonéz',
+                'Marhalábszár pörkölt – házi galuska, vegyes vágott (L)',
+                'Vaníliás mákos guba - málnaragú',
+                'Szezámmagos harcsacsíkok - zöldséges kuszkuszsaláta (L)'
             ]
         ],
     ],
     'saturday-menu' => [
         'name'  => 'Szombati menü',
         'items' => [
-            'Csurgatott tojásleves (L)',
-            'Bardírozott csirke – répapüré, pároltzöldség (G)',
-            'Almás habos kocka'
+            'Sült paprika krémleves (G, L)',
+            'Bőrös malackaraj Lyoni hagyma – barnarizs (G)',
+            'Fehér csokis gyümölcsös kosárka'
         ]
     ],
     'sunday-menu' => [
         'name'  => 'Vasárnapi menü',
         'items' => [
-            'Parmezános fokhagymakrémleves (G)',
-            'Holstein szelet – fűszeres steak burgonya, friss kevertsaláta (G, L)',
-            'Meggyes pite'
+            'Csirkehúsleves (L)',
+            'Mézes chilis oldalas – friss saláta steak burgonya (G, L)',
+            'Mandulás muffin'
         ]
     ]
 ];

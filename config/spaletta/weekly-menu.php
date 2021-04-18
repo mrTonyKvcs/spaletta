@@ -2,40 +2,40 @@
 
 return [
     'title'     => 'heti menü',
-    'sub_title' => '2021.04.13 - 2021.04.18.',
+    'sub_title' => '2021.04.20 - 2021.04.25.',
     'menu' => [
         'soups' => [
             'name'  => 'Levesek',
             'items' => [
-                'Zurek (lengyel burgonyaleves) (G, L)',
-                'Fahéjas almaleves (G, L)',
-                'Húsgombócos borsóleves (L)'
+                'Gombakrémleves (G, L)',
+                'Libanyakleves eperlevél (L)',
+                'Vöröslencse leves kolbásszal füstölthússal (G, L)'
             ]
         ],
         'main-course' => [
             'name'  => 'Főételek',
             'items' => [
-                'Tavaszi göngyölt csirkemell Grillezett zöldség BBQ-majonéz',
-                'Marhalábszár pörkölt – házi galuska, vegyes vágott (L)',
-                'Vaníliás mákos guba - málnaragú',
-                'Szezámmagos harcsacsíkok - zöldséges kuszkuszsaláta (L)'
+                'Bácskai rizseshús, uborkasaláta (G, L)',
+                'Garnélás tortilla tekercs, koktélszósz',
+                'Tex-mex csirke – mexikói kukoricasaláta',
+                'Lekváros derelye'
             ]
         ],
     ],
     'saturday-menu' => [
         'name'  => 'Szombati menü',
         'items' => [
-            'Sült paprika krémleves (G, L)',
-            'Bőrös malackaraj Lyoni hagyma – barnarizs (G)',
-            'Fehér csokis gyümölcsös kosárka'
+            'Frankfurtileves (G, L)',
+            'Sous vide csirkemell – feketerizs, karfiolpüré, sültzöldség (G)',
+            'Tökmagos túrógombóc vanília mártás'
         ]
     ],
     'sunday-menu' => [
         'name'  => 'Vasárnapi menü',
         'items' => [
-            'Csirkehúsleves (L)',
-            'Mézes chilis oldalas – friss saláta steak burgonya (G, L)',
-            'Mandulás muffin'
+            'Májgaluskaleves (L)',
+            'Nyúlcomb vadasan – kenyérpuding',
+            'Ízespalacsinta'
         ]
     ]
 ];

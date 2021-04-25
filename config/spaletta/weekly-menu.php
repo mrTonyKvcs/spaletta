@@ -2,40 +2,40 @@
 
 return [
     'title'     => 'heti menü',
-    'sub_title' => '2021.04.20 - 2021.04.25.',
+    'sub_title' => '2021.04.27 - 2021.05.02.',
     'menu' => [
         'soups' => [
             'name'  => 'Levesek',
             'items' => [
-                'Gombakrémleves (G, L)',
-                'Libanyakleves eperlevél (L)',
-                'Vöröslencse leves kolbásszal füstölthússal (G, L)'
+                'Magyaros zöldbableves (L)',
+                'Hideg őszibarack krémleves panna cotta (G,)',
+                'Sertésraguleves (G, L)'
             ]
         ],
         'main-course' => [
             'name'  => 'Főételek',
             'items' => [
-                'Bácskai rizseshús, uborkasaláta (G, L)',
-                'Garnélás tortilla tekercs, koktélszósz',
-                'Tex-mex csirke – mexikói kukoricasaláta',
-                'Lekváros derelye'
+                'Tárkonyos csirkerizottó (G)',
+                'Sült kacsacomb - pároltkáposzta, törtburgonya (G, L)',
+                'Csikóstokány – orsótészta, (L)',
+                'Vaníliás darázsfészek'
             ]
         ],
     ],
     'saturday-menu' => [
         'name'  => 'Szombati menü',
         'items' => [
-            'Frankfurtileves (G, L)',
-            'Sous vide csirkemell – feketerizs, karfiolpüré, sültzöldség (G)',
-            'Tökmagos túrógombóc vanília mártás'
+            'Kapros tejfölös zöldségleves (G, L)',
+            'Aszalt paradicsomos camemberttel göngyölt pulykamell – bazsalikomos rizs (G)',
+            'Kókuszkocka'
         ]
     ],
     'sunday-menu' => [
         'name'  => 'Vasárnapi menü',
         'items' => [
-            'Májgaluskaleves (L)',
-            'Nyúlcomb vadasan – kenyérpuding',
-            'Ízespalacsinta'
+            'Tyúkhúsleves cérnametélt (L)',
+            'Mézes mustáros rántott sertésborda – zöldséges bulgursaláta',
+            'Keksztekercs'
         ]
     ]
 ];

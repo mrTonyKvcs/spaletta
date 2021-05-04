@@ -9,30 +9,41 @@ return [
             'de' => 'Wachtelbrühe mit Eiern und hausgemachten Nudeln (L)'
         ],
         'comment' => '',
-        'price' => 1700,
+        'price' => 1900,
         'wine' => ''
     ],
     [
         'category_id' => 3,
         'name' => [
-            'hu' => 'Mentás borsókrém leves, mentás panna cotta, borsók (G)',
-            'en' => 'Mint pea cream soup, mint panna cotta, peas (G)',
-            'de' => 'Minzen-Erbsencremesuppe, Panna Cotta mit Minze, Erbsen (G)'
+            'hu' => 'Gomba consommé – kacsamáj ganache, (G)',
+            'en' => '',
+            'de' => ''
         ],
         'comment' => '',
-        'price' => 1500,
+        'price' => 1900,
         'wine' => ''
     ],
     [
         'category_id' => 3,
         'name' => [
-            'hu' => 'Málna leves túró fagylalttal és piskótával (G)',
-            'en' => 'Raspberry soup with cottage cheese ice cream and sponge cake (G)',
-            'de' => 'Himbeersuppe mit Quarkeis und Biskuit (G)'
+            'hu' => 'Eper leves túró fagylalttal és piskótával (G)',
+            'en' => '',
+            'de' => ''
         ],
         'comment' => '',
-        'price' => 1500,
+        'price' => 1600,
         'wine' => ''
+    ],
+    [
+        'category_id' => 1,
+        'name' => [
+            'hu' => 'Hideg caprese –kenyér chips',
+            'en' => '',
+            'de' => ''
+        ],
+        'comment' => '',
+        'price' => 3500,
+        'wine' => 'Montelvini Frizzante dry Veuve Clicqout Brut'
     ],
     [
         'category_id' => 1,
@@ -48,13 +59,13 @@ return [
     [
         'category_id' => 1,
         'name' => [
-            'hu' => 'Nyári, házi kencék (csirkemájpástétom, padlizsán és sült paprika krém)- friss zöldségek, pirítós',
-            'en' => 'Homemade summer spreads (chicken liver pâté, eggplant and roasted paprika cream) - fresh vegetables, toast',
-            'de' => 'Hausgemachte Sommeraufstriche (Hühnerleberpastete, Auberginen und geröstete Paprikarcreme) - frisches Gemüse, Toast'
+            'hu' => 'Nyári, házi kencék (csirkemájpástétom, padlizsánkrém, zöldségpástétom) - friss zöldségek, pirítós',
+            'en' => '',
+            'de' => ''
         ],
         'comment' => '',
         'price' => 2300,
-        'wine' => 'Konyári Fecske (Balatonlelle)'
+        'wine' => 'Konyári Fecske (Balatonlelle), Barcelona pezsgő (Kiskőrös)'
     ],
     [
         'category_id' => 1,
@@ -64,8 +75,8 @@ return [
             'de' => 'Gemischte Schinken-Käse-Platte mit Salat (G)'
         ],
         'comment' => '',
-        'price' => 2300,
-        'wine' => 'I Magredi Traminer (Olaszország)'
+        'price' => 2500,
+        'wine' => 'I’Magredi Traminer (Olaszország), Légli Sauvignon Blanc (Balatonboglár)'
     ],
     [
         'category_id' => 1,
@@ -76,117 +87,326 @@ return [
         ],
         'comment' => '',
         'price' => 3800,
-        'wine' => 'Sauska Rose (Villány), Balla Géza Kadarka (Erdély)'
+        'wine' => 'I’Magredi Cabernet Franc (Olaszország) Möet & Chandon Brut'
     ],
     [
         'category_id' => 6,
         'name' => [
-            'hu' => 'Sült paprikás rizottó (G)',
-            'en' => 'Roasted bell pepper risotto (G)',
-            'de' => 'Geröstetes Paprikarisotto (G)'
+            'hu' => 'Sáfrányos rizottó - sajtforgács(G)',
+            'en' => '',
+            'de' => ''
         ],
         'comment' => '',
         'price' => 2500,
-        'wine' => 'Zardetto Prosecco, Bolyki Királyleányka (Eger)'
+        'wine' => 'Günzer Lezser Cuvée (Villány) Pizzolato spumante’itali extra dry (Olaszország)'
     ],
     [
         'category_id' => 6,
         'name' => [
-            'hu' => 'Színes bébi répák, tofuval, paszternák pürével (G)',
-            'en' => 'Colorful baby carrots with tofu and parsnip puree (G)',
-            'de' => 'Bunte Babykarotten mit Tofu und Pastinakenpüree (G)'
+            'hu' => 'Magvas-kapros túrós sajtgolyó (G)',
+            'en' => '',
+            'de' => ''
         ],
         'comment' => '',
-        'price' => 2500,
-        'wine' => 'Etyeki Kúria Chardonnay (Etyek)'
+        'price' => 2800,
+        'wine' => 'Etyeki Kúria Chardonnay (Etyek) Pizzolato prosecco (Olaszország)'
     ],
     [
         'category_id' => 6,
         'name' => [
-            'hu' => 'Fogasfilé mentás zöldsalátával (G,L)',
-            'en' => 'Zander fillet with mint-flavoured green salad (G,L)',
-            'de' => 'Zanderfilet, dazu grüner Salat mit Minze (G,L)'
+            'hu' => 'Konfitált fogasfilé, mentás-málnás dresszing, friss kevert saláta',
+            'en' => '',
+            'de' => ''
         ],
         'comment' => '',
-        'price' => 4000,
-        'wine' => 'Bott Frigyes Rajnai Rizling (Muzsla)'
+        'price' => 4200,
+        'wine' => 'Figula Rose (Balatonfüred) Bott Frigyes Rajnai Rizling (Muzsla)'
     ],
     [
         'category_id' => 6,
         'name' => [
-            'hu' => 'Lazac rukkolás kéregben – parmezános kuszkusz, borsópüré, pirított mandula',
-            'en' => 'Salmon in rocket crust – parmesan couscous, pea puree, roasted almonds',
-            'de' => 'Lachs mit Rucola-Kruste Parmesan-Couscous, Erbsenpüree, geröstete Mandeln'
+            'hu' => 'Lazac pisztáciás kéregben,parmezános kuszkusz, borsópüré, pirított mandula, lazacbőr chips,',
+            'en' => '',
+            'de' => ''
         ],
         'comment' => '',
-        'price' => 4700,
-        'wine' => 'Dúzsi Rosé (Szekszárd)'
+        'price' => 4900,
+        'wine' => 'Martinus Olaszrizling ( Balatonfüred-Csopak) Sauska Rosé (Villány)'
     ],
     [
         'category_id' => 6,
         'name' => [
-            'hu' => 'Zöldfűszeres csirke, csirkenyalóka- répapüré, zöldséges kuszkusz saláta',
-            'en' => 'Chicken with herbs, chicken lollipop - carrot puree and vegetable couscous salad',
-            'de' => 'Huhn mit Kräutern, Hühnerlutscher - Karottenpüree und Gemüse-Couscous-Salat'
+            'hu' => 'Petrezselymes csirkerolád, csirkenyalóka, répapüré, zöldséges kuszkusz saláta',
+            'en' => '',
+            'de' => ''
         ],
         'comment' => '',
-        'price' => 3600,
-        'wine' => 'I Magredi Sauvignon (Olaszország)'
+        'price' => 3900,
+        'wine' => 'Légli Sauvignon Blanc(Balatonboglár), Tenute Candella Rose Pinot (Olszország)'
     ],
     [
         'category_id' => 6,
         'name' => [
-            'hu' => 'Kacsamell pirított hajdinával – meggy variáció (G)',
-            'en' => 'Duck breast with roasted buckwheat - sour cherry variation (G)',
-            'de' => 'Entenbrust mit geröstetem Buchweizen - Sauerkirschvariation (G)'
+            'hu' => 'Kacsamell - pirított hajdinával,meggy variáció, kacsa rilette (G)',
+            'en' => '',
+            'de' => ''
         ],
         'comment' => '',
-        'price' => 3800,
-        'wine' => 'Tenute Candella Rose Pinot (Olaszország)'
+        'price' => 4100,
+        'wine' => 'Sauska Rose (Villány), Natale Verga Montepulciano d’ abruzzo (Olaszország)'
     ],
     [
         'category_id' => 6,
         'name' => [
             'hu' => 'Marhapofa pörkölt tejfölhabos galuskával',
-            'en' => 'Beef cheeks stew with sour cream dumplings',
-            'de' => 'Rinderbackengulasch mit Sauerrahmknödel'
+            'en' => '',
+            'de' => ''
+        ],
+        'comment' => '',
+        'price' => 4200,
+        'wine' => 'Natale Verga Primitivo Salento (Olaszország), Sebestyén Bikavér (Szekszárd)'
+    ],
+    [
+        'category_id' => 6,
+        'name' => [
+            'hu' => 'Sertésszűz fekete bundában – narancsos répapüré, magvas pirított polenta, sült zöldségek, articsókás brokkoli püré',
+            'en' => '',
+            'de' => ''
         ],
         'comment' => '',
         'price' => 4000,
-        'wine' => 'Sebestyén Bikavér (Szekszárd)'
+        'wine' => 'Figula Rose (Balatonfüred), Günzer Cabernet Sauvignon (Villány)'
     ],
     [
         'category_id' => 6,
         'name' => [
-            'hu' => 'Sertésszűz – parázsburgonya,karalábé püré, friss szeder, spárga (G)',
-            'en' => 'Pork tenderloin –roasted baby potatoes, kohlrabi puree,fresh blackberries and asparagus (G)',
-            'de' => 'Schweinefilet – geröstete Babykartoffeln, Kohlrabipüree,frische Brombeere und Spargel (G)'
-        ],
-        'comment' => '',
-        'price' => 3800,
-        'wine' => 'Légli Sauvignon Blanc(Balatonboglár)'
-    ],
-    [
-        'category_id' => 6,
-        'name' => [
-            'hu' => 'Mangalica Cordon bleu – zöldfűszeres burgonyapüré,grill kukorica, idény zöldségek',
-            'en' => 'Cordon bleu of "Mangalica" pork – mashed potatoes with herbs,grilled corn, seasonal vegetables',
-            'de' => 'Cordon Bleu von "Mangalica-Schwein" Kartoffelpüree mit Kräutern,Gegrillter Mais, Gemüse der Saison'
+            'hu' => 'Zöldfűszeres mangalicakaraj – burgonyakrém, lilaburgonya csepp, sült mandarin, sajtchips',
+            'en' => '',
+            'de' => ''
         ],
         'comment' => '',
         'price' => 4800,
-        'wine' => 'Etyeki Kúria Chardonnay (Etyek)'
+        'wine' => 'St. Andrea Pinot Noir (Eger), Pizzolato spumante’italirose (Olaszország)'
     ],
     [
         'category_id' => 6,
         'name' => [
             'hu' => 'Bélszínszeletek, gombákkal , polentával (G)',
-            'en' => 'Tenderloin slices with mushrooms and polenta (G)',
-            'de' => 'Lendenbraten mit Pilzen und Polenta (G)'
+            'en' => '',
+            'de' => ''
         ],
         'comment' => '',
-        'price' => 5900,
-        'wine' => 'I Magredi Cabernet Franc (Olaszország)'
+        'price' => 6100,
+        'wine' => 'I’Magredi Cabernet Franc (Olaszország), Bott Frigyes Rajnai Rizling (Muzsla)'
+    ],
+    [
+        'category_id' => 6,
+        'name' => [
+            'hu' => 'Supreme csirke, édesköményes, diós almasaláta',
+            'en' => '',
+            'de' => ''
+        ],
+        'comment' => '',
+        'price' => 3700,
+        'wine' => 'Montelvini Frizzante dry, Günzer Lezser Cuvée (Villány)'
+    ],
+    [
+        'category_id' => 2,
+        'name' => [
+            'hu' => 'Bajor perec (2 db)',
+            'en' => 'Bavarian Pretzel (2 pcs)',
+            'de' => 'Bayerische Brezel (2 Stk)'
+        ],
+        'comment' => '',
+        'price' => 900,
+        'wine' => ''
+    ],
+    [
+        'category_id' => 2,
+        'name' => [
+            'hu' => 'Spaletta kosár ( BBQ csirkeszárny, süllőpofa pankó morzsában, sertéskaraj rántva, tzatziki uborka, lilahagymás majonéz, házi BBQ szósz )',
+            'en' => 'Spaletta basket (BBQ chicken wings, zander cheeks in panko crumbs, breaded pork loin, tzatziki cucumber, redonion mayonnaise, homemade BBQ sauce',
+            'de' => 'Spaletta-Korb (BBQ Hühnerflügel, Zanderwangerl in Panko, paniertes Schweinekotelett, Tsatsiki-Gurken,Mayonnaise mit roten Zwiebeln, hausgemachte BBQ Sauce)'
+        ],
+        'comment' => '',
+        'price' => 3400,
+        'wine' => 'Montelvini Frizzante dry'
+    ],
+    [
+        'category_id' => 2,
+        'name' => [
+            'hu' => 'Spaletta burger – házi hasábburgonya, házi BBQ szósz',
+            'en' => 'Spaletta burger – homemade french fries, homemade BBQ sauce',
+            'de' => 'Spaletta-Burger - hausgemachte Pommes, hausgemachte BBQ Sauce'
+        ],
+        'comment' => '',
+        'price' => 3100,
+        'wine' => 'Ruppert Kandur (Villány)'
+    ],
+    [
+        'category_id' => 2,
+        'name' => [
+            'hu' => 'Lazac burger – fekete buciban, házi hasáb, koktél szósz',
+            'en' => '',
+            'de' => ''
+        ],
+        'comment' => '',
+        'price' => 3300,
+        'wine' => 'Lezser Cuvée (Villány), Tenute Caldella Rosé Pinot (Olaszország) '
+    ],
+    [
+        'category_id' => 2,
+        'name' => [
+            'hu' => 'Sörben pácolt sertés csülök – káposztás nudli',
+            'en' => '',
+            'de' => ''
+        ],
+        'comment' => '',
+        'price' => 5100,
+        'wine' => 'Martinus Olaszrizling ( Balatonfüred-Csopak), '
+    ],
+    [
+        'category_id' => 2,
+        'name' => [
+            'hu' => 'Óriás bécsi szelet sertés (natúr, dijoni, zöldfűszeres) (L)',
+            'en' => 'Giant Wiener Schnitzel of pork (plain, Dijon style, herbed) (L)',
+            'de' => 'Riesen Wiener Schnitzel vom Schwein (natur, Dijoner, Kräuter) (L)'
+        ],
+        'comment' => '',
+        'price' => 2700,
+        'wine' => 'Konyári Fecske (Balatonlelle), Natale Verga Montepulciano d’abruzzo (Olaszország)'
+    ],
+    [
+        'category_id' => 2,
+        'name' => [
+            'hu' => 'Óriás bécsi szelet borjú húsból (natúr, dijoni, zöldfűszeres)',
+            'en' => 'Giant Wiener Schnitzel of veal (plain, Dijon style, herbed)',
+            'de' => 'Riesen Wiener Schnitzel vom Kalb (natur, Dijoner, Kräuter)'
+        ],
+        'comment' => '',
+        'price' => 4100,
+        'wine' => 'Etyeki Kúria Chardonnay (Etyek), Balla Géza Kadarka (Erdély)'
+    ],
+    [
+        'category_id' => 36,
+        'name' => [
+            'hu' => 'Jázmin rizs',
+            'en' => 'Jasmine rice',
+            'de' => 'Jasmin reis'
+        ],
+        'comment' => '',
+        'price' => 650,
+        'wine' => ''
+    ],
+    [
+        'category_id' => 36,
+        'name' => [
+            'hu' => 'Házi hasábburgonya',
+            'en' => 'Homemade french fries',
+            'de' => 'Hausgemachte pommes'
+        ],
+        'comment' => '',
+        'price' => 750,
+        'wine' => ''
+    ],
+    [
+        'category_id' => 36,
+        'name' => [
+            'hu' => 'Házi steakburgonya',
+            'en' => 'Homemade steak potatoes',
+            'de' => 'Hausgemachte steakkartoffeln'
+        ],
+        'comment' => '',
+        'price' => 750,
+        'wine' => ''
+    ],
+    [
+        'category_id' => 36,
+        'name' => [
+            'hu' => 'Kevert zöldsaláta',
+            'en' => 'Mixed green salad',
+            'de' => 'Gemischter grüner salat'
+        ],
+        'comment' => '',
+        'price' => 1050,
+        'wine' => ''
+    ],
+    [
+        'category_id' => 4,
+        'name' => [
+            'hu' => 'Hosszúmetélt lazaccal és rukkolával (L)',
+            'en' => 'Tagliatelle with salmon and rocket (L)',
+            'de' => 'Tagliatelle mit Lachs und Rucola (L)'
+        ],
+        'comment' => '',
+        'price' => 3400,
+        'wine' => 'Rosato Solento Rosé (Olaszország), Ruppert Kandur (Villány)'
+    ],
+    [
+        'category_id' => 4,
+        'name' => [
+            'hu' => 'Cukkini pesztós tészta pisztáciával és mozzarellával',
+            'en' => 'Zucchini pesto pasta with pistachio and mozzarella',
+            'de' => 'Zucchini-Pesto-Nudeln mit Pistazien und Mozzarella'
+        ],
+        'comment' => '',
+        'price' => 3300,
+        'wine' => 'Figula Rosé (Balatonfüred), Bolyki Királyleányka (Eger)'
+    ],
+    [
+        'category_id' => 4,
+        'name' => [
+            'hu' => 'Kacsamell – vargánya házi tészta (L)',
+            'en' => '',
+            'de' => ''
+        ],
+        'comment' => '',
+        'price' => 3500,
+        'wine' => 'St. Andrea Pinot Noir (Eger), Sauska Rose (Villány)'
+    ],
+    [
+        'category_id' => 5,
+        'name' => [
+            'hu' => 'Pizza Margherita – paradicsom alap,mozzarella sajt, bazsalikom',
+            'en' => 'Pizza Margherita – tomato sauce,mozzarella, basil',
+            'de' => 'Pizza Margherita – Tomatensauce,Mozzarella, Basilikum'
+        ],
+        'comment' => '',
+        'price' => 1800,
+        'wine' => 'Palkonyai Portugieser(Palkonya)'
+    ],
+    [
+        'category_id' => 5,
+        'name' => [
+            'hu' => 'Pizza Spaletta – mozzarella, mortadella,paradicsomok, pisztácia, menta',
+            'en' => 'Pizza Spaletta – mozzarella, mortadella,tomatoes, pistachio, mint',
+            'de' => 'Pizza Spaletta – Mozzarella, Mortadella,Tomaten, Pistazien, Minze'
+        ],
+        'comment' => '',
+        'price' => 3100,
+        'wine' => 'Konyári Fecske(Balatonlelle)'
+    ],
+    [
+        'category_id' => 5,
+        'name' => [
+            'hu' => 'Pizza Primavera – paradicsom alap, mozzarella, pármai sonka,rukkola, parmezán sajt',
+            'en' => 'Pizza Primavera – tomato sauce, mozzarella, parma ham,rocket, parmesan',
+            'de' => 'Pizza Primavera – Tomatensauce, Mozzarella, Parmaschinken,Rucola, Parmesan'
+        ],
+        'comment' => '',
+        'price' => 3100,
+        'wine' => 'Figula Rosé Cuvée(Balatonboglár-Csopak)'
+    ],
+    [
+        'category_id' => 5,
+        'name' => [
+            'hu' => 'Pizza Diavola – csípős – paradicsom alap,mozzarella, pikáns szalámi, chili',
+            'en' => 'Pizza Diavola – hot – tomato sauce,mozzarella, spicy salami, chili',
+            'de' => 'Pizza Diavola – scharf – Tomatensauce,Mozzarella, würzige Salami, Chili'
+        ],
+        'comment' => '',
+        'price' => 2900,
+        'wine' => ''
     ],
     [
         'category_id' => 7,
@@ -197,7 +417,7 @@ return [
         ],
         'comment' => '',
         'price' => 1800,
-        'wine' => 'Figula Rosé Cuvée(Balatonboglár-Csopak)'
+        'wine' => 'Montelvini Frizzante dry'
     ],
     [
         'category_id' => 7,
@@ -208,18 +428,18 @@ return [
         ],
         'comment' => '',
         'price' => 1700,
-        'wine' => 'Göncöl Sárgamuskotály(Tokaj)'
+        'wine' => 'Montelvini Frizzante dry,'
     ],
     [
         'category_id' => 7,
         'name' => [
-            'hu' => 'Epres mille-feuille - túró fagylalt',
-            'en' => 'Strawberry mille-feuille - curd cheese ice cream',
-            'de' => 'Erdbeer-Mille-Feuille - Quark-Eis'
+            'hu' => 'Vaniliás mille-feuille - meggyfagylalt',
+            'en' => '',
+            'de' => ''
         ],
         'comment' => '',
         'price' => 1800,
-        'wine' => 'Tenute Setten Prosecco (Olaszország)'
+        'wine' => 'Montelvini Frizzante dry'
     ],
     [
         'category_id' => 8,
@@ -274,215 +494,6 @@ return [
         ],
         'comment' => '',
         'price' => 1900,
-        'wine' => ''
-    ],
-    [
-        'category_id' => 2,
-        'name' => [
-            'hu' => 'Bajor perec (2 db)',
-            'en' => 'Bavarian Pretzel (2 pcs)',
-            'de' => 'Bayerische Brezel (2 Stk)'
-        ],
-        'comment' => '',
-        'price' => 900,
-        'wine' => ''
-    ],
-    [
-        'category_id' => 2,
-        'name' => [
-            'hu' => 'Kéksajtos, magvas házi lepény',
-            'en' => 'Homemade flatbread with blue cheese and seeds',
-            'de' => 'Hausgemachte Fladen mit Blauschimmelkäse und Samen'
-        ],
-        'comment' => '',
-        'price' => 1300,
-        'wine' => 'Bott Frigyes Rajnai Rizling (Muzsla)'
-    ],
-    [
-        'category_id' => 2,
-        'name' => [
-            'hu' => 'Magyaros házi lepény – hagymás csülkös',
-            'en' => 'Hungarian homemade flatbread with onion and pork knuckle',
-            'de' => 'Hausgemachter Ungarischer Fladen mit Zwiebel und Schweinshaxe'
-        ],
-        'comment' => '',
-        'price' => 1500,
-        'wine' => ''
-    ],
-    [
-        'category_id' => 2,
-        'name' => [
-            'hu' => 'Spaletta kosár ( BBQ csirkeszárny, süllőpofa pankó morzsában, sertéskaraj rántva, tzatziki uborka, lilahagymás majonéz, házi BBQ szósz )',
-            'en' => 'Spaletta basket (BBQ chicken wings, zander cheeks in panko crumbs, breaded pork loin, tzatziki cucumber, redonion mayonnaise, homemade BBQ sauce',
-            'de' => 'Spaletta-Korb (BBQ Hühnerflügel, Zanderwangerl in Panko, paniertes Schweinekotelett, Tsatsiki-Gurken,Mayonnaise mit roten Zwiebeln, hausgemachte BBQ Sauce)'
-        ],
-        'comment' => '',
-        'price' => 3200,
-        'wine' => 'Etyeki Kúria Chardonnay (Etyek)'
-    ],
-    [
-        'category_id' => 2,
-        'name' => [
-            'hu' => 'Spaletta burger – házi hasábburgonya, házi BBQ szósz',
-            'en' => 'Spaletta burger – homemade french fries, homemade BBQ sauce',
-            'de' => 'Spaletta-Burger - hausgemachte Pommes, hausgemachte BBQ Sauce'
-        ],
-        'comment' => '',
-        'price' => 2900,
-        'wine' => 'Ruppert Kandur (Villány)'
-    ],
-    [
-        'category_id' => 2,
-        'name' => [
-            'hu' => 'Sörben pácolt sertés csülök – zöldfűszeres nudli, tejfölhab',
-            'en' => 'Pork knuckle marinated in beer – herbed noodles, sour cream mousse',
-            'de' => 'In Bier marinierter Schweinshaxe – Kräuternudeln, Sauerrahm-Mousse'
-        ],
-        'comment' => '',
-        'price' => 4800,
-        'wine' => 'Martinus Olaszrizling (Balatonfüred-Csopak)'
-    ],
-    [
-        'category_id' => 2,
-        'name' => [
-            'hu' => 'Óriás bécsi szelet sertés (natúr, dijoni, zöldfűszeres) (L)',
-            'en' => 'Giant Wiener Schnitzel of pork (plain, Dijon style, herbed) (L)',
-            'de' => 'Riesen Wiener Schnitzel vom Schwein (natur, Dijoner, Kräuter) (L)'
-        ],
-        'comment' => '',
-        'price' => 2400,
-        'wine' => 'Günzer Lezser Cuvée (Villány)'
-    ],
-    [
-        'category_id' => 2,
-        'name' => [
-            'hu' => 'Óriás bécsi szelet borjú húsból (natúr, dijoni, zöldfűszeres)',
-            'en' => 'Giant Wiener Schnitzel of veal (plain, Dijon style, herbed)',
-            'de' => 'Riesen Wiener Schnitzel vom Kalb (natur, Dijoner, Kräuter)'
-        ],
-        'comment' => '',
-        'price' => 3950,
-        'wine' => 'Etyeki Kúria Chardonnay(Etyek)'
-    ],
-    [
-        'category_id' => 36,
-        'name' => [
-            'hu' => 'Jázmin rizs',
-            'en' => 'Jasmine rice',
-            'de' => 'Jasmin reis'
-        ],
-        'comment' => '',
-        'price' => 550,
-        'wine' => ''
-    ],
-    [
-        'category_id' => 36,
-        'name' => [
-            'hu' => 'Házi hasábburgonya',
-            'en' => 'Homemade french fries',
-            'de' => 'Hausgemachte pommes'
-        ],
-        'comment' => '',
-        'price' => 550,
-        'wine' => ''
-    ],
-    [
-        'category_id' => 36,
-        'name' => [
-            'hu' => 'Házi steakburgonya',
-            'en' => 'Homemade steak potatoes',
-            'de' => 'Hausgemachte steakkartoffeln'
-        ],
-        'comment' => '',
-        'price' => 550,
-        'wine' => ''
-    ],
-    [
-        'category_id' => 36,
-        'name' => [
-            'hu' => 'Kevert zöldsaláta',
-            'en' => 'Mixed green salad',
-            'de' => 'Gemischter grüner salat'
-        ],
-        'comment' => '',
-        'price' => 950,
-        'wine' => ''
-    ],
-    [
-        'category_id' => 4,
-        'name' => [
-            'hu' => 'Hosszúmetélt lazaccal és rukkolával (L)',
-            'en' => 'Tagliatelle with salmon and rocket (L)',
-            'de' => 'Tagliatelle mit Lachs und Rucola (L)'
-        ],
-        'comment' => '',
-        'price' => 3200,
-        'wine' => 'Vylyan Kékfrankos Rosé(Villány)'
-    ],
-    [
-        'category_id' => 4,
-        'name' => [
-            'hu' => 'Cukkini pesztós tészta pisztáciával és mozzarellával',
-            'en' => 'Zucchini pesto pasta with pistachio and mozzarella',
-            'de' => 'Zucchini-Pesto-Nudeln mit Pistazien und Mozzarella'
-        ],
-        'comment' => '',
-        'price' => 3100,
-        'wine' => 'Bolyki Királyleányka(Eger)'
-    ],
-    [
-        'category_id' => 4,
-        'name' => [
-            'hu' => 'Kacsahússal töltött ravioli mustáros mártásban, gombával (L)',
-            'en' => 'Ravioli filled with duck meat with mustard sauce and mushroom',
-            'de' => 'Ravioli mit Entenfleisch gefüllt in Senfsauce, mit Pilz (L)'
-        ],
-        'comment' => '',
-        'price' => 3500,
-        'wine' => 'St. Andrea Pinot Noir(Eger), Sauska Rose (Villány)'
-    ],
-    [
-        'category_id' => 5,
-        'name' => [
-            'hu' => 'Pizza Margherita – paradicsom alap,mozzarella sajt, bazsalikom',
-            'en' => 'Pizza Margherita – tomato sauce,mozzarella, basil',
-            'de' => 'Pizza Margherita – Tomatensauce,Mozzarella, Basilikum'
-        ],
-        'comment' => '',
-        'price' => 1800,
-        'wine' => 'Palkonyai Portugieser(Palkonya)'
-    ],
-    [
-        'category_id' => 5,
-        'name' => [
-            'hu' => 'Pizza Spaletta – mozzarella, mortadella,paradicsomok, pisztácia, menta',
-            'en' => 'Pizza Spaletta – mozzarella, mortadella,tomatoes, pistachio, mint',
-            'de' => 'Pizza Spaletta – Mozzarella, Mortadella,Tomaten, Pistazien, Minze'
-        ],
-        'comment' => '',
-        'price' => 3100,
-        'wine' => 'Konyári Fecske(Balatonlelle)'
-    ],
-    [
-        'category_id' => 5,
-        'name' => [
-            'hu' => 'Pizza Primavera – paradicsom alap, mozzarella, pármai sonka,rukkola, parmezán sajt',
-            'en' => 'Pizza Primavera – tomato sauce, mozzarella, parma ham,rocket, parmesan',
-            'de' => 'Pizza Primavera – Tomatensauce, Mozzarella, Parmaschinken,Rucola, Parmesan'
-        ],
-        'comment' => '',
-        'price' => 3100,
-        'wine' => 'Figula Rosé Cuvée(Balatonboglár-Csopak)'
-    ],
-    [
-        'category_id' => 5,
-        'name' => [
-            'hu' => 'Pizza Diavola – csípős – paradicsom alap,mozzarella, pikáns szalámi, chili',
-            'en' => 'Pizza Diavola – hot – tomato sauce,mozzarella, spicy salami, chili',
-            'de' => 'Pizza Diavola – scharf – Tomatensauce,Mozzarella, würzige Salami, Chili'
-        ],
-        'comment' => '',
-        'price' => 2900,
         'wine' => ''
     ],
 ];

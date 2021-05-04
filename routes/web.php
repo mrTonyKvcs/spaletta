@@ -28,18 +28,18 @@ Route::get('etlap', [
 
 Route::get('kiszallitasos-etlap-itallap', [
     'as'    => 'pages.delivery-menu',
-    'uses'  => 'PagesController@deliveryMenu' 
+    'uses'  => 'PagesController@menu' 
 ]);
-
-Route::get('kiszallitasos-karacsonyi-ajanlat', [
-    'as'    => 'pages.christmas',
-    'uses'  => 'PagesController@christmas' 
-]);
-
-Route::get('kiszallitasos-szilveszteri-ajanlat', [
-    'as'    => 'pages.new-year',
-    'uses'  => 'PagesController@newYear' 
-]);
+//
+// Route::get('kiszallitasos-karacsonyi-ajanlat', [
+//     'as'    => 'pages.christmas',
+//     'uses'  => 'PagesController@christmas'
+// ]);
+//
+// Route::get('kiszallitasos-szilveszteri-ajanlat', [
+//     'as'    => 'pages.new-year',
+//     'uses'  => 'PagesController@newYear'
+// ]);
 
 Route::get('itallap', [
     'as'    => 'pages.drinks',

@@ -26,7 +26,7 @@ class PagesController extends Controller
 
     public function menu()
     {
-        return redirect()->route('pages.delivery-menu');
+        // return redirect()->route('pages.delivery-menu');
         $title = 'Étlap';
 
         $menus = \App\Category::where('type_id', 1)->with('items')->get();

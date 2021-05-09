@@ -2,7 +2,7 @@
 
 return [
     'title'     => 'heti menü',
-    'sub_title' => '2021.05.11 - 2021.05.14.',
+    'sub_title' => '2021.05.11 - 2021.05.15.',
     'menu' => [
         'soups' => [
             'name'  => 'Levesek',
